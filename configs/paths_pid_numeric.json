@@ -1,0 +1,9 @@
+{
+  "data_root": "data/raw/sciencedb/data",
+  "manifest": "data/metadata_pid_numeric/manifest.csv",
+  "data_split": "data/metadata_pid_numeric/data_split.csv",
+  "class_mapping": "data/metadata_pid_numeric/class_to_idx.json",
+  "download_dir": "data/downloads",
+  "results_dir": "results",
+  "checkpoints_dir": "checkpoints"
+}

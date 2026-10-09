@@ -1,0 +1,60 @@
+{
+  "created_at_utc": "2026-10-08T06:34:15.642010+00:00",
+  "command_arguments": [
+    "--output-dir",
+    "docs/data-inspection/near-duplicates-2026-10-08"
+  ],
+  "metadata_sha256": {
+    "manifest": "1792b35d23ef532db0166de6743b2b5d56c92efe77e00cb8467073d7108020ac",
+    "data_split": "9d1476e0ed31df65c60d70e8e70249ed75c15bd04e5c008a38b67b51a7670544",
+    "class_mapping": "7f73ccb561391831c4613822cd1866fea2262a3f71dc622b5eb0f6c1107ad754"
+  },
+  "images": 3064,
+  "images_read_by_split": {
+    "train": 2099,
+    "validation": 544,
+    "test": 421
+  },
+  "uses_model_or_labels_for_scoring": false,
+  "thumbnail": "32x32 area average, mean-centred cosine similarity",
+  "cosine_quantiles": {
+    "cross_split": {
+      "q50": 0.5364,
+      "q99": 0.8277,
+      "q99.9": 0.8911,
+      "q100": 0.9665,
+      "pairs": 2254559
+    },
+    "same_group_same_split": {
+      "q50": 0.6233,
+      "q99": 0.9687,
+      "q99.9": 0.9836,
+      "q100": 0.9917,
+      "pairs": 38295
+    },
+    "different_group_same_split": {
+      "q50": 0.5329,
+      "q99": 0.8192,
+      "q99.9": 0.8818,
+      "q100": 0.9656,
+      "pairs": 2399662
+    }
+  },
+  "top_cross_split_full_resolution_pearson_max": 0.93227,
+  "top_same_group_full_resolution_pearson": [
+    0.94587,
+    0.94517,
+    0.94072,
+    0.92433,
+    0.94916,
+    0.94517,
+    0.94652,
+    0.92747,
+    0.94029,
+    0.9277
+  ],
+  "flag_threshold": 0.99,
+  "flagged_pairs": 0,
+  "flagged": [],
+  "interpretation": "Screening aid only; flagged pairs need visual review before any split decision."
+}

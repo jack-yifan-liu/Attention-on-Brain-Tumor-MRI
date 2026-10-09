@@ -1,0 +1,46 @@
+{
+  "checked_at_utc": "2026-09-29T05:51:28.197032+00:00",
+  "data_root": "data/raw/sciencedb/data",
+  "manifest_paths_relative_to": "data_root",
+  "counts": {
+    "Glioma": {
+      "mri": 1426,
+      "mask": 1426
+    },
+    "Meningioma": {
+      "mri": 708,
+      "mask": 708
+    },
+    "Pituitary tumor": {
+      "mri": 930,
+      "mask": 930
+    }
+  },
+  "entries_in_class_directories": 6128,
+  "mri_count": 3064,
+  "issues_count": 0,
+  "exclusions_count": 0,
+  "modes": {
+    "mri:L": 3064,
+    "mask:L": 3064
+  },
+  "dimensions": {
+    "mri:512x512": 3064,
+    "mask:512x512": 3064
+  },
+  "dtypes": {
+    "mri:uint8": 3064,
+    "mask:uint8": 3064
+  },
+  "nonbinary_masks_count": 15,
+  "binary_definition": "values subset of {0, 255}",
+  "historical_class_counts_match": true,
+  "preview_sample_ids": [
+    "Glioma/1841",
+    "Meningioma/1",
+    "Pituitary tumor/1000"
+  ],
+  "preview_selection": "first readable pair per class in filename lexicographic order",
+  "manifest_sha256": "a5be81f70dce8f7e02e03ac46f6cd334c1c9b86e74943038483bd6be415bbdb5",
+  "scope": "File readability, pairing, metadata, mask values; no split, no patient mapping or leakage audit; folder labels not clinically revalidated"
+}

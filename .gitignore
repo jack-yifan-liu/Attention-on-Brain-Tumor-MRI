@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors and notebooks
+.vscode/
+.ipynb_checkpoints/
+notebooks/
+
+# Internal working notes and the local archive (kept on the development machine, not published)
+.claude/settings.local.json
+AGENTS.md
+PROJECT_CONTEXT.md
+PLAN.md
+archive/
+
+# Dataset: only the saved split metadata is versioned
+data/*
+!data/metadata_pid_numeric/
+data/metadata_pid_numeric/*
+!data/metadata_pid_numeric/*.csv
+!data/metadata_pid_numeric/*.json
+!data/metadata_pid_numeric/*.md
+
+# Model weights and run outputs
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+results/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.part

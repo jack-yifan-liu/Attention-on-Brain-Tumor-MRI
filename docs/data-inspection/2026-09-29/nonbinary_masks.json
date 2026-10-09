@@ -1,0 +1,242 @@
+[
+  {
+    "sample_id": "Glioma/3016",
+    "mask_path": "Glioma/3016_mask.png",
+    "unique_values": [
+      0,
+      16,
+      48,
+      64,
+      112,
+      143,
+      191,
+      207,
+      239,
+      255
+    ]
+  },
+  {
+    "sample_id": "Glioma/3017",
+    "mask_path": "Glioma/3017_mask.png",
+    "unique_values": [
+      0,
+      16,
+      48,
+      64,
+      112,
+      143,
+      191,
+      207,
+      239,
+      255
+    ]
+  },
+  {
+    "sample_id": "Glioma/3018",
+    "mask_path": "Glioma/3018_mask.png",
+    "unique_values": [
+      0,
+      16,
+      48,
+      64,
+      112,
+      143,
+      191,
+      207,
+      239,
+      255
+    ]
+  },
+  {
+    "sample_id": "Glioma/847",
+    "mask_path": "Glioma/847_mask.png",
+    "unique_values": [
+      0,
+      16,
+      48,
+      64,
+      112,
+      143,
+      191,
+      207,
+      239,
+      255
+    ]
+  },
+  {
+    "sample_id": "Glioma/848",
+    "mask_path": "Glioma/848_mask.png",
+    "unique_values": [
+      0,
+      16,
+      48,
+      64,
+      112,
+      143,
+      191,
+      207,
+      239,
+      255
+    ]
+  },
+  {
+    "sample_id": "Glioma/849",
+    "mask_path": "Glioma/849_mask.png",
+    "unique_values": [
+      0,
+      16,
+      48,
+      64,
+      112,
+      143,
+      191,
+      207,
+      239,
+      255
+    ]
+  },
+  {
+    "sample_id": "Glioma/850",
+    "mask_path": "Glioma/850_mask.png",
+    "unique_values": [
+      0,
+      16,
+      48,
+      64,
+      112,
+      143,
+      191,
+      207,
+      239,
+      255
+    ]
+  },
+  {
+    "sample_id": "Glioma/851",
+    "mask_path": "Glioma/851_mask.png",
+    "unique_values": [
+      0,
+      16,
+      48,
+      64,
+      112,
+      143,
+      191,
+      207,
+      239,
+      255
+    ]
+  },
+  {
+    "sample_id": "Glioma/852",
+    "mask_path": "Glioma/852_mask.png",
+    "unique_values": [
+      0,
+      16,
+      48,
+      64,
+      112,
+      143,
+      191,
+      207,
+      239,
+      255
+    ]
+  },
+  {
+    "sample_id": "Glioma/853",
+    "mask_path": "Glioma/853_mask.png",
+    "unique_values": [
+      0,
+      16,
+      48,
+      64,
+      112,
+      143,
+      191,
+      207,
+      239,
+      255
+    ]
+  },
+  {
+    "sample_id": "Pituitary tumor/995",
+    "mask_path": "Pituitary tumor/995_mask.png",
+    "unique_values": [
+      0,
+      16,
+      48,
+      64,
+      112,
+      143,
+      191,
+      207,
+      239,
+      255
+    ]
+  },
+  {
+    "sample_id": "Pituitary tumor/996",
+    "mask_path": "Pituitary tumor/996_mask.png",
+    "unique_values": [
+      0,
+      16,
+      48,
+      64,
+      112,
+      143,
+      191,
+      207,
+      239,
+      255
+    ]
+  },
+  {
+    "sample_id": "Pituitary tumor/997",
+    "mask_path": "Pituitary tumor/997_mask.png",
+    "unique_values": [
+      0,
+      16,
+      48,
+      64,
+      112,
+      143,
+      191,
+      207,
+      239,
+      255
+    ]
+  },
+  {
+    "sample_id": "Pituitary tumor/998",
+    "mask_path": "Pituitary tumor/998_mask.png",
+    "unique_values": [
+      0,
+      16,
+      48,
+      64,
+      112,
+      143,
+      191,
+      207,
+      239,
+      255
+    ]
+  },
+  {
+    "sample_id": "Pituitary tumor/999",
+    "mask_path": "Pituitary tumor/999_mask.png",
+    "unique_values": [
+      0,
+      16,
+      48,
+      64,
+      112,
+      143,
+      191,
+      207,
+      239,
+      255
+    ]
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "created_at_utc": "2026-10-08T06:34:05.988978+00:00",
+  "command_arguments": [
+    "--output-dir",
+    "docs/data-inspection/label-audit-2026-10-08"
+  ],
+  "metadata_sha256": {
+    "manifest": "1792b35d23ef532db0166de6743b2b5d56c92efe77e00cb8467073d7108020ac",
+    "data_split": "9d1476e0ed31df65c60d70e8e70249ed75c15bd04e5c008a38b67b51a7670544",
+    "class_mapping": "7f73ccb561391831c4613822cd1866fea2262a3f71dc622b5eb0f6c1107ad754"
+  },
+  "images": 3064,
+  "directory_label_disagreements": 1768,
+  "directory_label_runs": 12,
+  "anatomical_check_scope": "train and validation masks only; test masks not opened",
+  "anatomical_check_images": 2643,
+  "mask_threshold": 128,
+  "central_radius_fraction_of_width": 0.12,
+  "interpretation": "Descriptive plausibility check of label provenance. Pituitary tumours sit near the sella, so their masks should be central and small; this does not re-diagnose images.",
+  "cross_table": [
+    {
+      "directory_label": "Glioma",
+      "original_label": "Glioma",
+      "images": 589
+    },
+    {
+      "directory_label": "Glioma",
+      "original_label": "Meningioma",
+      "images": 617
+    },
+    {
+      "directory_label": "Glioma",
+      "original_label": "Pituitary tumor",
+      "images": 220
+    },
+    {
+      "directory_label": "Meningioma",
+      "original_label": "Glioma",
+      "images": 705
+    },
+    {
+      "directory_label": "Meningioma",
+      "original_label": "Meningioma",
+      "images": 0
+    },
+    {
+      "directory_label": "Meningioma",
+      "original_label": "Pituitary tumor",
+      "images": 3
+    },
+    {
+      "directory_label": "Pituitary tumor",
+      "original_label": "Glioma",
+      "images": 132
+    },
+    {
+      "directory_label": "Pituitary tumor",
+      "original_label": "Meningioma",
+      "images": 91
+    },
+    {
+      "directory_label": "Pituitary tumor",
+      "original_label": "Pituitary tumor",
+      "images": 707
+    }
+  ],
+  "anatomical_check": [
+    {
+      "directory_label": "Glioma",
+      "original_label": "Glioma",
+      "images": 473,
+      "centroid_distance_median": 0.1517,
+      "fraction_central": 0.315,
+      "mask_area_fraction_median": 0.01919
+    },
+    {
+      "directory_label": "Glioma",
+      "original_label": "Meningioma",
+      "images": 553,
+      "centroid_distance_median": 0.1886,
+      "fraction_central": 0.208,
+      "mask_area_fraction_median": 0.01503
+    },
+    {
+      "directory_label": "Glioma",
+      "original_label": "Pituitary tumor",
+      "images": 190,
+      "centroid_distance_median": 0.0739,
+      "fraction_central": 0.9105,
+      "mask_area_fraction_median": 0.0076
+    },
+    {
+      "directory_label": "Meningioma",
+      "original_label": "Glioma",
+      "images": 618,
+      "centroid_distance_median": 0.1519,
+      "fraction_central": 0.3851,
+      "mask_area_fraction_median": 0.01895
+    },
+    {
+      "directory_label": "Meningioma",
+      "original_label": "Pituitary tumor",
+      "images": 3,
+      "centroid_distance_median": 0.0667,
+      "fraction_central": 1.0,
+      "mask_area_fraction_median": 0.00561
+    },
+    {
+      "directory_label": "Pituitary tumor",
+      "original_label": "Glioma",
+      "images": 111,
+      "centroid_distance_median": 0.1555,
+      "fraction_central": 0.2793,
+      "mask_area_fraction_median": 0.01818
+    },
+    {
+      "directory_label": "Pituitary tumor",
+      "original_label": "Meningioma",
+      "images": 75,
+      "centroid_distance_median": 0.1529,
+      "fraction_central": 0.2533,
+      "mask_area_fraction_median": 0.01812
+    },
+    {
+      "directory_label": "Pituitary tumor",
+      "original_label": "Pituitary tumor",
+      "images": 620,
+      "centroid_distance_median": 0.092,
+      "fraction_central": 0.7484,
+      "mask_area_fraction_median": 0.00652
+    }
+  ],
+  "outputs_sha256": {
+    "cross_table.csv": "120aaab7afd0f8d704ec9d208142af78a2876d12692add14f73454914254e5be",
+    "directory_label_runs.csv": "52589eee5c4cff3c81f9998a031de9748812bd92a6d7369a74d36606cac067e9",
+    "anatomical_check.csv": "ecf3f43f62bc86e1383f2e4b031045a466968970dcef25362371ec4c8dac16ed"
+  }
+}

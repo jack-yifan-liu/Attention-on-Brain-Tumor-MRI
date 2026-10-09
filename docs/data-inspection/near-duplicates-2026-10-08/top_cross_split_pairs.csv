@@ -1,0 +1,31 @@
+sample_a,split_a,group_a,class_a,sample_b,split_b,group_b,class_b,thumbnail_cosine,full_resolution_pearson
+Glioma/2134,validation,36496,Glioma,Pituitary tumor/1743,train,48994,Glioma,0.96654,0.93227
+Glioma/2133,validation,36496,Glioma,Pituitary tumor/1742,train,48994,Glioma,0.9631,0.91895
+Glioma/1880,train,99089,Meningioma,Pituitary tumor/1590,validation,114359,Meningioma,0.96255,0.90851
+Glioma/2776,test,107747,Glioma,Pituitary tumor/1634,train,97607,Meningioma,0.95573,0.93151
+Glioma/2132,validation,36496,Glioma,Pituitary tumor/1741,train,48994,Glioma,0.9536,0.88737
+Glioma/1883,test,51461,Glioma,Pituitary tumor/1657,validation,97737,Meningioma,0.95163,0.87475
+Glioma/2477,train,104167,Meningioma,Pituitary tumor/1748,validation,49142,Glioma,0.95144,0.88568
+Glioma/1885,test,51461,Glioma,Pituitary tumor/1679,validation,97737,Meningioma,0.95077,0.90874
+Glioma/2140,validation,33420,Glioma,Pituitary tumor/1819,train,48294,Glioma,0.95054,0.81376
+Glioma/2141,validation,33420,Glioma,Pituitary tumor/1820,train,48294,Glioma,0.94966,0.84053
+Glioma/1943,validation,51644,Glioma,Glioma/2255,train,102675,Meningioma,0.94954,0.87608
+Glioma/2466,train,104167,Meningioma,Pituitary tumor/1747,validation,49142,Glioma,0.94939,0.86495
+Glioma/2072,train,37458,Glioma,Glioma/2774,test,107747,Glioma,0.94884,0.86815
+Glioma/2034,test,49019,Glioma,Glioma/2744,train,106534,Meningioma,0.94836,0.8839
+Glioma/2488,train,104167,Meningioma,Pituitary tumor/1749,validation,49142,Glioma,0.94833,0.8861
+Glioma/1926,validation,51796,Glioma,Pituitary tumor/1754,train,48994,Glioma,0.94747,0.85905
+Glioma/2049,train,38469,Glioma,Meningioma/92,validation,17260,Glioma,0.94745,0.83051
+Glioma/2140,validation,33420,Glioma,Pituitary tumor/1818,train,48294,Glioma,0.94693,0.80604
+Glioma/2131,validation,36496,Glioma,Pituitary tumor/1740,train,48994,Glioma,0.9468,0.86586
+Glioma/1893,train,51586,Glioma,Pituitary tumor/1579,validation,114359,Meningioma,0.94678,0.83827
+Glioma/2776,test,107747,Glioma,Glioma/880,train,108514,Meningioma,0.94606,0.91749
+Glioma/1884,test,51461,Glioma,Pituitary tumor/1668,validation,97737,Meningioma,0.94601,0.89
+Glioma/1847,validation,50687,Glioma,Glioma/2049,train,38469,Glioma,0.9455,0.82518
+Glioma/1957,train,99308,Meningioma,Pituitary tumor/1590,validation,114359,Meningioma,0.94474,0.89678
+Glioma/1849,validation,50687,Glioma,Glioma/2466,train,104167,Meningioma,0.94433,0.84227
+Glioma/2140,validation,33420,Glioma,Pituitary tumor/1716,train,48294,Glioma,0.94407,0.81021
+Glioma/2034,test,49019,Glioma,Glioma/2072,train,37458,Glioma,0.94399,0.8453
+Glioma/2130,validation,36496,Glioma,Pituitary tumor/1739,train,48994,Glioma,0.94393,0.83156
+Glioma/1846,validation,50687,Glioma,Glioma/2049,train,38469,Glioma,0.9434,0.77724
+Glioma/2095,train,37458,Glioma,Pituitary tumor/1748,validation,49142,Glioma,0.9431,0.82325

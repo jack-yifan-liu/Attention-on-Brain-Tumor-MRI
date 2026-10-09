@@ -1,0 +1,3065 @@
+sample_id,patient_id,patient_group_id,old_split,new_split
+Meningioma/1,MR049453B,49453,test,train
+Meningioma/2,MR050135B,50135,train,train
+Meningioma/3,MR050135B,50135,train,train
+Meningioma/4,MR050135B,50135,train,train
+Meningioma/5,MR050135B,50135,train,train
+Meningioma/6,MR050135B,50135,train,train
+Meningioma/7,MR050135B,50135,train,train
+Meningioma/8,MR050135B,50135,train,train
+Meningioma/9,MR050135B,50135,train,train
+Meningioma/10,MR050135B,50135,train,train
+Meningioma/11,MR050135B,50135,train,train
+Meningioma/12,MR050135B,50135,train,train
+Meningioma/13,MR050687,50687,train,validation
+Meningioma/14,MR050687,50687,train,validation
+Meningioma/15,MR050687,50687,train,validation
+Meningioma/16,MR050687,50687,train,validation
+Meningioma/17,MR050687,50687,train,validation
+Meningioma/18,MR050687,50687,train,validation
+Meningioma/19,MR050791B,50791,train,train
+Meningioma/20,MR050791B,50791,train,train
+Meningioma/21,MR050791B,50791,train,train
+Meningioma/22,MR050791B,50791,train,train
+Meningioma/23,MR049019C,49019,train,test
+Meningioma/24,MR049019C,49019,train,test
+Meningioma/25,MR049019C,49019,train,test
+Meningioma/26,MR049019C,49019,train,test
+Meningioma/27,MR049019C,49019,train,test
+Meningioma/28,MR026175C,26175,train,test
+Meningioma/29,MR026175C,26175,train,test
+Meningioma/30,MR026175C,26175,train,test
+Meningioma/31,MR026175C,26175,train,test
+Meningioma/32,MR026175C,26175,train,test
+Meningioma/33,MR026175C,26175,train,test
+Meningioma/34,MR026175C,26175,train,test
+Meningioma/35,MR051461,51461,validation,test
+Meningioma/36,MR051461,51461,validation,test
+Meningioma/37,MR051461,51461,validation,test
+Meningioma/38,MR051461,51461,validation,test
+Meningioma/39,MR051461,51461,validation,test
+Meningioma/40,MR051461,51461,validation,test
+Meningioma/41,MR051461,51461,validation,test
+Meningioma/42,MR051461,51461,validation,test
+Meningioma/43,MR051461,51461,validation,test
+Meningioma/44,MR051586,51586,train,train
+Meningioma/45,MR051586,51586,train,train
+Meningioma/46,MR033389B,33389,validation,train
+Meningioma/47,MR033389B,33389,validation,train
+Meningioma/48,MR033389B,33389,validation,train
+Meningioma/49,MR033389B,33389,validation,train
+Meningioma/50,MR033389B,33389,validation,train
+Meningioma/51,MR024780E,24780,train,test
+Meningioma/52,MR026175E,26175,train,test
+Meningioma/53,MR026175E,26175,train,test
+Meningioma/54,MR026175E,26175,train,test
+Meningioma/55,MR026175E,26175,train,test
+Meningioma/56,MR026175E,26175,train,test
+Meningioma/57,MR026175E,26175,train,test
+Meningioma/58,MR026175E,26175,train,test
+Pituitary tumor/59,MR026175E,26175,train,test
+Meningioma/60,MR026175E,26175,train,test
+Meningioma/61,MR026175E,26175,train,test
+Meningioma/62,MR026175E,26175,train,test
+Meningioma/63,MR026175E,26175,train,test
+Meningioma/64,MR040240C,40240,train,train
+Meningioma/65,MR040240C,40240,train,train
+Meningioma/66,MR040240C,40240,train,train
+Meningioma/67,MR040240C,40240,train,train
+Meningioma/68,MR040240C,40240,train,train
+Meningioma/69,MR040240C,40240,train,train
+Meningioma/70,MR040240C,40240,train,train
+Meningioma/71,MR040240C,40240,train,train
+Meningioma/72,MR040240C,40240,train,train
+Meningioma/73,MR040240C,40240,train,train
+Meningioma/74,MR040240C,40240,train,train
+Meningioma/75,MR040240D,40240,test,train
+Meningioma/76,MR040240D,40240,test,train
+Meningioma/77,MR040240D,40240,test,train
+Meningioma/78,MR040240D,40240,test,train
+Meningioma/79,MR040240D,40240,test,train
+Meningioma/80,MR040240D,40240,test,train
+Meningioma/81,MR040240D,40240,test,train
+Meningioma/82,MR040240D,40240,test,train
+Meningioma/83,MR040240D,40240,test,train
+Meningioma/84,MR040240D,40240,test,train
+Meningioma/85,MR040240D,40240,test,train
+Meningioma/86,MR017260F,17260,validation,validation
+Meningioma/87,MR017260F,17260,validation,validation
+Meningioma/88,MR017260F,17260,validation,validation
+Meningioma/89,MR017260F,17260,validation,validation
+Meningioma/90,MR017260F,17260,validation,validation
+Meningioma/91,MR017260F,17260,validation,validation
+Meningioma/92,MR017260F,17260,validation,validation
+Meningioma/93,MR017260F,17260,validation,validation
+Meningioma/94,MR017260F,17260,validation,validation
+Meningioma/95,MR017260F,17260,validation,validation
+Meningioma/96,MR029209I,29209,train,train
+Meningioma/97,MR029209I,29209,train,train
+Meningioma/98,MR029209I,29209,train,train
+Meningioma/99,MR029209I,29209,train,train
+Meningioma/100,MR029209I,29209,train,train
+Meningioma/101,MR029209I,29209,train,train
+Meningioma/102,MR029209I,29209,train,train
+Meningioma/103,MR029209I,29209,train,train
+Meningioma/104,MR029209I,29209,train,train
+Meningioma/105,MR048294,48294,validation,train
+Meningioma/106,MR048294,48294,validation,train
+Meningioma/107,MR048294,48294,validation,train
+Meningioma/108,MR048294,48294,validation,train
+Meningioma/109,MR048294,48294,validation,train
+Meningioma/110,MR048294,48294,validation,train
+Meningioma/111,MR048294,48294,validation,train
+Meningioma/112,MR048297,48297,train,train
+Meningioma/113,MR048297,48297,train,train
+Meningioma/114,MR048297,48297,train,train
+Meningioma/115,MR048297,48297,train,train
+Meningioma/116,MR048297,48297,train,train
+Meningioma/117,MR048294B,48294,train,train
+Meningioma/118,MR048294B,48294,train,train
+Meningioma/119,MR048294B,48294,train,train
+Meningioma/120,MR048294B,48294,train,train
+Meningioma/121,MR048294B,48294,train,train
+Meningioma/122,MR048621B,48621,train,train
+Meningioma/123,MR048621B,48621,train,train
+Meningioma/124,MR048621B,48621,train,train
+Meningioma/125,MR048621B,48621,train,train
+Meningioma/126,MR048621B,48621,train,train
+Meningioma/127,MR048621B,48621,train,train
+Meningioma/128,MR048944,48944,test,train
+Meningioma/129,MR048944,48944,test,train
+Meningioma/130,MR048944,48944,test,train
+Meningioma/131,MR048944,48944,test,train
+Meningioma/132,MR048944,48944,test,train
+Meningioma/133,MR048944,48944,test,train
+Meningioma/134,MR048944,48944,test,train
+Meningioma/135,MR048944,48944,test,train
+Meningioma/136,MR048944,48944,test,train
+Meningioma/137,MR048994,48994,train,train
+Meningioma/138,MR048994,48994,train,train
+Meningioma/139,MR048994,48994,train,train
+Meningioma/140,MR048994,48994,train,train
+Meningioma/141,MR048994,48994,train,train
+Meningioma/142,MR048994,48994,train,train
+Meningioma/143,MR048994,48994,train,train
+Meningioma/144,MR037458C,37458,train,train
+Meningioma/145,MR040240,40240,train,train
+Meningioma/146,MR040240,40240,train,train
+Meningioma/147,MR040240,40240,train,train
+Meningioma/148,MR040240,40240,train,train
+Meningioma/149,MR040240,40240,train,train
+Meningioma/150,MR040240,40240,train,train
+Meningioma/151,MR040240,40240,train,train
+Meningioma/152,MR040240,40240,train,train
+Meningioma/153,MR040240,40240,train,train
+Meningioma/154,MR040240,40240,train,train
+Meningioma/155,MR040240B,40240,train,train
+Meningioma/156,MR040240B,40240,train,train
+Meningioma/157,MR040240B,40240,train,train
+Meningioma/158,MR040240B,40240,train,train
+Meningioma/159,MR040240B,40240,train,train
+Meningioma/160,MR040240B,40240,train,train
+Meningioma/161,MR040240B,40240,train,train
+Meningioma/162,MR040240B,40240,train,train
+Meningioma/163,MR040240B,40240,train,train
+Meningioma/164,MR040240B,40240,train,train
+Meningioma/165,MR029209G,29209,validation,train
+Meningioma/166,MR029209G,29209,validation,train
+Meningioma/167,MR029209G,29209,validation,train
+Meningioma/168,MR029209G,29209,validation,train
+Meningioma/169,MR029209G,29209,validation,train
+Meningioma/170,MR029209G,29209,validation,train
+Meningioma/171,MR029209G,29209,validation,train
+Meningioma/172,MR036496B,36496,train,validation
+Meningioma/173,MR036496B,36496,train,validation
+Meningioma/174,MR036496B,36496,train,validation
+Meningioma/175,MR036496B,36496,train,validation
+Meningioma/176,MR036496B,36496,train,validation
+Meningioma/177,MR036496B,36496,train,validation
+Meningioma/178,MR033420,33420,test,validation
+Meningioma/179,MR033420,33420,test,validation
+Meningioma/180,MR033420,33420,test,validation
+Meningioma/181,MR033420,33420,test,validation
+Meningioma/182,MR033420,33420,test,validation
+Meningioma/183,MR033420,33420,test,validation
+Meningioma/184,MR033420,33420,test,validation
+Meningioma/185,MR033420,33420,test,validation
+Meningioma/186,MR033420,33420,test,validation
+Meningioma/187,MR033420,33420,test,validation
+Meningioma/188,MR033420,33420,test,validation
+Meningioma/189,MR033389B,33389,validation,train
+Meningioma/190,MR033389B,33389,validation,train
+Meningioma/191,MR033389B,33389,validation,train
+Meningioma/192,MR033389B,33389,validation,train
+Meningioma/193,MR033389B,33389,validation,train
+Meningioma/194,MR033389B,33389,validation,train
+Meningioma/195,MR033389B,33389,validation,train
+Meningioma/196,MR033389B,33389,validation,train
+Meningioma/197,MR033389B,33389,validation,train
+Meningioma/198,MR024780E,24780,train,test
+Meningioma/199,MR024780E,24780,train,test
+Meningioma/200,MR024780E,24780,train,test
+Meningioma/201,MR026175E,26175,train,test
+Meningioma/202,MR026175E,26175,train,test
+Meningioma/203,MR026175E,26175,train,test
+Meningioma/204,MR026175E,26175,train,test
+Meningioma/205,MR026175E,26175,train,test
+Meningioma/206,MR026175E,26175,train,test
+Meningioma/207,MR026175E,26175,train,test
+Meningioma/208,MR026175E,26175,train,test
+Glioma/209,MR026175E,26175,train,test
+Glioma/210,MR026175E,26175,train,test
+Meningioma/211,MR040240C,40240,train,train
+Meningioma/212,MR040240C,40240,train,train
+Meningioma/213,MR040240C,40240,train,train
+Meningioma/214,MR040240C,40240,train,train
+Meningioma/215,MR040240C,40240,train,train
+Meningioma/216,MR040240C,40240,train,train
+Meningioma/217,MR040240C,40240,train,train
+Meningioma/218,MR040240C,40240,train,train
+Meningioma/219,MR040240C,40240,train,train
+Meningioma/220,MR040240C,40240,train,train
+Meningioma/221,MR040240C,40240,train,train
+Meningioma/222,MR040240C,40240,train,train
+Meningioma/223,MR040240C,40240,train,train
+Meningioma/224,MR040240C,40240,train,train
+Meningioma/225,MR040240C,40240,train,train
+Meningioma/226,MR017260F,17260,validation,validation
+Meningioma/227,MR017260F,17260,validation,validation
+Meningioma/228,MR017260F,17260,validation,validation
+Meningioma/229,MR017260F,17260,validation,validation
+Meningioma/230,MR017260F,17260,validation,validation
+Meningioma/231,MR017260F,17260,validation,validation
+Meningioma/232,MR029209I,29209,train,train
+Meningioma/233,MR029209I,29209,train,train
+Meningioma/234,MR029209I,29209,train,train
+Meningioma/235,MR029209I,29209,train,train
+Meningioma/236,MR029209I,29209,train,train
+Meningioma/237,MR029209I,29209,train,train
+Meningioma/238,MR029209I,29209,train,train
+Meningioma/239,MR029209I,29209,train,train
+Meningioma/240,MR029209I,29209,train,train
+Meningioma/241,MR029209I,29209,train,train
+Meningioma/242,MR048294,48294,validation,train
+Meningioma/243,MR048294,48294,validation,train
+Meningioma/244,MR048294,48294,validation,train
+Meningioma/245,MR048294,48294,validation,train
+Meningioma/246,MR048294,48294,validation,train
+Meningioma/247,MR048294,48294,validation,train
+Meningioma/248,MR051586,51586,train,train
+Meningioma/249,MR051586,51586,train,train
+Meningioma/250,MR051586,51586,train,train
+Meningioma/251,MR051586,51586,train,train
+Meningioma/252,MR051461B,51461,train,test
+Meningioma/253,MR051461B,51461,train,test
+Meningioma/254,MR051461B,51461,train,test
+Meningioma/255,MR051461B,51461,train,test
+Meningioma/256,MR051644,51644,validation,validation
+Meningioma/257,MR051644,51644,validation,validation
+Meningioma/258,MR051644,51644,validation,validation
+Meningioma/259,MR051644,51644,validation,validation
+Meningioma/260,MR051644,51644,validation,validation
+Meningioma/261,MR051644,51644,validation,validation
+Meningioma/262,MR051644,51644,validation,validation
+Meningioma/263,MR051644,51644,validation,validation
+Meningioma/264,MR051644,51644,validation,validation
+Meningioma/265,MR051644,51644,validation,validation
+Meningioma/266,MR051644,51644,validation,validation
+Meningioma/267,MR051644,51644,validation,validation
+Meningioma/268,MR051651,51651,test,validation
+Meningioma/269,MR051651,51651,test,validation
+Meningioma/270,MR051651,51651,test,validation
+Meningioma/271,MR051651,51651,test,validation
+Meningioma/272,MR051651,51651,test,validation
+Meningioma/273,MR051651,51651,test,validation
+Meningioma/274,MR051651,51651,test,validation
+Meningioma/275,MR051796,51796,validation,validation
+Meningioma/276,MR051796,51796,validation,validation
+Meningioma/277,MR051796,51796,validation,validation
+Meningioma/278,MR051796,51796,validation,validation
+Meningioma/279,MR051796,51796,validation,validation
+Meningioma/280,MR051796,51796,validation,validation
+Meningioma/281,MR051651B,51651,train,validation
+Meningioma/282,MR051651B,51651,train,validation
+Meningioma/283,MR051651B,51651,train,validation
+Meningioma/284,MR051651B,51651,train,validation
+Meningioma/285,MR051651B,51651,train,validation
+Meningioma/286,MR051651B,51651,train,validation
+Meningioma/287,MR051651B,51651,train,validation
+Meningioma/288,MR051796B,51796,train,validation
+Meningioma/289,MR051796B,51796,train,validation
+Meningioma/290,MR051796B,51796,train,validation
+Meningioma/291,MR052550,52550,train,train
+Meningioma/292,MR052550,52550,train,train
+Meningioma/293,MR052550,52550,train,train
+Meningioma/294,MR052550,52550,train,train
+Meningioma/295,MR052550,52550,train,train
+Meningioma/296,MR052550,52550,train,train
+Meningioma/297,MR051644C,51644,train,validation
+Meningioma/298,MR051644C,51644,train,validation
+Meningioma/299,MR051644C,51644,train,validation
+Meningioma/300,MR051644C,51644,train,validation
+Meningioma/301,MR051644C,51644,train,validation
+Meningioma/302,MR051644C,51644,train,validation
+Meningioma/303,MR051644C,51644,train,validation
+Meningioma/304,MR051644C,51644,train,validation
+Meningioma/305,MR051644C,51644,train,validation
+Meningioma/306,MR051644C,51644,train,validation
+Meningioma/307,MR051644C,51644,train,validation
+Meningioma/308,MR051644C,51644,train,validation
+Meningioma/309,MR051644C,51644,train,validation
+Meningioma/310,MR049942B,49942,test,train
+Meningioma/311,MR049942B,49942,test,train
+Meningioma/312,MR049942B,49942,test,train
+Meningioma/313,MR049942B,49942,test,train
+Meningioma/314,MR047953C,47953,train,train
+Meningioma/315,MR047953C,47953,train,train
+Meningioma/316,MR047953C,47953,train,train
+Meningioma/317,MR047953C,47953,train,train
+Meningioma/318,MR047953C,47953,train,train
+Meningioma/319,MR053110B,53110,train,train
+Meningioma/320,MR053110B,53110,train,train
+Meningioma/321,MR053110B,53110,train,train
+Meningioma/322,MR053110B,53110,train,train
+Meningioma/323,MR053110B,53110,train,train
+Meningioma/324,MR053110B,53110,train,train
+Meningioma/325,MR053110B,53110,train,train
+Meningioma/326,MR034694,34694,test,train
+Meningioma/327,MR034694,34694,test,train
+Meningioma/328,MR034694,34694,test,train
+Meningioma/329,MR034694,34694,test,train
+Meningioma/330,MR034694,34694,test,train
+Meningioma/331,MR034694,34694,test,train
+Meningioma/332,MR034694,34694,test,train
+Meningioma/333,MR054683,54683,train,train
+Meningioma/334,MR054683,54683,train,train
+Meningioma/335,MR054683,54683,train,train
+Meningioma/336,MR050687C,50687,train,validation
+Meningioma/337,MR050687C,50687,train,validation
+Meningioma/338,MR050687C,50687,train,validation
+Meningioma/339,MR050687C,50687,train,validation
+Meningioma/340,MR050687C,50687,train,validation
+Meningioma/341,MR050687C,50687,train,validation
+Meningioma/342,MR050687C,50687,train,validation
+Meningioma/343,MR049242C,49242,train,test
+Meningioma/344,MR049242C,49242,train,test
+Meningioma/345,MR049242C,49242,train,test
+Meningioma/346,MR049242C,49242,train,test
+Meningioma/347,MR049242C,49242,train,test
+Meningioma/348,MR053241C,53241,train,train
+Meningioma/349,MR053241C,53241,train,train
+Meningioma/350,MR053241C,53241,train,train
+Meningioma/351,MR053241C,53241,train,train
+Meningioma/352,MR034997,34997,train,train
+Meningioma/353,MR034997,34997,train,train
+Meningioma/354,MR034997,34997,train,train
+Meningioma/355,MR034997,34997,train,train
+Meningioma/356,MR034997,34997,train,train
+Meningioma/357,MR034997,34997,train,train
+Meningioma/358,MR034997,34997,train,train
+Meningioma/359,MR029209E,29209,train,train
+Meningioma/360,MR029209E,29209,train,train
+Meningioma/361,MR029209E,29209,train,train
+Meningioma/362,MR029209E,29209,train,train
+Meningioma/363,MR029209E,29209,train,train
+Meningioma/364,MR029209E,29209,train,train
+Meningioma/365,MR029209E,29209,train,train
+Meningioma/366,MR053110E,53110,train,train
+Meningioma/367,MR053110E,53110,train,train
+Meningioma/368,MR053110E,53110,train,train
+Meningioma/369,MR053110E,53110,train,train
+Meningioma/370,MR053110E,53110,train,train
+Meningioma/371,MR053110E,53110,train,train
+Meningioma/372,MR053110E,53110,train,train
+Meningioma/373,MR053110E,53110,train,train
+Meningioma/374,MR053110E,53110,train,train
+Meningioma/375,MR053110E,53110,train,train
+Meningioma/376,MR053110E,53110,train,train
+Meningioma/377,MR049019G,49019,validation,test
+Meningioma/378,MR049019G,49019,validation,test
+Meningioma/379,MR049019G,49019,validation,test
+Meningioma/380,MR031409B,31409,train,train
+Meningioma/381,MR031409B,31409,train,train
+Meningioma/382,MR024780D,24780,train,test
+Meningioma/383,MR024780D,24780,train,test
+Meningioma/384,MR038469,38469,validation,train
+Meningioma/385,MR038469,38469,validation,train
+Meningioma/386,MR038469,38469,validation,train
+Meningioma/387,MR038469,38469,validation,train
+Meningioma/388,MR038469,38469,validation,train
+Meningioma/389,MR038469,38469,validation,train
+Meningioma/390,MR032322C,32322,train,train
+Meningioma/391,MR032322C,32322,train,train
+Meningioma/392,MR032322C,32322,train,train
+Meningioma/393,MR032322C,32322,train,train
+Meningioma/394,MR032322C,32322,train,train
+Meningioma/395,MR032322C,32322,train,train
+Meningioma/396,MR032322C,32322,train,train
+Meningioma/397,MR032322C,32322,train,train
+Meningioma/398,MR032322C,32322,train,train
+Meningioma/399,MR032322C,32322,train,train
+Meningioma/400,MR032322C,32322,train,train
+Meningioma/401,MR032322C,32322,train,train
+Meningioma/402,MR032322C,32322,train,train
+Meningioma/403,MR032322C,32322,train,train
+Meningioma/404,MR037458B,37458,train,train
+Meningioma/405,MR037458B,37458,train,train
+Meningioma/406,MR037458B,37458,train,train
+Meningioma/407,MR037458B,37458,train,train
+Meningioma/408,MR037458B,37458,train,train
+Meningioma/409,MR037458B,37458,train,train
+Meningioma/410,MR037458B,37458,train,train
+Meningioma/411,MR037458B,37458,train,train
+Meningioma/412,MR039473,39473,train,train
+Meningioma/413,MR039473,39473,train,train
+Meningioma/414,MR039473,39473,train,train
+Meningioma/415,MR039473,39473,train,train
+Meningioma/416,MR039473B,39473,train,train
+Meningioma/417,MR039473B,39473,train,train
+Meningioma/418,MR039473B,39473,train,train
+Meningioma/419,MR039473B,39473,train,train
+Meningioma/420,MR039473B,39473,train,train
+Meningioma/421,MR039473B,39473,train,train
+Meningioma/422,MR039473B,39473,train,train
+Meningioma/423,MR039473B,39473,train,train
+Meningioma/424,MR039473B,39473,train,train
+Meningioma/425,MR037458C,37458,train,train
+Meningioma/426,MR037458C,37458,train,train
+Meningioma/427,MR037458C,37458,train,train
+Meningioma/428,MR037458C,37458,train,train
+Meningioma/429,MR037458C,37458,train,train
+Meningioma/430,MR037458C,37458,train,train
+Meningioma/431,MR037458C,37458,train,train
+Meningioma/432,MR037458C,37458,train,train
+Meningioma/433,MR029209E,29209,train,train
+Meningioma/434,MR029209E,29209,train,train
+Meningioma/435,MR029209E,29209,train,train
+Meningioma/436,MR029209E,29209,train,train
+Meningioma/437,MR029209E,29209,train,train
+Meningioma/438,MR029209E,29209,train,train
+Meningioma/439,MR029209E,29209,train,train
+Meningioma/440,MR053110E,53110,train,train
+Meningioma/441,MR053110E,53110,train,train
+Meningioma/442,MR053110E,53110,train,train
+Meningioma/443,MR053110E,53110,train,train
+Meningioma/444,MR053110E,53110,train,train
+Meningioma/445,MR049019G,49019,validation,test
+Meningioma/446,MR049019G,49019,validation,test
+Meningioma/447,MR049019G,49019,validation,test
+Meningioma/448,MR049019G,49019,validation,test
+Meningioma/449,MR049019G,49019,validation,test
+Meningioma/450,MR031409B,31409,train,train
+Meningioma/451,MR031409B,31409,train,train
+Meningioma/452,MR024780D,24780,train,test
+Meningioma/453,MR024780D,24780,train,test
+Meningioma/454,MR024780D,24780,train,test
+Meningioma/455,MR038469,38469,validation,train
+Meningioma/456,MR038469,38469,validation,train
+Meningioma/457,MR038469,38469,validation,train
+Meningioma/458,MR038469,38469,validation,train
+Meningioma/459,MR038469,38469,validation,train
+Meningioma/460,MR032322C,32322,train,train
+Meningioma/461,MR032322C,32322,train,train
+Meningioma/462,MR032322C,32322,train,train
+Meningioma/463,MR032322C,32322,train,train
+Meningioma/464,MR032322C,32322,train,train
+Meningioma/465,MR032322C,32322,train,train
+Meningioma/466,MR032322C,32322,train,train
+Meningioma/467,MR032322C,32322,train,train
+Meningioma/468,MR032322C,32322,train,train
+Meningioma/469,MR032322C,32322,train,train
+Meningioma/470,MR032322C,32322,train,train
+Meningioma/471,MR037458B,37458,train,train
+Meningioma/472,MR037458B,37458,train,train
+Meningioma/473,MR037458B,37458,train,train
+Meningioma/474,MR037458B,37458,train,train
+Meningioma/475,MR037458B,37458,train,train
+Meningioma/476,MR039473,39473,train,train
+Meningioma/477,MR039473,39473,train,train
+Meningioma/478,MR039473,39473,train,train
+Meningioma/479,MR039473,39473,train,train
+Meningioma/480,MR039473,39473,train,train
+Meningioma/481,MR039473,39473,train,train
+Meningioma/482,MR039473B,39473,train,train
+Meningioma/483,MR039473B,39473,train,train
+Meningioma/484,MR039473B,39473,train,train
+Meningioma/485,MR039473B,39473,train,train
+Meningioma/486,MR039473B,39473,train,train
+Meningioma/487,MR039473B,39473,train,train
+Meningioma/488,MR039473B,39473,train,train
+Meningioma/489,MR040240,40240,train,train
+Meningioma/490,MR040240,40240,train,train
+Meningioma/491,MR040240,40240,train,train
+Meningioma/492,MR040240,40240,train,train
+Meningioma/493,MR040240,40240,train,train
+Meningioma/494,MR040240,40240,train,train
+Meningioma/495,MR040240,40240,train,train
+Meningioma/496,MR040240,40240,train,train
+Meningioma/497,MR040240B,40240,train,train
+Meningioma/498,MR040240B,40240,train,train
+Meningioma/499,MR040240B,40240,train,train
+Meningioma/500,MR040240B,40240,train,train
+Meningioma/501,MR040240B,40240,train,train
+Meningioma/502,MR029209G,29209,validation,train
+Meningioma/503,MR029209G,29209,validation,train
+Meningioma/504,MR029209G,29209,validation,train
+Meningioma/505,MR029209G,29209,validation,train
+Meningioma/506,MR029209G,29209,validation,train
+Meningioma/507,MR036496B,36496,train,validation
+Meningioma/508,MR036496B,36496,train,validation
+Meningioma/509,MR036496B,36496,train,validation
+Meningioma/510,MR036496B,36496,train,validation
+Meningioma/511,MR033420,33420,test,validation
+Meningioma/512,MR033420,33420,test,validation
+Meningioma/513,MR033420,33420,test,validation
+Meningioma/514,MR033420,33420,test,validation
+Meningioma/515,MR033420,33420,test,validation
+Meningioma/516,MR033420,33420,test,validation
+Meningioma/517,MR033420,33420,test,validation
+Meningioma/518,MR033420,33420,test,validation
+Meningioma/519,MR024780B,24780,train,test
+Meningioma/520,MR024780B,24780,train,test
+Meningioma/521,MR024780B,24780,train,test
+Meningioma/522,MR024780B,24780,train,test
+Meningioma/523,MR033389B,33389,validation,train
+Meningioma/524,MR048294,48294,validation,train
+Meningioma/525,MR048297,48297,train,train
+Meningioma/526,MR048297,48297,train,train
+Meningioma/527,MR048297,48297,train,train
+Meningioma/528,MR048297,48297,train,train
+Meningioma/529,MR048297,48297,train,train
+Meningioma/530,MR048297,48297,train,train
+Meningioma/531,MR048297,48297,train,train
+Meningioma/532,MR048297,48297,train,train
+Meningioma/533,MR048294B,48294,train,train
+Meningioma/534,MR048294B,48294,train,train
+Meningioma/535,MR048294B,48294,train,train
+Meningioma/536,MR048294B,48294,train,train
+Meningioma/537,MR048294B,48294,train,train
+Meningioma/538,MR048294B,48294,train,train
+Meningioma/539,MR048621B,48621,train,train
+Meningioma/540,MR048621B,48621,train,train
+Meningioma/541,MR048621B,48621,train,train
+Meningioma/542,MR048944,48944,test,train
+Meningioma/543,MR048944,48944,test,train
+Meningioma/544,MR048944,48944,test,train
+Meningioma/545,MR048944,48944,test,train
+Meningioma/546,MR048944,48944,test,train
+Meningioma/547,MR048944,48944,test,train
+Meningioma/548,MR048994,48994,train,train
+Meningioma/549,MR048994,48994,train,train
+Meningioma/550,MR048994,48994,train,train
+Meningioma/551,MR048994,48994,train,train
+Meningioma/552,MR048994,48994,train,train
+Meningioma/553,MR048994,48994,train,train
+Meningioma/554,MR048994,48994,train,train
+Meningioma/555,MR048994,48994,train,train
+Meningioma/556,MR049104,49104,train,train
+Meningioma/557,MR049104,49104,train,train
+Meningioma/558,MR049104,49104,train,train
+Meningioma/559,MR049104,49104,train,train
+Meningioma/560,MR049142,49142,train,validation
+Meningioma/561,MR049142,49142,train,validation
+Meningioma/562,MR049142,49142,train,validation
+Meningioma/563,MR048994B,48994,train,train
+Meningioma/564,MR048994B,48994,train,train
+Meningioma/565,MR048994B,48994,train,train
+Meningioma/566,MR048994B,48994,train,train
+Meningioma/567,MR048994B,48994,train,train
+Meningioma/568,MR049358,49358,train,train
+Meningioma/569,MR049358,49358,train,train
+Meningioma/570,MR049358,49358,train,train
+Meningioma/571,MR049358,49358,train,train
+Meningioma/572,MR049358,49358,train,train
+Meningioma/573,MR049358,49358,train,train
+Meningioma/574,MR049358,49358,train,train
+Meningioma/575,MR049104B,49104,train,train
+Meningioma/576,MR049104B,49104,train,train
+Meningioma/577,MR049104B,49104,train,train
+Meningioma/578,MR049453,49453,test,train
+Meningioma/579,MR049453,49453,test,train
+Meningioma/580,MR049453,49453,test,train
+Meningioma/581,MR049453,49453,test,train
+Meningioma/582,MR049453,49453,test,train
+Meningioma/583,MR049453,49453,test,train
+Meningioma/584,MR049453,49453,test,train
+Meningioma/585,MR049453,49453,test,train
+Meningioma/586,MR049453,49453,test,train
+Meningioma/587,MR024780G,24780,train,test
+Meningioma/588,MR024780G,24780,train,test
+Meningioma/589,MR024780G,24780,train,test
+Meningioma/590,MR024780G,24780,train,test
+Meningioma/591,MR024780G,24780,train,test
+Meningioma/592,MR024780G,24780,train,test
+Meningioma/593,MR050135B,50135,train,train
+Meningioma/594,MR050135B,50135,train,train
+Meningioma/595,MR050135B,50135,train,train
+Meningioma/596,MR050135B,50135,train,train
+Meningioma/597,MR050135B,50135,train,train
+Meningioma/598,MR050135B,50135,train,train
+Meningioma/599,MR050135B,50135,train,train
+Meningioma/600,MR050135B,50135,train,train
+Meningioma/601,MR050135B,50135,train,train
+Meningioma/602,MR050687,50687,train,validation
+Meningioma/603,MR050687,50687,train,validation
+Meningioma/604,MR050687,50687,train,validation
+Meningioma/605,MR050687,50687,train,validation
+Meningioma/606,MR050687,50687,train,validation
+Meningioma/607,MR050687,50687,train,validation
+Meningioma/608,MR050791B,50791,train,train
+Meningioma/609,MR050791B,50791,train,train
+Meningioma/610,MR050791B,50791,train,train
+Meningioma/611,MR050791B,50791,train,train
+Meningioma/612,MR050791B,50791,train,train
+Meningioma/613,MR050791B,50791,train,train
+Meningioma/614,MR050791B,50791,train,train
+Meningioma/615,MR050791B,50791,train,train
+Meningioma/616,MR049019C,49019,train,test
+Meningioma/617,MR049019C,49019,train,test
+Meningioma/618,MR049019C,49019,train,test
+Meningioma/619,MR049019C,49019,train,test
+Meningioma/620,MR051461,51461,validation,test
+Meningioma/621,MR051461,51461,validation,test
+Meningioma/622,MR051461,51461,validation,test
+Meningioma/623,MR051461,51461,validation,test
+Meningioma/624,MR051461,51461,validation,test
+Meningioma/625,MR051461,51461,validation,test
+Meningioma/626,MR051461,51461,validation,test
+Meningioma/627,MR051586,51586,train,train
+Meningioma/628,MR051586,51586,train,train
+Meningioma/629,MR051586,51586,train,train
+Meningioma/630,MR051586,51586,train,train
+Meningioma/631,MR051586,51586,train,train
+Meningioma/632,MR051586,51586,train,train
+Meningioma/633,MR051586,51586,train,train
+Meningioma/634,MR051586,51586,train,train
+Meningioma/635,MR051586,51586,train,train
+Meningioma/636,MR051644,51644,validation,validation
+Meningioma/637,MR051644,51644,validation,validation
+Meningioma/638,MR051644,51644,validation,validation
+Meningioma/639,MR051644,51644,validation,validation
+Meningioma/640,MR051644,51644,validation,validation
+Meningioma/641,MR051644,51644,validation,validation
+Meningioma/642,MR051644,51644,validation,validation
+Meningioma/643,MR051644,51644,validation,validation
+Meningioma/644,MR051644,51644,validation,validation
+Meningioma/645,MR051644,51644,validation,validation
+Meningioma/646,MR051651,51651,test,validation
+Meningioma/647,MR051651,51651,test,validation
+Meningioma/648,MR051651,51651,test,validation
+Meningioma/649,MR051651,51651,test,validation
+Meningioma/650,MR051796,51796,validation,validation
+Meningioma/651,MR051796,51796,validation,validation
+Meningioma/652,MR051796,51796,validation,validation
+Meningioma/653,MR051796,51796,validation,validation
+Meningioma/654,MR051796,51796,validation,validation
+Meningioma/655,MR051796,51796,validation,validation
+Meningioma/656,MR051796,51796,validation,validation
+Meningioma/657,MR051651B,51651,train,validation
+Meningioma/658,MR051651B,51651,train,validation
+Meningioma/659,MR051651B,51651,train,validation
+Meningioma/660,MR051651B,51651,train,validation
+Meningioma/661,MR051651B,51651,train,validation
+Meningioma/662,MR051651B,51651,train,validation
+Meningioma/663,MR051644B,51644,train,validation
+Meningioma/664,MR051644B,51644,train,validation
+Meningioma/665,MR051644B,51644,train,validation
+Meningioma/666,MR051644B,51644,train,validation
+Meningioma/667,MR051644B,51644,train,validation
+Meningioma/668,MR051644B,51644,train,validation
+Meningioma/669,MR051644B,51644,train,validation
+Meningioma/670,MR051644B,51644,train,validation
+Meningioma/671,MR051644B,51644,train,validation
+Meningioma/672,MR051796B,51796,train,validation
+Meningioma/673,MR051796B,51796,train,validation
+Meningioma/674,MR051796B,51796,train,validation
+Meningioma/675,MR051796B,51796,train,validation
+Meningioma/676,MR051796B,51796,train,validation
+Meningioma/677,MR052550,52550,train,train
+Meningioma/678,MR052550,52550,train,train
+Meningioma/679,MR052550,52550,train,train
+Meningioma/680,MR052550,52550,train,train
+Meningioma/681,MR052550,52550,train,train
+Meningioma/682,MR052550,52550,train,train
+Meningioma/683,MR052550,52550,train,train
+Meningioma/684,MR052550,52550,train,train
+Meningioma/685,MR051644C,51644,train,validation
+Meningioma/686,MR051644C,51644,train,validation
+Meningioma/687,MR051644C,51644,train,validation
+Meningioma/688,MR051644C,51644,train,validation
+Meningioma/689,MR051644C,51644,train,validation
+Meningioma/690,MR051644C,51644,train,validation
+Meningioma/691,MR051644C,51644,train,validation
+Meningioma/692,MR051644C,51644,train,validation
+Meningioma/693,MR051644C,51644,train,validation
+Meningioma/694,MR051644C,51644,train,validation
+Meningioma/695,MR049942B,49942,test,train
+Meningioma/696,MR049942B,49942,test,train
+Meningioma/697,MR049942B,49942,test,train
+Meningioma/698,MR052585B,52585,train,validation
+Meningioma/699,MR052585B,52585,train,validation
+Meningioma/700,MR052585B,52585,train,validation
+Meningioma/701,MR053110B,53110,train,train
+Meningioma/702,MR053110B,53110,train,train
+Meningioma/703,MR053110B,53110,train,train
+Meningioma/704,MR053110B,53110,train,train
+Meningioma/705,MR053110B,53110,train,train
+Meningioma/706,MR053110B,53110,train,train
+Meningioma/707,MR034694,34694,test,train
+Meningioma/708,MR034694,34694,test,train
+Pituitary tumor/709,MR034694,34694,test,train
+Pituitary tumor/710,MR034694,34694,test,train
+Pituitary tumor/711,MR054875,54875,validation,test
+Pituitary tumor/712,MR054875,54875,validation,test
+Pituitary tumor/713,MR054875,54875,validation,test
+Pituitary tumor/714,MR054875,54875,validation,test
+Glioma/715,MR054875,54875,validation,test
+Glioma/716,MR050687C,50687,train,validation
+Glioma/717,MR050687C,50687,train,validation
+Glioma/718,MR050687C,50687,train,validation
+Glioma/719,MR050687C,50687,train,validation
+Glioma/720,MR050687C,50687,train,validation
+Glioma/721,MR050687C,50687,train,validation
+Glioma/722,MR056144,56144,train,train
+Glioma/723,MR056144,56144,train,train
+Glioma/724,MR034997,34997,train,train
+Glioma/725,MR034997,34997,train,train
+Glioma/726,MR034997,34997,train,train
+Glioma/727,MR034997,34997,train,train
+Glioma/728,MR034997,34997,train,train
+Glioma/729,MR034997,34997,train,train
+Glioma/730,MR034997,34997,train,train
+Glioma/731,MR029209E,29209,train,train
+Glioma/732,53669,53669,train,train
+Glioma/733,MR033389B,33389,validation,train
+Glioma/734,MR033389B,33389,validation,train
+Glioma/735,MR033389B,33389,validation,train
+Glioma/736,MR033389B,33389,validation,train
+Glioma/737,MR033389B,33389,validation,train
+Glioma/738,MR033389B,33389,validation,train
+Glioma/739,MR033389B,33389,validation,train
+Glioma/740,MR033389B,33389,validation,train
+Glioma/741,MR024780E,24780,train,test
+Glioma/742,MR024780E,24780,train,test
+Glioma/743,MR024780E,24780,train,test
+Glioma/744,MR040240C,40240,train,train
+Glioma/745,MR040240C,40240,train,train
+Glioma/746,MR040240C,40240,train,train
+Glioma/747,MR040240C,40240,train,train
+Glioma/748,MR040240C,40240,train,train
+Glioma/749,MR040240D,40240,test,train
+Glioma/750,MR040240D,40240,test,train
+Glioma/751,MR017260F,17260,validation,validation
+Glioma/752,MR017260F,17260,validation,validation
+Glioma/753,MR017260F,17260,validation,validation
+Glioma/754,MR017260F,17260,validation,validation
+Glioma/755,MR017260F,17260,validation,validation
+Glioma/756,MR017260F,17260,validation,validation
+Glioma/757,MR017260F,17260,validation,validation
+Glioma/758,MR029209I,29209,train,train
+Glioma/759,MR029209I,29209,train,train
+Glioma/760,MR029209I,29209,train,train
+Glioma/761,MR029209I,29209,train,train
+Glioma/762,MR029209I,29209,train,train
+Glioma/763,MR029209I,29209,train,train
+Glioma/764,MR029209I,29209,train,train
+Glioma/765,95969,95969,train,validation
+Glioma/766,88510,88510,train,train
+Glioma/767,100360,100360,train,train
+Glioma/768,101016,101016,train,train
+Glioma/769,107494,107494,train,train
+Glioma/770,112649,112649,train,train
+Glioma/771,112649,112649,train,train
+Glioma/772,112649,112649,train,train
+Glioma/773,112746,112746,train,train
+Glioma/774,112746,112746,train,train
+Glioma/775,112746,112746,train,train
+Glioma/776,112847,112847,test,train
+Glioma/777,112847,112847,test,train
+Glioma/778,112847,112847,test,train
+Glioma/779,112847,112847,test,train
+Glioma/780,107494,107494,train,train
+Glioma/781,113274,113274,train,test
+Glioma/782,113274,113274,train,test
+Glioma/783,113274,113274,train,test
+Glioma/784,113741,113741,validation,train
+Glioma/785,113741,113741,validation,train
+Glioma/786,114040,114040,train,train
+Glioma/787,114040,114040,train,train
+Glioma/788,114040,114040,train,train
+Glioma/789,114361,114361,validation,train
+Glioma/790,114361,114361,validation,train
+Glioma/791,107494,107494,train,train
+Glioma/792,114361,114361,validation,train
+Glioma/793,114094,114094,train,train
+Glioma/794,114094,114094,train,train
+Glioma/795,114094,114094,train,train
+Glioma/796,114094,114094,train,train
+Glioma/797,101017,101017,train,test
+Glioma/798,101017,101017,train,test
+Glioma/799,101017,101017,train,test
+Glioma/800,101017,101017,train,test
+Glioma/801,101017,101017,train,test
+Glioma/802,107494,107494,train,train
+Glioma/803,101029,101029,train,train
+Glioma/804,101029,101029,train,train
+Glioma/805,101029,101029,train,train
+Glioma/806,101029,101029,train,train
+Glioma/807,105936,105936,train,train
+Glioma/808,106062,106062,validation,train
+Glioma/809,106062,106062,validation,train
+Glioma/810,106062,106062,validation,train
+Glioma/811,106062,106062,validation,train
+Glioma/812,106062,106062,validation,train
+Glioma/813,108514,108514,train,train
+Glioma/814,106062,106062,validation,train
+Glioma/815,106062,106062,validation,train
+Glioma/816,107495,107495,test,train
+Glioma/817,107495,107495,test,train
+Glioma/818,107495,107495,test,train
+Glioma/819,107495,107495,test,train
+Glioma/820,107495,107495,test,train
+Glioma/821,107429,107429,train,train
+Glioma/822,107429,107429,train,train
+Glioma/823,107429,107429,train,train
+Glioma/824,108514,108514,train,train
+Glioma/825,107429,107429,train,train
+Glioma/826,107429,107429,train,train
+Glioma/827,107429,107429,train,train
+Glioma/828,107429,107429,train,train
+Glioma/829,107505,107505,train,test
+Glioma/830,107505,107505,train,test
+Glioma/831,107505,107505,train,test
+Glioma/832,107505,107505,train,test
+Glioma/833,107505,107505,train,test
+Glioma/834,107743,107743,train,train
+Glioma/835,108514,108514,train,train
+Glioma/836,107743,107743,train,train
+Glioma/837,107743,107743,train,train
+Glioma/838,107743,107743,train,train
+Glioma/839,107743,107743,train,train
+Glioma/840,107743,107743,train,train
+Glioma/841,108858,108858,train,validation
+Glioma/842,108858,108858,train,validation
+Glioma/843,108858,108858,train,validation
+Glioma/844,108858,108858,train,validation
+Glioma/845,108858,108858,train,validation
+Glioma/846,108514,108514,train,train
+Glioma/847,108931,108931,train,validation
+Glioma/848,108931,108931,train,validation
+Glioma/849,108931,108931,train,validation
+Glioma/850,108931,108931,train,validation
+Glioma/851,108931,108931,train,validation
+Glioma/852,108931,108931,train,validation
+Glioma/853,108931,108931,train,validation
+Glioma/854,109471,109471,test,train
+Glioma/855,109471,109471,test,train
+Glioma/856,109471,109471,test,train
+Glioma/857,108514,108514,train,train
+Glioma/858,109471,109471,test,train
+Glioma/859,109471,109471,test,train
+Glioma/860,109471,109471,test,train
+Glioma/861,109769,109769,train,validation
+Glioma/862,109769,109769,train,validation
+Glioma/863,109769,109769,train,validation
+Glioma/864,109769,109769,train,validation
+Glioma/865,109769,109769,train,validation
+Glioma/866,109898,109898,train,train
+Glioma/867,109898,109898,train,train
+Glioma/868,108514,108514,train,train
+Glioma/869,109898,109898,train,train
+Glioma/870,109898,109898,train,train
+Glioma/871,109898,109898,train,train
+Glioma/872,109898,109898,train,train
+Glioma/873,110518,110518,test,train
+Glioma/874,110518,110518,test,train
+Glioma/875,110518,110518,test,train
+Glioma/876,110518,110518,test,train
+Glioma/877,110518,110518,test,train
+Glioma/878,110518,110518,test,train
+Glioma/879,101016,101016,train,train
+Glioma/880,108514,108514,train,train
+Glioma/881,110537,110537,train,test
+Glioma/882,110537,110537,train,test
+Glioma/883,110537,110537,train,test
+Glioma/884,110537,110537,train,test
+Glioma/885,110537,110537,train,test
+Glioma/886,110537,110537,train,test
+Glioma/887,110537,110537,train,test
+Glioma/888,110993,110993,train,train
+Glioma/889,110993,110993,train,train
+Glioma/890,110993,110993,train,train
+Glioma/891,108550,108550,train,train
+Glioma/892,110993,110993,train,train
+Glioma/893,110993,110993,train,train
+Glioma/894,111075,111075,test,train
+Glioma/895,111075,111075,test,train
+Glioma/896,111075,111075,test,train
+Glioma/897,111075,111075,test,train
+Glioma/898,111075,111075,test,train
+Glioma/899,111075,111075,test,train
+Glioma/900,111125,111125,train,train
+Glioma/901,111125,111125,train,train
+Glioma/902,108550,108550,train,train
+Glioma/903,111125,111125,train,train
+Glioma/904,111125,111125,train,train
+Glioma/905,111125,111125,train,train
+Glioma/906,111125,111125,train,train
+Glioma/907,111785,111785,train,train
+Glioma/908,111785,111785,train,train
+Glioma/909,111785,111785,train,train
+Glioma/910,111785,111785,train,train
+Glioma/911,111785,111785,train,train
+Glioma/912,112074,112074,train,train
+Glioma/913,108590,108590,validation,train
+Glioma/914,112074,112074,train,train
+Glioma/915,112074,112074,train,train
+Glioma/916,112074,112074,train,train
+Glioma/917,112074,112074,train,train
+Pituitary tumor/918,112649,112649,train,train
+Pituitary tumor/919,112649,112649,train,train
+Pituitary tumor/920,112649,112649,train,train
+Pituitary tumor/921,112649,112649,train,train
+Pituitary tumor/922,112649,112649,train,train
+Pituitary tumor/923,112649,112649,train,train
+Pituitary tumor/924,108590,108590,validation,train
+Pituitary tumor/925,112746,112746,train,train
+Pituitary tumor/926,112746,112746,train,train
+Pituitary tumor/927,112746,112746,train,train
+Pituitary tumor/928,112746,112746,train,train
+Pituitary tumor/929,112847,112847,test,train
+Pituitary tumor/930,112847,112847,test,train
+Pituitary tumor/931,112847,112847,test,train
+Pituitary tumor/932,112847,112847,test,train
+Pituitary tumor/933,113274,113274,train,test
+Pituitary tumor/934,113274,113274,train,test
+Pituitary tumor/935,108945,108945,train,train
+Pituitary tumor/936,113274,113274,train,test
+Pituitary tumor/937,113741,113741,validation,train
+Pituitary tumor/938,113741,113741,validation,train
+Pituitary tumor/939,113741,113741,validation,train
+Pituitary tumor/940,114040,114040,train,train
+Pituitary tumor/941,114040,114040,train,train
+Pituitary tumor/942,114040,114040,train,train
+Pituitary tumor/943,114361,114361,validation,train
+Pituitary tumor/944,114361,114361,validation,train
+Pituitary tumor/945,114361,114361,validation,train
+Pituitary tumor/946,108945,108945,train,train
+Pituitary tumor/947,114361,114361,validation,train
+Pituitary tumor/948,114094,114094,train,train
+Pituitary tumor/949,114094,114094,train,train
+Pituitary tumor/950,114094,114094,train,train
+Pituitary tumor/951,114094,114094,train,train
+Pituitary tumor/952,114094,114094,train,train
+Pituitary tumor/953,105936,105936,train,train
+Pituitary tumor/954,105936,105936,train,train
+Pituitary tumor/955,105936,105936,train,train
+Pituitary tumor/956,106062,106062,validation,train
+Pituitary tumor/957,108945,108945,train,train
+Pituitary tumor/958,106062,106062,validation,train
+Pituitary tumor/959,106062,106062,validation,train
+Pituitary tumor/960,106062,106062,validation,train
+Pituitary tumor/961,106062,106062,validation,train
+Pituitary tumor/962,106062,106062,validation,train
+Pituitary tumor/963,106062,106062,validation,train
+Pituitary tumor/964,107495,107495,test,train
+Pituitary tumor/965,107495,107495,test,train
+Pituitary tumor/966,107495,107495,test,train
+Pituitary tumor/967,107495,107495,test,train
+Pituitary tumor/968,108945,108945,train,train
+Pituitary tumor/969,107495,107495,test,train
+Pituitary tumor/970,107495,107495,test,train
+Pituitary tumor/971,107429,107429,train,train
+Pituitary tumor/972,107429,107429,train,train
+Pituitary tumor/973,107429,107429,train,train
+Pituitary tumor/974,107429,107429,train,train
+Pituitary tumor/975,107429,107429,train,train
+Pituitary tumor/976,107429,107429,train,train
+Pituitary tumor/977,107429,107429,train,train
+Pituitary tumor/978,107505,107505,train,test
+Pituitary tumor/979,109411,109411,test,test
+Pituitary tumor/980,107505,107505,train,test
+Pituitary tumor/981,107505,107505,train,test
+Pituitary tumor/982,107505,107505,train,test
+Pituitary tumor/983,107505,107505,train,test
+Pituitary tumor/984,107743,107743,train,train
+Pituitary tumor/985,107743,107743,train,train
+Pituitary tumor/986,107743,107743,train,train
+Pituitary tumor/987,107743,107743,train,train
+Pituitary tumor/988,108858,108858,train,validation
+Pituitary tumor/989,108858,108858,train,validation
+Pituitary tumor/990,101016,101016,train,train
+Pituitary tumor/991,109968,109968,train,train
+Pituitary tumor/992,108858,108858,train,validation
+Pituitary tumor/993,108858,108858,train,validation
+Pituitary tumor/994,108858,108858,train,validation
+Pituitary tumor/995,108931,108931,train,validation
+Pituitary tumor/996,108931,108931,train,validation
+Pituitary tumor/997,108931,108931,train,validation
+Pituitary tumor/998,108931,108931,train,validation
+Pituitary tumor/999,108931,108931,train,validation
+Pituitary tumor/1000,109471,109471,test,train
+Pituitary tumor/1001,109471,109471,test,train
+Pituitary tumor/1002,109968,109968,train,train
+Pituitary tumor/1003,109471,109471,test,train
+Pituitary tumor/1004,109471,109471,test,train
+Pituitary tumor/1005,109471,109471,test,train
+Pituitary tumor/1006,109471,109471,test,train
+Pituitary tumor/1007,109769,109769,train,validation
+Pituitary tumor/1008,109769,109769,train,validation
+Pituitary tumor/1009,109769,109769,train,validation
+Pituitary tumor/1010,109769,109769,train,validation
+Pituitary tumor/1011,109769,109769,train,validation
+Pituitary tumor/1012,109898,109898,train,train
+Pituitary tumor/1013,109968,109968,train,train
+Pituitary tumor/1014,109898,109898,train,train
+Pituitary tumor/1015,109898,109898,train,train
+Pituitary tumor/1016,110518,110518,test,train
+Pituitary tumor/1017,110518,110518,test,train
+Pituitary tumor/1018,110518,110518,test,train
+Pituitary tumor/1019,110518,110518,test,train
+Pituitary tumor/1020,110537,110537,train,test
+Pituitary tumor/1021,110537,110537,train,test
+Pituitary tumor/1022,110537,110537,train,test
+Pituitary tumor/1023,110537,110537,train,test
+Pituitary tumor/1024,109968,109968,train,train
+Pituitary tumor/1025,110993,110993,train,train
+Pituitary tumor/1026,110993,110993,train,train
+Pituitary tumor/1027,110993,110993,train,train
+Pituitary tumor/1028,111075,111075,test,train
+Pituitary tumor/1029,111075,111075,test,train
+Pituitary tumor/1030,111075,111075,test,train
+Pituitary tumor/1031,111075,111075,test,train
+Pituitary tumor/1032,111075,111075,test,train
+Pituitary tumor/1033,111125,111125,train,train
+Pituitary tumor/1034,111125,111125,train,train
+Pituitary tumor/1035,110116,110116,test,train
+Pituitary tumor/1036,111125,111125,train,train
+Pituitary tumor/1037,111125,111125,train,train
+Pituitary tumor/1038,111785,111785,train,train
+Pituitary tumor/1039,111785,111785,train,train
+Pituitary tumor/1040,111785,111785,train,train
+Pituitary tumor/1041,111785,111785,train,train
+Pituitary tumor/1042,112074,112074,train,train
+Pituitary tumor/1043,112074,112074,train,train
+Pituitary tumor/1044,112074,112074,train,train
+Pituitary tumor/1045,112074,112074,train,train
+Pituitary tumor/1046,111077,111077,train,train
+Pituitary tumor/1047,112074,112074,train,train
+Pituitary tumor/1048,112649,112649,train,train
+Pituitary tumor/1049,112649,112649,train,train
+Pituitary tumor/1050,112649,112649,train,train
+Pituitary tumor/1051,112649,112649,train,train
+Pituitary tumor/1052,112649,112649,train,train
+Pituitary tumor/1053,112746,112746,train,train
+Pituitary tumor/1054,112746,112746,train,train
+Pituitary tumor/1055,112746,112746,train,train
+Pituitary tumor/1056,112746,112746,train,train
+Pituitary tumor/1057,111077,111077,train,train
+Pituitary tumor/1058,112746,112746,train,train
+Pituitary tumor/1059,112847,112847,test,train
+Pituitary tumor/1060,112847,112847,test,train
+Pituitary tumor/1061,112847,112847,test,train
+Pituitary tumor/1062,112847,112847,test,train
+Pituitary tumor/1063,112847,112847,test,train
+Pituitary tumor/1064,113274,113274,train,test
+Pituitary tumor/1065,113274,113274,train,test
+Pituitary tumor/1066,113274,113274,train,test
+Pituitary tumor/1067,113274,113274,train,test
+Pituitary tumor/1068,111077,111077,train,train
+Pituitary tumor/1069,113741,113741,validation,train
+Pituitary tumor/1070,113741,113741,validation,train
+Pituitary tumor/1071,113741,113741,validation,train
+Pituitary tumor/1072,114040,114040,train,train
+Pituitary tumor/1073,114040,114040,train,train
+Pituitary tumor/1074,114040,114040,train,train
+Pituitary tumor/1075,114361,114361,validation,train
+Pituitary tumor/1076,114361,114361,validation,train
+Pituitary tumor/1077,114361,114361,validation,train
+Pituitary tumor/1078,114094,114094,train,train
+Pituitary tumor/1079,111366,111366,train,validation
+Pituitary tumor/1080,114094,114094,train,train
+Pituitary tumor/1081,114094,114094,train,train
+Pituitary tumor/1082,114094,114094,train,train
+Pituitary tumor/1083,101029,101029,train,train
+Pituitary tumor/1084,101029,101029,train,train
+Pituitary tumor/1085,101145,101145,train,test
+Pituitary tumor/1086,101145,101145,train,test
+Pituitary tumor/1087,101145,101145,train,test
+Pituitary tumor/1088,101145,101145,train,test
+Pituitary tumor/1089,101305,101305,train,train
+Pituitary tumor/1090,111366,111366,train,validation
+Pituitary tumor/1091,101305,101305,train,train
+Pituitary tumor/1092,101305,101305,train,train
+Pituitary tumor/1093,101305,101305,train,train
+Pituitary tumor/1094,101724,101724,train,train
+Pituitary tumor/1095,101724,101724,train,train
+Pituitary tumor/1096,102648,102648,train,test
+Pituitary tumor/1097,102648,102648,train,test
+Pituitary tumor/1098,102648,102648,train,test
+Pituitary tumor/1099,102648,102648,train,test
+Pituitary tumor/1100,102648,102648,train,test
+Pituitary tumor/1101,101016,101016,train,train
+Pituitary tumor/1102,111366,111366,train,validation
+Pituitary tumor/1103,102648,102648,train,test
+Pituitary tumor/1104,103046,103046,train,train
+Pituitary tumor/1105,103046,103046,train,train
+Pituitary tumor/1106,103046,103046,train,train
+Pituitary tumor/1107,103257,103257,train,validation
+Pituitary tumor/1108,103257,103257,train,validation
+Pituitary tumor/1109,103257,103257,train,validation
+Pituitary tumor/1110,103257,103257,train,validation
+Pituitary tumor/1111,103257,103257,train,validation
+Pituitary tumor/1112,103257,103257,train,validation
+Pituitary tumor/1113,111366,111366,train,validation
+Pituitary tumor/1114,103478,103478,train,train
+Pituitary tumor/1115,103478,103478,train,train
+Pituitary tumor/1116,103478,103478,train,train
+Pituitary tumor/1117,103478,103478,train,train
+Pituitary tumor/1118,103478,103478,train,train
+Pituitary tumor/1119,103478,103478,train,train
+Pituitary tumor/1120,103478,103478,train,train
+Pituitary tumor/1121,103582,103582,train,train
+Pituitary tumor/1122,103582,103582,train,train
+Pituitary tumor/1123,103582,103582,train,train
+Pituitary tumor/1124,111532,111532,test,train
+Pituitary tumor/1125,103582,103582,train,train
+Pituitary tumor/1126,103582,103582,train,train
+Pituitary tumor/1127,103582,103582,train,train
+Pituitary tumor/1128,103670,103670,train,train
+Pituitary tumor/1129,103670,103670,train,train
+Pituitary tumor/1130,103670,103670,train,train
+Pituitary tumor/1131,103671,103671,validation,train
+Pituitary tumor/1132,103671,103671,validation,train
+Pituitary tumor/1133,103671,103671,validation,train
+Pituitary tumor/1134,103671,103671,validation,train
+Pituitary tumor/1135,111532,111532,test,train
+Pituitary tumor/1136,103731,103731,test,validation
+Pituitary tumor/1137,103731,103731,test,validation
+Pituitary tumor/1138,103731,103731,test,validation
+Pituitary tumor/1139,103731,103731,test,validation
+Pituitary tumor/1140,103731,103731,test,validation
+Pituitary tumor/1141,103731,103731,test,validation
+Pituitary tumor/1142,103731,103731,test,validation
+Pituitary tumor/1143,103731,103731,test,validation
+Pituitary tumor/1144,103731,103731,test,validation
+Pituitary tumor/1145,103731,103731,test,validation
+Pituitary tumor/1146,111532,111532,test,train
+Pituitary tumor/1147,103837,103837,test,train
+Pituitary tumor/1148,103837,103837,test,train
+Pituitary tumor/1149,103837,103837,test,train
+Pituitary tumor/1150,103837,103837,test,train
+Pituitary tumor/1151,103837,103837,test,train
+Pituitary tumor/1152,103837,103837,test,train
+Pituitary tumor/1153,103837,103837,test,train
+Pituitary tumor/1154,103837,103837,test,train
+Pituitary tumor/1155,104019,104019,train,train
+Pituitary tumor/1156,104019,104019,train,train
+Pituitary tumor/1157,112002,112002,train,train
+Pituitary tumor/1158,104019,104019,train,train
+Pituitary tumor/1159,104019,104019,train,train
+Pituitary tumor/1160,104558,104558,train,train
+Pituitary tumor/1161,104558,104558,train,train
+Pituitary tumor/1162,104558,104558,train,train
+Pituitary tumor/1163,104558,104558,train,train
+Pituitary tumor/1164,104558,104558,train,train
+Pituitary tumor/1165,104558,104558,train,train
+Pituitary tumor/1166,104558,104558,train,train
+Pituitary tumor/1167,104558,104558,train,train
+Pituitary tumor/1168,112002,112002,train,train
+Pituitary tumor/1169,104684,104684,validation,train
+Pituitary tumor/1170,104684,104684,validation,train
+Pituitary tumor/1171,104684,104684,validation,train
+Pituitary tumor/1172,104684,104684,validation,train
+Pituitary tumor/1173,104684,104684,validation,train
+Pituitary tumor/1174,104684,104684,validation,train
+Pituitary tumor/1175,104684,104684,validation,train
+Pituitary tumor/1176,104684,104684,validation,train
+Pituitary tumor/1177,104684,104684,validation,train
+Pituitary tumor/1178,104912,104912,train,train
+Pituitary tumor/1179,112002,112002,train,train
+Pituitary tumor/1180,104912,104912,train,train
+Pituitary tumor/1181,104912,104912,train,train
+Pituitary tumor/1182,104912,104912,train,train
+Pituitary tumor/1183,104912,104912,train,train
+Pituitary tumor/1184,105187,105187,train,validation
+Pituitary tumor/1185,105187,105187,train,validation
+Pituitary tumor/1186,105187,105187,train,validation
+Pituitary tumor/1187,105187,105187,train,validation
+Pituitary tumor/1188,105475,105475,test,train
+Pituitary tumor/1189,105475,105475,test,train
+Pituitary tumor/1190,112002,112002,train,train
+Pituitary tumor/1191,105538,105538,train,train
+Pituitary tumor/1192,105538,105538,train,train
+Pituitary tumor/1193,105538,105538,train,train
+Pituitary tumor/1194,105638,105638,validation,train
+Pituitary tumor/1195,105638,105638,validation,train
+Pituitary tumor/1196,105638,105638,validation,train
+Pituitary tumor/1197,97416,97416,train,train
+Pituitary tumor/1198,97416,97416,train,train
+Pituitary tumor/1199,97416,97416,train,train
+Pituitary tumor/1200,97416,97416,train,train
+Pituitary tumor/1201,112062,112062,train,train
+Pituitary tumor/1202,97416,97416,train,train
+Pituitary tumor/1203,97416,97416,train,train
+Pituitary tumor/1204,97416,97416,train,train
+Pituitary tumor/1205,97416,97416,train,train
+Pituitary tumor/1206,97416,97416,train,train
+Pituitary tumor/1207,97461,97461,validation,train
+Pituitary tumor/1208,97461,97461,validation,train
+Pituitary tumor/1209,97461,97461,validation,train
+Pituitary tumor/1210,97461,97461,validation,train
+Pituitary tumor/1211,97461,97461,validation,train
+Pituitary tumor/1212,101016,101016,train,train
+Pituitary tumor/1213,112062,112062,train,train
+Pituitary tumor/1214,97461,97461,validation,train
+Pituitary tumor/1215,97461,97461,validation,train
+Pituitary tumor/1216,97461,97461,validation,train
+Pituitary tumor/1217,97461,97461,validation,train
+Pituitary tumor/1218,97481,97481,train,train
+Pituitary tumor/1219,97481,97481,train,train
+Pituitary tumor/1220,97481,97481,train,train
+Pituitary tumor/1221,97481,97481,train,train
+Pituitary tumor/1222,97599,97599,train,train
+Pituitary tumor/1223,97599,97599,train,train
+Pituitary tumor/1224,112062,112062,train,train
+Pituitary tumor/1225,97890,97890,train,train
+Pituitary tumor/1226,97890,97890,train,train
+Pituitary tumor/1227,97890,97890,train,train
+Pituitary tumor/1228,97890,97890,train,train
+Pituitary tumor/1229,98472,98472,test,validation
+Pituitary tumor/1230,98472,98472,test,validation
+Pituitary tumor/1231,98472,98472,test,validation
+Pituitary tumor/1232,98472,98472,test,validation
+Pituitary tumor/1233,98472,98472,test,validation
+Pituitary tumor/1234,98472,98472,test,validation
+Pituitary tumor/1235,112252,112252,train,test
+Pituitary tumor/1236,98472,98472,test,validation
+Pituitary tumor/1237,98652,98652,validation,test
+Pituitary tumor/1238,98652,98652,validation,test
+Pituitary tumor/1239,98652,98652,validation,test
+Pituitary tumor/1240,98871,98871,train,test
+Pituitary tumor/1241,98871,98871,train,test
+Pituitary tumor/1242,98871,98871,train,test
+Pituitary tumor/1243,98871,98871,train,test
+Pituitary tumor/1244,98871,98871,train,test
+Pituitary tumor/1245,98871,98871,train,test
+Pituitary tumor/1246,112252,112252,train,test
+Pituitary tumor/1247,98874,98874,train,validation
+Pituitary tumor/1248,98874,98874,train,validation
+Pituitary tumor/1249,98874,98874,train,validation
+Pituitary tumor/1250,98874,98874,train,validation
+Pituitary tumor/1251,98874,98874,train,validation
+Pituitary tumor/1252,98992,98992,validation,train
+Pituitary tumor/1253,98992,98992,validation,train
+Pituitary tumor/1254,98992,98992,validation,train
+Pituitary tumor/1255,98992,98992,validation,train
+Pituitary tumor/1256,98992,98992,validation,train
+Pituitary tumor/1257,112552,112552,train,train
+Pituitary tumor/1258,98992,98992,validation,train
+Pituitary tumor/1259,98992,98992,validation,train
+Pituitary tumor/1260,98995,98995,train,train
+Pituitary tumor/1261,98995,98995,train,train
+Pituitary tumor/1262,98995,98995,train,train
+Pituitary tumor/1263,98995,98995,train,train
+Pituitary tumor/1264,98995,98995,train,train
+Pituitary tumor/1265,99223,99223,train,validation
+Pituitary tumor/1266,99223,99223,train,validation
+Pituitary tumor/1267,99223,99223,train,validation
+Pituitary tumor/1268,112552,112552,train,train
+Pituitary tumor/1269,99223,99223,train,validation
+Pituitary tumor/1270,99223,99223,train,validation
+Pituitary tumor/1271,99223,99223,train,validation
+Pituitary tumor/1272,99223,99223,train,validation
+Pituitary tumor/1273,99223,99223,train,validation
+Pituitary tumor/1274,99223,99223,train,validation
+Pituitary tumor/1275,101017,101017,train,test
+Pituitary tumor/1276,101017,101017,train,test
+Pituitary tumor/1277,101017,101017,train,test
+Pituitary tumor/1278,101017,101017,train,test
+Pituitary tumor/1279,112552,112552,train,train
+Pituitary tumor/1280,101017,101017,train,test
+Pituitary tumor/1281,101017,101017,train,test
+Pituitary tumor/1282,101029,101029,train,train
+Pituitary tumor/1283,101029,101029,train,train
+Pituitary tumor/1284,101029,101029,train,train
+Pituitary tumor/1285,101029,101029,train,train
+Pituitary tumor/1286,101029,101029,train,train
+Pituitary tumor/1287,101029,101029,train,train
+Pituitary tumor/1288,101145,101145,train,test
+Pituitary tumor/1289,101145,101145,train,test
+Pituitary tumor/1290,112552,112552,train,train
+Pituitary tumor/1291,101145,101145,train,test
+Pituitary tumor/1292,101145,101145,train,test
+Pituitary tumor/1293,101305,101305,train,train
+Pituitary tumor/1294,101305,101305,train,train
+Pituitary tumor/1295,101305,101305,train,train
+Pituitary tumor/1296,101305,101305,train,train
+Pituitary tumor/1297,101305,101305,train,train
+Pituitary tumor/1298,101305,101305,train,train
+Pituitary tumor/1299,101305,101305,train,train
+Pituitary tumor/1300,101305,101305,train,train
+Pituitary tumor/1301,112552,112552,train,train
+Pituitary tumor/1302,101724,101724,train,train
+Pituitary tumor/1303,101724,101724,train,train
+Pituitary tumor/1304,101724,101724,train,train
+Pituitary tumor/1305,102648,102648,train,test
+Pituitary tumor/1306,102648,102648,train,test
+Pituitary tumor/1307,102648,102648,train,test
+Pituitary tumor/1308,102648,102648,train,test
+Pituitary tumor/1309,102669,102669,train,train
+Pituitary tumor/1310,102669,102669,train,train
+Pituitary tumor/1311,103046,103046,train,train
+Pituitary tumor/1312,112552,112552,train,train
+Pituitary tumor/1313,103046,103046,train,train
+Pituitary tumor/1314,103046,103046,train,train
+Pituitary tumor/1315,103046,103046,train,train
+Pituitary tumor/1316,103257,103257,train,validation
+Pituitary tumor/1317,103257,103257,train,validation
+Pituitary tumor/1318,103257,103257,train,validation
+Pituitary tumor/1319,103257,103257,train,validation
+Pituitary tumor/1320,103257,103257,train,validation
+Pituitary tumor/1321,103478,103478,train,train
+Pituitary tumor/1322,103478,103478,train,train
+Pituitary tumor/1323,101016,101016,train,train
+Pituitary tumor/1324,112552,112552,train,train
+Pituitary tumor/1325,103478,103478,train,train
+Pituitary tumor/1326,103478,103478,train,train
+Pituitary tumor/1327,103478,103478,train,train
+Pituitary tumor/1328,103478,103478,train,train
+Pituitary tumor/1329,103478,103478,train,train
+Pituitary tumor/1330,103478,103478,train,train
+Pituitary tumor/1331,103582,103582,train,train
+Pituitary tumor/1332,103582,103582,train,train
+Pituitary tumor/1333,103582,103582,train,train
+Pituitary tumor/1334,103582,103582,train,train
+Pituitary tumor/1335,112648,112648,train,test
+Pituitary tumor/1336,103582,103582,train,train
+Pituitary tumor/1337,103670,103670,train,train
+Pituitary tumor/1338,103670,103670,train,train
+Pituitary tumor/1339,103670,103670,train,train
+Pituitary tumor/1340,103670,103670,train,train
+Pituitary tumor/1341,103671,103671,validation,train
+Pituitary tumor/1342,103671,103671,validation,train
+Pituitary tumor/1343,103671,103671,validation,train
+Pituitary tumor/1344,103671,103671,validation,train
+Pituitary tumor/1345,103671,103671,validation,train
+Pituitary tumor/1346,112648,112648,train,test
+Pituitary tumor/1347,103671,103671,validation,train
+Pituitary tumor/1348,103731,103731,test,validation
+Pituitary tumor/1349,103731,103731,test,validation
+Pituitary tumor/1350,103731,103731,test,validation
+Pituitary tumor/1351,103731,103731,test,validation
+Pituitary tumor/1352,103731,103731,test,validation
+Pituitary tumor/1353,103731,103731,test,validation
+Pituitary tumor/1354,103731,103731,test,validation
+Pituitary tumor/1355,103837,103837,test,train
+Pituitary tumor/1356,103837,103837,test,train
+Pituitary tumor/1357,112648,112648,train,test
+Pituitary tumor/1358,103837,103837,test,train
+Pituitary tumor/1359,103837,103837,test,train
+Pituitary tumor/1360,103837,103837,test,train
+Pituitary tumor/1361,104019,104019,train,train
+Pituitary tumor/1362,104019,104019,train,train
+Pituitary tumor/1363,104019,104019,train,train
+Pituitary tumor/1364,104019,104019,train,train
+Pituitary tumor/1365,104019,104019,train,train
+Pituitary tumor/1366,104558,104558,train,train
+Pituitary tumor/1367,104558,104558,train,train
+Pituitary tumor/1368,113435,113435,test,train
+Pituitary tumor/1369,104558,104558,train,train
+Pituitary tumor/1370,104558,104558,train,train
+Pituitary tumor/1371,104558,104558,train,train
+Pituitary tumor/1372,104558,104558,train,train
+Pituitary tumor/1373,104558,104558,train,train
+Pituitary tumor/1374,104684,104684,validation,train
+Pituitary tumor/1375,104684,104684,validation,train
+Pituitary tumor/1376,104684,104684,validation,train
+Pituitary tumor/1377,104684,104684,validation,train
+Pituitary tumor/1378,104684,104684,validation,train
+Pituitary tumor/1379,113435,113435,test,train
+Pituitary tumor/1380,104684,104684,validation,train
+Pituitary tumor/1381,104684,104684,validation,train
+Pituitary tumor/1382,104912,104912,train,train
+Pituitary tumor/1383,104912,104912,train,train
+Pituitary tumor/1384,104912,104912,train,train
+Pituitary tumor/1385,104912,104912,train,train
+Pituitary tumor/1386,104912,104912,train,train
+Pituitary tumor/1387,105187,105187,train,validation
+Pituitary tumor/1388,105187,105187,train,validation
+Pituitary tumor/1389,105187,105187,train,validation
+Pituitary tumor/1390,113435,113435,test,train
+Pituitary tumor/1391,105187,105187,train,validation
+Pituitary tumor/1392,105187,105187,train,validation
+Pituitary tumor/1393,105187,105187,train,validation
+Pituitary tumor/1394,105475,105475,test,train
+Pituitary tumor/1395,105475,105475,test,train
+Pituitary tumor/1396,105475,105475,test,train
+Pituitary tumor/1397,105538,105538,train,train
+Pituitary tumor/1398,105538,105538,train,train
+Pituitary tumor/1399,105638,105638,validation,train
+Pituitary tumor/1400,105638,105638,validation,train
+Pituitary tumor/1401,113435,113435,test,train
+Pituitary tumor/1402,105638,105638,validation,train
+Pituitary tumor/1403,105638,105638,validation,train
+Pituitary tumor/1404,105638,105638,validation,train
+Pituitary tumor/1405,97416,97416,train,train
+Pituitary tumor/1406,97416,97416,train,train
+Pituitary tumor/1407,97416,97416,train,train
+Pituitary tumor/1408,97416,97416,train,train
+Pituitary tumor/1409,97416,97416,train,train
+Pituitary tumor/1410,97416,97416,train,train
+Pituitary tumor/1411,97416,97416,train,train
+Pituitary tumor/1412,113435,113435,test,train
+Pituitary tumor/1413,97416,97416,train,train
+Pituitary tumor/1414,97461,97461,validation,train
+Pituitary tumor/1415,97461,97461,validation,train
+Pituitary tumor/1416,97461,97461,validation,train
+Pituitary tumor/1417,97461,97461,validation,train
+Pituitary tumor/1418,97461,97461,validation,train
+Pituitary tumor/1419,97461,97461,validation,train
+Pituitary tumor/1420,97461,97461,validation,train
+Pituitary tumor/1421,97461,97461,validation,train
+Pituitary tumor/1422,97481,97481,train,train
+Pituitary tumor/1423,113435,113435,test,train
+Pituitary tumor/1424,97481,97481,train,train
+Pituitary tumor/1425,97481,97481,train,train
+Pituitary tumor/1426,97481,97481,train,train
+Pituitary tumor/1427,97481,97481,train,train
+Pituitary tumor/1428,97599,97599,train,train
+Pituitary tumor/1429,97599,97599,train,train
+Pituitary tumor/1430,97890,97890,train,train
+Pituitary tumor/1431,97890,97890,train,train
+Pituitary tumor/1432,97890,97890,train,train
+Pituitary tumor/1433,97890,97890,train,train
+Pituitary tumor/1434,101127,101127,train,train
+Pituitary tumor/1435,113554,113554,validation,validation
+Pituitary tumor/1436,98472,98472,test,validation
+Pituitary tumor/1437,98472,98472,test,validation
+Pituitary tumor/1438,98472,98472,test,validation
+Pituitary tumor/1439,98472,98472,test,validation
+Pituitary tumor/1440,98472,98472,test,validation
+Pituitary tumor/1441,98652,98652,validation,test
+Pituitary tumor/1442,98652,98652,validation,test
+Pituitary tumor/1443,98652,98652,validation,test
+Pituitary tumor/1444,98652,98652,validation,test
+Pituitary tumor/1445,98871,98871,train,test
+Pituitary tumor/1446,113554,113554,validation,validation
+Pituitary tumor/1447,98871,98871,train,test
+Pituitary tumor/1448,98871,98871,train,test
+Pituitary tumor/1449,98871,98871,train,test
+Pituitary tumor/1450,98871,98871,train,test
+Pituitary tumor/1451,98871,98871,train,test
+Pituitary tumor/1452,98871,98871,train,test
+Pituitary tumor/1453,98874,98874,train,validation
+Pituitary tumor/1454,98874,98874,train,validation
+Pituitary tumor/1455,98874,98874,train,validation
+Pituitary tumor/1456,98874,98874,train,validation
+Pituitary tumor/1457,113554,113554,validation,validation
+Pituitary tumor/1458,98874,98874,train,validation
+Pituitary tumor/1459,98992,98992,validation,train
+Pituitary tumor/1460,98992,98992,validation,train
+Pituitary tumor/1461,98992,98992,validation,train
+Pituitary tumor/1462,98992,98992,validation,train
+Pituitary tumor/1463,98992,98992,validation,train
+Pituitary tumor/1464,98992,98992,validation,train
+Pituitary tumor/1465,98992,98992,validation,train
+Pituitary tumor/1466,98995,98995,train,train
+Pituitary tumor/1467,98995,98995,train,train
+Pituitary tumor/1468,113805,113805,validation,train
+Pituitary tumor/1469,98995,98995,train,train
+Pituitary tumor/1470,98995,98995,train,train
+Pituitary tumor/1471,98995,98995,train,train
+Pituitary tumor/1472,98995,98995,train,train
+Pituitary tumor/1473,99223,99223,train,validation
+Pituitary tumor/1474,99223,99223,train,validation
+Pituitary tumor/1475,99223,99223,train,validation
+Pituitary tumor/1476,99223,99223,train,validation
+Pituitary tumor/1477,99223,99223,train,validation
+Pituitary tumor/1478,99223,99223,train,validation
+Pituitary tumor/1479,114018,114018,test,test
+Pituitary tumor/1480,101017,101017,train,test
+Pituitary tumor/1481,101017,101017,train,test
+Pituitary tumor/1482,101017,101017,train,test
+Pituitary tumor/1483,101017,101017,train,test
+Pituitary tumor/1484,101029,101029,train,train
+Pituitary tumor/1485,101029,101029,train,train
+Pituitary tumor/1486,101029,101029,train,train
+Pituitary tumor/1487,101029,101029,train,train
+Pituitary tumor/1488,101029,101029,train,train
+Pituitary tumor/1489,101029,101029,train,train
+Pituitary tumor/1490,114018,114018,test,test
+Pituitary tumor/1491,101029,101029,train,train
+Pituitary tumor/1492,101145,101145,train,test
+Pituitary tumor/1493,101145,101145,train,test
+Pituitary tumor/1494,101145,101145,train,test
+Pituitary tumor/1495,101145,101145,train,test
+Pituitary tumor/1496,101305,101305,train,train
+Pituitary tumor/1497,101305,101305,train,train
+Pituitary tumor/1498,101305,101305,train,train
+Pituitary tumor/1499,101305,101305,train,train
+Pituitary tumor/1500,101724,101724,train,train
+Pituitary tumor/1501,114018,114018,test,test
+Pituitary tumor/1502,101724,101724,train,train
+Pituitary tumor/1503,101724,101724,train,train
+Pituitary tumor/1504,101724,101724,train,train
+Pituitary tumor/1505,101724,101724,train,train
+Pituitary tumor/1506,101724,101724,train,train
+Pituitary tumor/1507,102648,102648,train,test
+Pituitary tumor/1508,102648,102648,train,test
+Pituitary tumor/1509,102648,102648,train,test
+Pituitary tumor/1510,102648,102648,train,test
+Pituitary tumor/1511,102648,102648,train,test
+Pituitary tumor/1512,114018,114018,test,test
+Pituitary tumor/1513,102648,102648,train,test
+Pituitary tumor/1514,102648,102648,train,test
+Pituitary tumor/1515,102669,102669,train,train
+Pituitary tumor/1516,103046,103046,train,train
+Pituitary tumor/1517,103046,103046,train,train
+Pituitary tumor/1518,103046,103046,train,train
+Pituitary tumor/1519,103046,103046,train,train
+Pituitary tumor/1520,103257,103257,train,validation
+Pituitary tumor/1521,103257,103257,train,validation
+Pituitary tumor/1522,103257,103257,train,validation
+Pituitary tumor/1523,114018,114018,test,test
+Pituitary tumor/1524,103257,103257,train,validation
+Pituitary tumor/1525,103257,103257,train,validation
+Pituitary tumor/1526,103257,103257,train,validation
+Pituitary tumor/1527,103257,103257,train,validation
+Pituitary tumor/1528,103478,103478,train,train
+Pituitary tumor/1529,103478,103478,train,train
+Pituitary tumor/1530,103478,103478,train,train
+Pituitary tumor/1531,103478,103478,train,train
+Pituitary tumor/1532,103478,103478,train,train
+Pituitary tumor/1533,103478,103478,train,train
+Pituitary tumor/1534,114359,114359,validation,validation
+Pituitary tumor/1535,103478,103478,train,train
+Pituitary tumor/1536,103478,103478,train,train
+Pituitary tumor/1537,103582,103582,train,train
+Pituitary tumor/1538,103582,103582,train,train
+Pituitary tumor/1539,103582,103582,train,train
+Pituitary tumor/1540,103582,103582,train,train
+Pituitary tumor/1541,103582,103582,train,train
+Pituitary tumor/1542,103582,103582,train,train
+Pituitary tumor/1543,103582,103582,train,train
+Pituitary tumor/1544,103582,103582,train,train
+Pituitary tumor/1545,101127,101127,train,train
+Pituitary tumor/1546,114359,114359,validation,validation
+Pituitary tumor/1547,103670,103670,train,train
+Pituitary tumor/1548,103670,103670,train,train
+Pituitary tumor/1549,103670,103670,train,train
+Pituitary tumor/1550,103670,103670,train,train
+Pituitary tumor/1551,103671,103671,validation,train
+Pituitary tumor/1552,103671,103671,validation,train
+Pituitary tumor/1553,103671,103671,validation,train
+Pituitary tumor/1554,103671,103671,validation,train
+Pituitary tumor/1555,103671,103671,validation,train
+Pituitary tumor/1556,103731,103731,test,validation
+Pituitary tumor/1557,114359,114359,validation,validation
+Pituitary tumor/1558,103731,103731,test,validation
+Pituitary tumor/1559,103731,103731,test,validation
+Pituitary tumor/1560,103731,103731,test,validation
+Pituitary tumor/1561,103731,103731,test,validation
+Pituitary tumor/1562,103837,103837,test,train
+Pituitary tumor/1563,103837,103837,test,train
+Pituitary tumor/1564,103837,103837,test,train
+Pituitary tumor/1565,103837,103837,test,train
+Pituitary tumor/1566,103837,103837,test,train
+Pituitary tumor/1567,103837,103837,test,train
+Pituitary tumor/1568,114359,114359,validation,validation
+Pituitary tumor/1569,103837,103837,test,train
+Pituitary tumor/1570,104019,104019,train,train
+Pituitary tumor/1571,104019,104019,train,train
+Pituitary tumor/1572,104019,104019,train,train
+Pituitary tumor/1573,104019,104019,train,train
+Pituitary tumor/1574,104558,104558,train,train
+Pituitary tumor/1575,104558,104558,train,train
+Pituitary tumor/1576,104558,104558,train,train
+Pituitary tumor/1577,104558,104558,train,train
+Pituitary tumor/1578,104558,104558,train,train
+Pituitary tumor/1579,114359,114359,validation,validation
+Pituitary tumor/1580,104558,104558,train,train
+Pituitary tumor/1581,104558,104558,train,train
+Pituitary tumor/1582,104558,104558,train,train
+Pituitary tumor/1583,104558,104558,train,train
+Pituitary tumor/1584,104684,104684,validation,train
+Pituitary tumor/1585,104684,104684,validation,train
+Pituitary tumor/1586,104684,104684,validation,train
+Pituitary tumor/1587,104684,104684,validation,train
+Pituitary tumor/1588,104684,104684,validation,train
+Pituitary tumor/1589,104684,104684,validation,train
+Pituitary tumor/1590,114359,114359,validation,validation
+Pituitary tumor/1591,104684,104684,validation,train
+Pituitary tumor/1592,104912,104912,train,train
+Pituitary tumor/1593,104912,104912,train,train
+Pituitary tumor/1594,104912,104912,train,train
+Pituitary tumor/1595,104912,104912,train,train
+Pituitary tumor/1596,104912,104912,train,train
+Pituitary tumor/1597,104912,104912,train,train
+Pituitary tumor/1598,104912,104912,train,train
+Pituitary tumor/1599,105187,105187,train,validation
+Pituitary tumor/1600,105187,105187,train,validation
+Pituitary tumor/1601,97607,97607,train,train
+Pituitary tumor/1602,105187,105187,train,validation
+Pituitary tumor/1603,105187,105187,train,validation
+Pituitary tumor/1604,105187,105187,train,validation
+Pituitary tumor/1605,105187,105187,train,validation
+Pituitary tumor/1606,105475,105475,test,train
+Pituitary tumor/1607,105475,105475,test,train
+Pituitary tumor/1608,105475,105475,test,train
+Pituitary tumor/1609,105475,105475,test,train
+Pituitary tumor/1610,105475,105475,test,train
+Pituitary tumor/1611,105538,105538,train,train
+Pituitary tumor/1612,97607,97607,train,train
+Pituitary tumor/1613,105538,105538,train,train
+Pituitary tumor/1614,105638,105638,validation,train
+Pituitary tumor/1615,105638,105638,validation,train
+Pituitary tumor/1616,105638,105638,validation,train
+Pituitary tumor/1617,105638,105638,validation,train
+Pituitary tumor/1618,105638,105638,validation,train
+Pituitary tumor/1619,97416,97416,train,train
+Pituitary tumor/1620,97416,97416,train,train
+Pituitary tumor/1621,97416,97416,train,train
+Pituitary tumor/1622,97416,97416,train,train
+Pituitary tumor/1623,97607,97607,train,train
+Pituitary tumor/1624,97416,97416,train,train
+Pituitary tumor/1625,97416,97416,train,train
+Pituitary tumor/1626,97416,97416,train,train
+Pituitary tumor/1627,97461,97461,validation,train
+Pituitary tumor/1628,97461,97461,validation,train
+Pituitary tumor/1629,97461,97461,validation,train
+Pituitary tumor/1630,97461,97461,validation,train
+Pituitary tumor/1631,97461,97461,validation,train
+Pituitary tumor/1632,97461,97461,validation,train
+Pituitary tumor/1633,97461,97461,validation,train
+Pituitary tumor/1634,97607,97607,train,train
+Pituitary tumor/1635,97461,97461,validation,train
+Pituitary tumor/1636,97481,97481,train,train
+Pituitary tumor/1637,97481,97481,train,train
+Pituitary tumor/1638,97481,97481,train,train
+Pituitary tumor/1639,97481,97481,train,train
+Pituitary tumor/1640,97481,97481,train,train
+Pituitary tumor/1641,97599,97599,train,train
+Pituitary tumor/1642,97599,97599,train,train
+Pituitary tumor/1643,97599,97599,train,train
+Pituitary tumor/1644,97890,97890,train,train
+Pituitary tumor/1645,97607,97607,train,train
+Pituitary tumor/1646,97890,97890,train,train
+Pituitary tumor/1647,97890,97890,train,train
+Pituitary tumor/1648,97890,97890,train,train
+Pituitary tumor/1649,97890,97890,train,train
+Pituitary tumor/1650,97890,97890,train,train
+Pituitary tumor/1651,98472,98472,test,validation
+Pituitary tumor/1652,98472,98472,test,validation
+Pituitary tumor/1653,98472,98472,test,validation
+Pituitary tumor/1654,98472,98472,test,validation
+Pituitary tumor/1655,98472,98472,test,validation
+Pituitary tumor/1656,101127,101127,train,train
+Pituitary tumor/1657,97737,97737,test,validation
+Pituitary tumor/1658,98472,98472,test,validation
+Pituitary tumor/1659,98652,98652,validation,test
+Pituitary tumor/1660,98652,98652,validation,test
+Pituitary tumor/1661,98652,98652,validation,test
+Pituitary tumor/1662,98652,98652,validation,test
+Pituitary tumor/1663,98652,98652,validation,test
+Pituitary tumor/1664,98871,98871,train,test
+Pituitary tumor/1665,98871,98871,train,test
+Pituitary tumor/1666,98871,98871,train,test
+Pituitary tumor/1667,98871,98871,train,test
+Pituitary tumor/1668,97737,97737,test,validation
+Pituitary tumor/1669,98871,98871,train,test
+Pituitary tumor/1670,98871,98871,train,test
+Pituitary tumor/1671,98871,98871,train,test
+Pituitary tumor/1672,98874,98874,train,validation
+Pituitary tumor/1673,98874,98874,train,validation
+Pituitary tumor/1674,98874,98874,train,validation
+Pituitary tumor/1675,98874,98874,train,validation
+Pituitary tumor/1676,98874,98874,train,validation
+Pituitary tumor/1677,98874,98874,train,validation
+Pituitary tumor/1678,98992,98992,validation,train
+Pituitary tumor/1679,97737,97737,test,validation
+Pituitary tumor/1680,98992,98992,validation,train
+Pituitary tumor/1681,98992,98992,validation,train
+Pituitary tumor/1682,98992,98992,validation,train
+Pituitary tumor/1683,98992,98992,validation,train
+Pituitary tumor/1684,98992,98992,validation,train
+Pituitary tumor/1685,98992,98992,validation,train
+Pituitary tumor/1686,98992,98992,validation,train
+Pituitary tumor/1687,98992,98992,validation,train
+Pituitary tumor/1688,98992,98992,validation,train
+Pituitary tumor/1689,98992,98992,validation,train
+Pituitary tumor/1690,97737,97737,test,validation
+Pituitary tumor/1691,98995,98995,train,train
+Pituitary tumor/1692,98995,98995,train,train
+Pituitary tumor/1693,98995,98995,train,train
+Pituitary tumor/1694,98995,98995,train,train
+Pituitary tumor/1695,98995,98995,train,train
+Pituitary tumor/1696,99223,99223,train,validation
+Pituitary tumor/1697,99223,99223,train,validation
+Pituitary tumor/1698,99223,99223,train,validation
+Pituitary tumor/1699,99223,99223,train,validation
+Pituitary tumor/1700,99223,99223,train,validation
+Pituitary tumor/1701,97875,97875,validation,train
+Pituitary tumor/1702,99223,99223,train,validation
+Pituitary tumor/1703,MR048294,48294,validation,train
+Pituitary tumor/1704,MR048294,48294,validation,train
+Pituitary tumor/1705,MR048294,48294,validation,train
+Pituitary tumor/1706,MR048294,48294,validation,train
+Pituitary tumor/1707,MR048294,48294,validation,train
+Pituitary tumor/1708,MR048294,48294,validation,train
+Pituitary tumor/1709,MR048294,48294,validation,train
+Pituitary tumor/1710,MR048294,48294,validation,train
+Pituitary tumor/1711,MR048297,48297,train,train
+Pituitary tumor/1712,97875,97875,validation,train
+Pituitary tumor/1713,MR048297,48297,train,train
+Pituitary tumor/1714,MR048297,48297,train,train
+Pituitary tumor/1715,MR048297,48297,train,train
+Pituitary tumor/1716,MR048294B,48294,train,train
+Pituitary tumor/1717,MR048621B,48621,train,train
+Pituitary tumor/1718,MR048621B,48621,train,train
+Pituitary tumor/1719,MR048621B,48621,train,train
+Pituitary tumor/1720,MR048621B,48621,train,train
+Pituitary tumor/1721,MR048621B,48621,train,train
+Pituitary tumor/1722,MR048621B,48621,train,train
+Pituitary tumor/1723,97875,97875,validation,train
+Pituitary tumor/1724,MR048621B,48621,train,train
+Pituitary tumor/1725,MR048621B,48621,train,train
+Pituitary tumor/1726,MR048944,48944,test,train
+Pituitary tumor/1727,MR048944,48944,test,train
+Pituitary tumor/1728,MR048944,48944,test,train
+Pituitary tumor/1729,MR048944,48944,test,train
+Pituitary tumor/1730,MR048944,48944,test,train
+Pituitary tumor/1731,MR048944,48944,test,train
+Pituitary tumor/1732,MR048944,48944,test,train
+Pituitary tumor/1733,MR048944,48944,test,train
+Pituitary tumor/1734,97943,97943,train,test
+Pituitary tumor/1735,MR048994,48994,train,train
+Pituitary tumor/1736,MR048994,48994,train,train
+Pituitary tumor/1737,MR048994,48994,train,train
+Pituitary tumor/1738,MR048994,48994,train,train
+Pituitary tumor/1739,MR048994,48994,train,train
+Pituitary tumor/1740,MR048994,48994,train,train
+Pituitary tumor/1741,MR048994,48994,train,train
+Pituitary tumor/1742,MR048994,48994,train,train
+Pituitary tumor/1743,MR048994,48994,train,train
+Pituitary tumor/1744,MR049104,49104,train,train
+Pituitary tumor/1745,97943,97943,train,test
+Pituitary tumor/1746,MR049104,49104,train,train
+Pituitary tumor/1747,MR049142,49142,train,validation
+Pituitary tumor/1748,MR049142,49142,train,validation
+Pituitary tumor/1749,MR049142,49142,train,validation
+Pituitary tumor/1750,MR049142,49142,train,validation
+Pituitary tumor/1751,MR048994B,48994,train,train
+Pituitary tumor/1752,MR048994B,48994,train,train
+Pituitary tumor/1753,MR048994B,48994,train,train
+Pituitary tumor/1754,MR048994B,48994,train,train
+Pituitary tumor/1755,MR048994B,48994,train,train
+Pituitary tumor/1756,97943,97943,train,test
+Pituitary tumor/1757,MR048994B,48994,train,train
+Pituitary tumor/1758,MR048994B,48994,train,train
+Pituitary tumor/1759,MR048994B,48994,train,train
+Pituitary tumor/1760,MR048944B,48944,validation,train
+Pituitary tumor/1761,MR048944B,48944,validation,train
+Pituitary tumor/1762,MR048944B,48944,validation,train
+Pituitary tumor/1763,MR048944B,48944,validation,train
+Pituitary tumor/1764,MR048944B,48944,validation,train
+Pituitary tumor/1765,MR048944B,48944,validation,train
+Pituitary tumor/1766,MR049358,49358,train,train
+Pituitary tumor/1767,101127,101127,train,train
+Pituitary tumor/1768,97943,97943,train,test
+Pituitary tumor/1769,MR049358,49358,train,train
+Pituitary tumor/1770,MR049358,49358,train,train
+Pituitary tumor/1771,MR049358,49358,train,train
+Pituitary tumor/1772,MR049358,49358,train,train
+Pituitary tumor/1773,MR049358,49358,train,train
+Pituitary tumor/1774,MR049358,49358,train,train
+Pituitary tumor/1775,MR049358,49358,train,train
+Pituitary tumor/1776,MR049358,49358,train,train
+Pituitary tumor/1777,MR049358,49358,train,train
+Pituitary tumor/1778,MR049104B,49104,train,train
+Pituitary tumor/1779,97943,97943,train,test
+Pituitary tumor/1780,MR049104B,49104,train,train
+Pituitary tumor/1781,MR049104B,49104,train,train
+Pituitary tumor/1782,MR049104B,49104,train,train
+Pituitary tumor/1783,MR049104B,49104,train,train
+Pituitary tumor/1784,MR049453,49453,test,train
+Pituitary tumor/1785,MR049453,49453,test,train
+Pituitary tumor/1786,MR049453,49453,test,train
+Pituitary tumor/1787,MR049453,49453,test,train
+Pituitary tumor/1788,MR049453,49453,test,train
+Pituitary tumor/1789,MR049453,49453,test,train
+Pituitary tumor/1790,98241,98241,validation,train
+Pituitary tumor/1791,MR049453,49453,test,train
+Pituitary tumor/1792,MR024780G,24780,train,test
+Pituitary tumor/1793,MR024780G,24780,train,test
+Pituitary tumor/1794,MR024780G,24780,train,test
+Pituitary tumor/1795,MR024780G,24780,train,test
+Pituitary tumor/1796,MR024780G,24780,train,test
+Pituitary tumor/1797,MR024780G,24780,train,test
+Pituitary tumor/1798,MR024780G,24780,train,test
+Pituitary tumor/1799,MR024780G,24780,train,test
+Pituitary tumor/1800,MR024780G,24780,train,test
+Pituitary tumor/1801,98241,98241,validation,train
+Pituitary tumor/1802,MR024780G,24780,train,test
+Pituitary tumor/1803,MR024780G,24780,train,test
+Pituitary tumor/1804,MR024780G,24780,train,test
+Pituitary tumor/1805,MR024780G,24780,train,test
+Pituitary tumor/1806,MR024780G,24780,train,test
+Pituitary tumor/1807,MR024780G,24780,train,test
+Pituitary tumor/1808,MR024780G,24780,train,test
+Pituitary tumor/1809,MR049453B,49453,test,train
+Pituitary tumor/1810,MR049453B,49453,test,train
+Pituitary tumor/1811,MR049453B,49453,test,train
+Pituitary tumor/1812,98241,98241,validation,train
+Pituitary tumor/1813,MR049453B,49453,test,train
+Pituitary tumor/1814,MR049453B,49453,test,train
+Pituitary tumor/1815,MR049453B,49453,test,train
+Pituitary tumor/1816,MR049453B,49453,test,train
+Pituitary tumor/1817,MR049453B,49453,test,train
+Pituitary tumor/1818,MR048294B,48294,train,train
+Pituitary tumor/1819,MR048294B,48294,train,train
+Pituitary tumor/1820,MR048294B,48294,train,train
+Pituitary tumor/1821,MR048621B,48621,train,train
+Pituitary tumor/1822,MR048621B,48621,train,train
+Pituitary tumor/1823,98241,98241,validation,train
+Pituitary tumor/1824,MR050135B,50135,train,train
+Pituitary tumor/1825,MR050135B,50135,train,train
+Pituitary tumor/1826,MR050135B,50135,train,train
+Pituitary tumor/1827,MR050135B,50135,train,train
+Pituitary tumor/1828,MR050135B,50135,train,train
+Pituitary tumor/1829,MR050135B,50135,train,train
+Pituitary tumor/1830,MR050135B,50135,train,train
+Pituitary tumor/1831,MR050135B,50135,train,train
+Pituitary tumor/1832,MR050135B,50135,train,train
+Pituitary tumor/1833,MR050135B,50135,train,train
+Pituitary tumor/1834,98241,98241,validation,train
+Pituitary tumor/1835,MR050135B,50135,train,train
+Pituitary tumor/1836,MR050135B,50135,train,train
+Pituitary tumor/1837,MR050135B,50135,train,train
+Pituitary tumor/1838,MR050135B,50135,train,train
+Pituitary tumor/1839,MR050687,50687,train,validation
+Pituitary tumor/1840,MR050687,50687,train,validation
+Glioma/1841,MR050687,50687,train,validation
+Glioma/1842,MR050687,50687,train,validation
+Glioma/1843,MR050687,50687,train,validation
+Glioma/1844,MR050687,50687,train,validation
+Glioma/1845,98241,98241,validation,train
+Glioma/1846,MR050687,50687,train,validation
+Glioma/1847,MR050687,50687,train,validation
+Glioma/1848,MR050687,50687,train,validation
+Glioma/1849,MR050687,50687,train,validation
+Glioma/1850,MR050791B,50791,train,train
+Glioma/1851,MR050791B,50791,train,train
+Glioma/1852,MR050791B,50791,train,train
+Glioma/1853,MR050791B,50791,train,train
+Glioma/1854,MR050791B,50791,train,train
+Glioma/1855,MR050791B,50791,train,train
+Glioma/1856,99017,99017,train,train
+Glioma/1857,MR050791B,50791,train,train
+Glioma/1858,MR050791B,50791,train,train
+Glioma/1859,MR050791B,50791,train,train
+Glioma/1860,MR050791B,50791,train,train
+Glioma/1861,MR049019C,49019,train,test
+Glioma/1862,MR049019C,49019,train,test
+Glioma/1863,MR049019C,49019,train,test
+Glioma/1864,MR026175C,26175,train,test
+Glioma/1865,MR026175C,26175,train,test
+Glioma/1866,MR026175C,26175,train,test
+Glioma/1867,99017,99017,train,train
+Glioma/1868,MR026175C,26175,train,test
+Glioma/1869,MR026175C,26175,train,test
+Glioma/1870,MR026175C,26175,train,test
+Glioma/1871,MR026175C,26175,train,test
+Glioma/1872,MR026175C,26175,train,test
+Glioma/1873,MR026175C,26175,train,test
+Glioma/1874,MR026175C,26175,train,test
+Glioma/1875,MR026175C,26175,train,test
+Glioma/1876,MR051461,51461,validation,test
+Glioma/1877,MR051461,51461,validation,test
+Glioma/1878,100360,100360,train,train
+Glioma/1879,101797,101797,train,train
+Glioma/1880,99089,99089,train,train
+Glioma/1881,MR051461,51461,validation,test
+Glioma/1882,MR051461,51461,validation,test
+Glioma/1883,MR051461,51461,validation,test
+Glioma/1884,MR051461,51461,validation,test
+Glioma/1885,MR051461,51461,validation,test
+Glioma/1886,MR051586,51586,train,train
+Glioma/1887,MR051586,51586,train,train
+Glioma/1888,MR051586,51586,train,train
+Glioma/1889,MR051586,51586,train,train
+Glioma/1890,MR051586,51586,train,train
+Glioma/1891,99089,99089,train,train
+Glioma/1892,MR051586,51586,train,train
+Glioma/1893,MR051586,51586,train,train
+Glioma/1894,MR051461B,51461,train,test
+Glioma/1895,MR051461B,51461,train,test
+Glioma/1896,MR051461B,51461,train,test
+Glioma/1897,MR051461B,51461,train,test
+Glioma/1898,MR051461B,51461,train,test
+Glioma/1899,MR051644,51644,validation,validation
+Glioma/1900,MR051644,51644,validation,validation
+Glioma/1901,MR051644,51644,validation,validation
+Glioma/1902,99089,99089,train,train
+Glioma/1903,MR051644,51644,validation,validation
+Glioma/1904,MR051644,51644,validation,validation
+Glioma/1905,MR051644,51644,validation,validation
+Glioma/1906,MR051644,51644,validation,validation
+Glioma/1907,MR051644,51644,validation,validation
+Glioma/1908,MR051644,51644,validation,validation
+Glioma/1909,MR051644,51644,validation,validation
+Glioma/1910,MR051644,51644,validation,validation
+Glioma/1911,MR051644,51644,validation,validation
+Glioma/1912,MR051644,51644,validation,validation
+Glioma/1913,99288,99288,validation,train
+Glioma/1914,MR051644,51644,validation,validation
+Glioma/1915,MR051644,51644,validation,validation
+Glioma/1916,MR051651,51651,test,validation
+Glioma/1917,MR051651,51651,test,validation
+Glioma/1918,MR051651,51651,test,validation
+Glioma/1919,MR051651,51651,test,validation
+Glioma/1920,MR051651,51651,test,validation
+Glioma/1921,MR051651,51651,test,validation
+Glioma/1922,MR051796,51796,validation,validation
+Glioma/1923,MR051796,51796,validation,validation
+Glioma/1924,99308,99308,validation,train
+Glioma/1925,MR051796,51796,validation,validation
+Glioma/1926,MR051796,51796,validation,validation
+Glioma/1927,MR051796,51796,validation,validation
+Glioma/1928,MR051796,51796,validation,validation
+Glioma/1929,MR051796,51796,validation,validation
+Glioma/1930,MR051651B,51651,train,validation
+Glioma/1931,MR051651B,51651,train,validation
+Glioma/1932,MR051651B,51651,train,validation
+Glioma/1933,MR051651B,51651,train,validation
+Glioma/1934,MR051651B,51651,train,validation
+Glioma/1935,99308,99308,validation,train
+Glioma/1936,MR051651B,51651,train,validation
+Glioma/1937,MR051644B,51644,train,validation
+Glioma/1938,MR051644B,51644,train,validation
+Glioma/1939,MR051644B,51644,train,validation
+Glioma/1940,MR051644B,51644,train,validation
+Glioma/1941,MR051644B,51644,train,validation
+Glioma/1942,MR051644B,51644,train,validation
+Glioma/1943,MR051644B,51644,train,validation
+Glioma/1944,MR051796B,51796,train,validation
+Glioma/1945,MR051796B,51796,train,validation
+Glioma/1946,99308,99308,validation,train
+Glioma/1947,MR051796B,51796,train,validation
+Glioma/1948,MR052550,52550,train,train
+Glioma/1949,MR052550,52550,train,train
+Glioma/1950,MR052550,52550,train,train
+Glioma/1951,MR052550,52550,train,train
+Glioma/1952,MR051644C,51644,train,validation
+Glioma/1953,MR051644C,51644,train,validation
+Glioma/1954,MR051644C,51644,train,validation
+Glioma/1955,MR051644C,51644,train,validation
+Glioma/1956,MR051644C,51644,train,validation
+Glioma/1957,99308,99308,validation,train
+Glioma/1958,MR051644C,51644,train,validation
+Glioma/1959,MR051644C,51644,train,validation
+Glioma/1960,MR051644C,51644,train,validation
+Glioma/1961,MR051644C,51644,train,validation
+Glioma/1962,MR051644C,51644,train,validation
+Glioma/1963,MR051644C,51644,train,validation
+Glioma/1964,MR051644C,51644,train,validation
+Glioma/1965,MR049942B,49942,test,train
+Glioma/1966,MR049942B,49942,test,train
+Glioma/1967,MR049942B,49942,test,train
+Glioma/1968,99308,99308,validation,train
+Glioma/1969,MR052585B,52585,train,validation
+Glioma/1970,MR052585B,52585,train,validation
+Glioma/1971,MR052585B,52585,train,validation
+Glioma/1972,MR047953C,47953,train,train
+Glioma/1973,MR047953C,47953,train,train
+Glioma/1974,MR047953C,47953,train,train
+Glioma/1975,MR047953C,47953,train,train
+Glioma/1976,MR053110B,53110,train,train
+Glioma/1977,MR053110B,53110,train,train
+Glioma/1978,MR053110B,53110,train,train
+Glioma/1979,100820,100820,train,test
+Glioma/1980,MR053110B,53110,train,train
+Glioma/1981,MR053110B,53110,train,train
+Glioma/1982,MR053110B,53110,train,train
+Glioma/1983,MR034694,34694,test,train
+Glioma/1984,MR034694,34694,test,train
+Glioma/1985,MR034694,34694,test,train
+Glioma/1986,MR034694,34694,test,train
+Glioma/1987,MR054683,54683,train,train
+Glioma/1988,MR054683,54683,train,train
+Glioma/1989,MR054683,54683,train,train
+Glioma/1990,101797,101797,train,train
+Glioma/1991,100820,100820,train,test
+Glioma/1992,MR054875,54875,validation,test
+Glioma/1993,MR054875,54875,validation,test
+Glioma/1994,MR054875,54875,validation,test
+Glioma/1995,MR054875,54875,validation,test
+Glioma/1996,MR050687C,50687,train,validation
+Glioma/1997,MR050687C,50687,train,validation
+Glioma/1998,MR050687C,50687,train,validation
+Glioma/1999,MR050687C,50687,train,validation
+Glioma/2000,MR050687C,50687,train,validation
+Glioma/2001,MR056144,56144,train,train
+Glioma/2002,100360,100360,train,train
+Glioma/2003,MR056144,56144,train,train
+Glioma/2004,MR056144,56144,train,train
+Glioma/2005,MR034997,34997,train,train
+Glioma/2006,MR034997,34997,train,train
+Glioma/2007,MR034997,34997,train,train
+Glioma/2008,MR034997,34997,train,train
+Glioma/2009,MR034997,34997,train,train
+Glioma/2010,MR034997,34997,train,train
+Glioma/2011,MR034997,34997,train,train
+Glioma/2012,MR029209E,29209,train,train
+Glioma/2013,100360,100360,train,train
+Glioma/2014,MR029209E,29209,train,train
+Glioma/2015,MR029209E,29209,train,train
+Glioma/2016,MR029209E,29209,train,train
+Glioma/2017,MR029209E,29209,train,train
+Glioma/2018,MR029209E,29209,train,train
+Glioma/2019,MR029209E,29209,train,train
+Glioma/2020,MR029209E,29209,train,train
+Glioma/2021,MR029209E,29209,train,train
+Glioma/2022,MR053110E,53110,train,train
+Glioma/2023,MR053110E,53110,train,train
+Glioma/2024,100360,100360,train,train
+Glioma/2025,MR053110E,53110,train,train
+Glioma/2026,MR053110E,53110,train,train
+Glioma/2027,MR053110E,53110,train,train
+Glioma/2028,MR053110E,53110,train,train
+Glioma/2029,MR049019G,49019,validation,test
+Glioma/2030,MR049019G,49019,validation,test
+Glioma/2031,MR049019G,49019,validation,test
+Glioma/2032,MR049019G,49019,validation,test
+Glioma/2033,MR049019G,49019,validation,test
+Glioma/2034,MR049019G,49019,validation,test
+Glioma/2035,100360,100360,train,train
+Glioma/2036,MR049019G,49019,validation,test
+Glioma/2037,MR031409B,31409,train,train
+Glioma/2038,MR031409B,31409,train,train
+Glioma/2039,MR031409B,31409,train,train
+Glioma/2040,MR024780D,24780,train,test
+Glioma/2041,MR024780D,24780,train,test
+Glioma/2042,MR038469,38469,validation,train
+Glioma/2043,MR038469,38469,validation,train
+Glioma/2044,MR038469,38469,validation,train
+Glioma/2045,MR038469,38469,validation,train
+Glioma/2046,100360,100360,train,train
+Glioma/2047,MR038469,38469,validation,train
+Glioma/2048,MR038469,38469,validation,train
+Glioma/2049,MR038469,38469,validation,train
+Glioma/2050,MR032322C,32322,train,train
+Glioma/2051,MR032322C,32322,train,train
+Glioma/2052,MR032322C,32322,train,train
+Glioma/2053,MR032322C,32322,train,train
+Glioma/2054,MR032322C,32322,train,train
+Glioma/2055,MR032322C,32322,train,train
+Glioma/2056,MR032322C,32322,train,train
+Glioma/2057,100360,100360,train,train
+Glioma/2058,MR032322C,32322,train,train
+Glioma/2059,MR032322C,32322,train,train
+Glioma/2060,MR032322C,32322,train,train
+Glioma/2061,MR032322C,32322,train,train
+Glioma/2062,MR032322C,32322,train,train
+Glioma/2063,MR032322C,32322,train,train
+Glioma/2064,MR037458B,37458,train,train
+Glioma/2065,MR037458B,37458,train,train
+Glioma/2066,MR037458B,37458,train,train
+Glioma/2067,MR037458B,37458,train,train
+Glioma/2068,100360,100360,train,train
+Glioma/2069,MR037458B,37458,train,train
+Glioma/2070,MR037458B,37458,train,train
+Glioma/2071,MR037458B,37458,train,train
+Glioma/2072,MR037458B,37458,train,train
+Glioma/2073,MR039473,39473,train,train
+Glioma/2074,MR039473,39473,train,train
+Glioma/2075,MR039473,39473,train,train
+Glioma/2076,MR039473,39473,train,train
+Glioma/2077,MR039473,39473,train,train
+Glioma/2078,MR039473B,39473,train,train
+Glioma/2079,100572,100572,test,test
+Glioma/2080,MR039473B,39473,train,train
+Glioma/2081,MR039473B,39473,train,train
+Glioma/2082,MR039473B,39473,train,train
+Glioma/2083,MR039473B,39473,train,train
+Glioma/2084,MR039473B,39473,train,train
+Glioma/2085,MR039473B,39473,train,train
+Glioma/2086,MR037458C,37458,train,train
+Glioma/2087,MR037458C,37458,train,train
+Glioma/2088,MR037458C,37458,train,train
+Glioma/2089,MR037458C,37458,train,train
+Glioma/2090,100572,100572,test,test
+Glioma/2091,MR037458C,37458,train,train
+Glioma/2092,MR037458C,37458,train,train
+Glioma/2093,MR037458C,37458,train,train
+Glioma/2094,MR037458C,37458,train,train
+Glioma/2095,MR037458C,37458,train,train
+Glioma/2096,MR037458C,37458,train,train
+Glioma/2097,MR040240,40240,train,train
+Glioma/2098,MR040240,40240,train,train
+Glioma/2099,MR040240,40240,train,train
+Glioma/2100,MR040240,40240,train,train
+Glioma/2101,101797,101797,train,train
+Glioma/2102,100572,100572,test,test
+Glioma/2103,MR040240,40240,train,train
+Glioma/2104,MR040240,40240,train,train
+Glioma/2105,MR040240,40240,train,train
+Glioma/2106,MR040240,40240,train,train
+Glioma/2107,MR040240,40240,train,train
+Glioma/2108,MR040240,40240,train,train
+Glioma/2109,MR040240B,40240,train,train
+Glioma/2110,MR040240B,40240,train,train
+Glioma/2111,MR040240B,40240,train,train
+Glioma/2112,MR040240B,40240,train,train
+Glioma/2113,101016,101016,train,train
+Glioma/2114,MR040240B,40240,train,train
+Glioma/2115,MR040240B,40240,train,train
+Glioma/2116,MR040240B,40240,train,train
+Glioma/2117,MR040240B,40240,train,train
+Glioma/2118,MR040240B,40240,train,train
+Glioma/2119,MR040240B,40240,train,train
+Glioma/2120,MR029209G,29209,validation,train
+Glioma/2121,MR029209G,29209,validation,train
+Glioma/2122,MR029209G,29209,validation,train
+Glioma/2123,MR029209G,29209,validation,train
+Glioma/2124,101016,101016,train,train
+Glioma/2125,MR029209G,29209,validation,train
+Glioma/2126,MR029209G,29209,validation,train
+Glioma/2127,MR029209G,29209,validation,train
+Glioma/2128,MR029209G,29209,validation,train
+Glioma/2129,MR036496B,36496,train,validation
+Glioma/2130,MR036496B,36496,train,validation
+Glioma/2131,MR036496B,36496,train,validation
+Glioma/2132,MR036496B,36496,train,validation
+Glioma/2133,MR036496B,36496,train,validation
+Glioma/2134,MR036496B,36496,train,validation
+Glioma/2135,101016,101016,train,train
+Glioma/2136,MR033420,33420,test,validation
+Glioma/2137,MR033420,33420,test,validation
+Glioma/2138,MR033420,33420,test,validation
+Glioma/2139,MR033420,33420,test,validation
+Glioma/2140,MR033420,33420,test,validation
+Glioma/2141,MR033420,33420,test,validation
+Glioma/2142,MR033420,33420,test,validation
+Glioma/2143,MR024780B,24780,train,test
+Glioma/2144,MR024780B,24780,train,test
+Glioma/2145,MR024780B,24780,train,test
+Glioma/2146,101016,101016,train,train
+Glioma/2147,MR024780B,24780,train,test
+Glioma/2148,MR033389B,33389,validation,train
+Glioma/2149,MR048994,48994,train,train
+Glioma/2150,MR048994,48994,train,train
+Glioma/2151,MR049104,49104,train,train
+Glioma/2152,MR049104,49104,train,train
+Glioma/2153,MR049104,49104,train,train
+Glioma/2154,MR049142,49142,train,validation
+Glioma/2155,MR049142,49142,train,validation
+Glioma/2156,MR049142,49142,train,validation
+Glioma/2157,101016,101016,train,train
+Glioma/2158,MR048994B,48994,train,train
+Glioma/2159,MR048994B,48994,train,train
+Glioma/2160,MR048994B,48994,train,train
+Glioma/2161,MR048994B,48994,train,train
+Glioma/2162,MR048944B,48944,validation,train
+Glioma/2163,MR048944B,48944,validation,train
+Glioma/2164,MR048944B,48944,validation,train
+Glioma/2165,MR048944B,48944,validation,train
+Glioma/2166,MR048944B,48944,validation,train
+Glioma/2167,MR048944B,48944,validation,train
+Glioma/2168,101016,101016,train,train
+Glioma/2169,MR048944B,48944,validation,train
+Glioma/2170,MR049358,49358,train,train
+Glioma/2171,MR049358,49358,train,train
+Glioma/2172,MR049358,49358,train,train
+Glioma/2173,MR049358,49358,train,train
+Glioma/2174,MR049358,49358,train,train
+Glioma/2175,MR049358,49358,train,train
+Glioma/2176,MR049358,49358,train,train
+Glioma/2177,MR049358,49358,train,train
+Glioma/2178,MR049358,49358,train,train
+Glioma/2179,101127,101127,train,train
+Glioma/2180,MR049453,49453,test,train
+Glioma/2181,MR049453,49453,test,train
+Glioma/2182,MR049453,49453,test,train
+Glioma/2183,MR049453,49453,test,train
+Glioma/2184,MR049453,49453,test,train
+Glioma/2185,MR049453,49453,test,train
+Glioma/2186,MR049453,49453,test,train
+Glioma/2187,MR049453,49453,test,train
+Glioma/2188,MR049453,49453,test,train
+Glioma/2189,MR024780G,24780,train,test
+Glioma/2190,101127,101127,train,train
+Glioma/2191,MR024780G,24780,train,test
+Glioma/2192,MR024780G,24780,train,test
+Glioma/2193,MR024780G,24780,train,test
+Glioma/2194,MR024780G,24780,train,test
+Glioma/2195,MR024780G,24780,train,test
+Glioma/2196,MR024780G,24780,train,test
+Glioma/2197,MR049453B,49453,test,train
+Glioma/2198,MR049453B,49453,test,train
+Glioma/2199,MR049453B,49453,test,train
+Glioma/2200,MR049453B,49453,test,train
+Glioma/2201,101127,101127,train,train
+Glioma/2202,MR049453B,49453,test,train
+Glioma/2203,MR049453B,49453,test,train
+Glioma/2204,MR049453B,49453,test,train
+Glioma/2205,MR049453B,49453,test,train
+Glioma/2206,MR049453B,49453,test,train
+Glioma/2207,MR049453B,49453,test,train
+Glioma/2208,MR049453B,49453,test,train
+Glioma/2209,MR049453B,49453,test,train
+Glioma/2210,MR049453B,49453,test,train
+Glioma/2211,101797,101797,train,train
+Glioma/2212,101127,101127,train,train
+Glioma/2213,101797,101797,train,train
+Glioma/2214,101797,101797,train,train
+Glioma/2215,101797,101797,train,train
+Glioma/2216,101797,101797,train,train
+Glioma/2217,101797,101797,train,train
+Glioma/2218,102420,102420,train,validation
+Glioma/2219,102420,102420,train,validation
+Glioma/2220,102420,102420,train,validation
+Glioma/2221,102446,102446,train,test
+Glioma/2222,102420,102420,train,validation
+Glioma/2223,102675,102675,train,train
+Glioma/2224,102675,102675,train,train
+Glioma/2225,102714,102714,train,train
+Glioma/2226,102714,102714,train,train
+Glioma/2227,102714,102714,train,train
+Glioma/2228,102714,102714,train,train
+Glioma/2229,102929,102929,train,train
+Glioma/2230,102929,102929,train,train
+Glioma/2231,102929,102929,train,train
+Glioma/2232,102929,102929,train,train
+Glioma/2233,102420,102420,train,validation
+Glioma/2234,102929,102929,train,train
+Glioma/2235,102929,102929,train,train
+Glioma/2236,102935,102935,train,train
+Glioma/2237,102985,102985,train,train
+Glioma/2238,103673,103673,test,train
+Glioma/2239,103673,103673,test,train
+Glioma/2240,103673,103673,test,train
+Glioma/2241,103673,103673,test,train
+Glioma/2242,103673,103673,test,train
+Glioma/2243,103673,103673,test,train
+Glioma/2244,102446,102446,train,test
+Glioma/2245,103673,103673,test,train
+Glioma/2246,103925,103925,validation,train
+Glioma/2247,103925,103925,validation,train
+Glioma/2248,103925,103925,validation,train
+Glioma/2249,103925,103925,validation,train
+Glioma/2250,103925,103925,validation,train
+Glioma/2251,103925,103925,validation,train
+Glioma/2252,103925,103925,validation,train
+Glioma/2253,103925,103925,validation,train
+Glioma/2254,104167,104167,train,train
+Glioma/2255,102675,102675,train,train
+Glioma/2256,104167,104167,train,train
+Glioma/2257,104167,104167,train,train
+Glioma/2258,104167,104167,train,train
+Glioma/2259,104167,104167,train,train
+Glioma/2260,104167,104167,train,train
+Glioma/2261,104281,104281,train,validation
+Glioma/2262,104281,104281,train,validation
+Glioma/2263,104281,104281,train,validation
+Glioma/2264,104281,104281,train,validation
+Glioma/2265,104281,104281,train,validation
+Glioma/2266,102714,102714,train,train
+Glioma/2267,104281,104281,train,validation
+Glioma/2268,105374,105374,train,validation
+Glioma/2269,105374,105374,train,validation
+Glioma/2270,105555,105555,train,train
+Glioma/2271,105555,105555,train,train
+Glioma/2272,105555,105555,train,train
+Glioma/2273,105937,105937,train,train
+Glioma/2274,105937,105937,train,train
+Glioma/2275,105937,105937,train,train
+Glioma/2276,105937,105937,train,train
+Glioma/2277,102714,102714,train,train
+Glioma/2278,106284,106284,train,test
+Glioma/2279,106284,106284,train,test
+Glioma/2280,106284,106284,train,test
+Glioma/2281,106284,106284,train,test
+Glioma/2282,106442,106442,train,validation
+Glioma/2283,106442,106442,train,validation
+Glioma/2284,106442,106442,train,validation
+Glioma/2285,106534,106534,train,train
+Glioma/2286,106534,106534,train,train
+Glioma/2287,106665,106665,train,train
+Glioma/2288,100360,100360,train,train
+Glioma/2289,102714,102714,train,train
+Glioma/2290,106665,106665,train,train
+Glioma/2291,106665,106665,train,train
+Glioma/2292,106665,106665,train,train
+Glioma/2293,106665,106665,train,train
+Glioma/2294,106720,106720,train,train
+Glioma/2295,106720,106720,train,train
+Glioma/2296,106720,106720,train,train
+Glioma/2297,106720,106720,train,train
+Glioma/2298,106720,106720,train,train
+Glioma/2299,106720,106720,train,train
+Glioma/2300,102714,102714,train,train
+Glioma/2301,106720,106720,train,train
+Glioma/2302,106914,106914,train,train
+Glioma/2303,106914,106914,train,train
+Glioma/2304,106914,106914,train,train
+Glioma/2305,106914,106914,train,train
+Glioma/2306,107190,107190,train,train
+Glioma/2307,107248,107248,train,train
+Glioma/2308,107248,107248,train,train
+Glioma/2309,107248,107248,train,train
+Glioma/2310,107248,107248,train,train
+Glioma/2311,102929,102929,train,train
+Glioma/2312,107494,107494,train,train
+Glioma/2313,107494,107494,train,train
+Glioma/2314,107494,107494,train,train
+Glioma/2315,107494,107494,train,train
+Glioma/2316,107494,107494,train,train
+Glioma/2317,107494,107494,train,train
+Glioma/2318,108514,108514,train,train
+Glioma/2319,108514,108514,train,train
+Glioma/2320,108514,108514,train,train
+Glioma/2321,108514,108514,train,train
+Glioma/2322,102929,102929,train,train
+Glioma/2323,108514,108514,train,train
+Glioma/2324,108514,108514,train,train
+Glioma/2325,108550,108550,train,train
+Glioma/2326,108550,108550,train,train
+Glioma/2327,108590,108590,validation,train
+Glioma/2328,108590,108590,validation,train
+Glioma/2329,108945,108945,train,train
+Glioma/2330,108945,108945,train,train
+Glioma/2331,108945,108945,train,train
+Glioma/2332,108945,108945,train,train
+Glioma/2333,102935,102935,train,train
+Glioma/2334,109411,109411,test,test
+Glioma/2335,109968,109968,train,train
+Glioma/2336,109968,109968,train,train
+Glioma/2337,109968,109968,train,train
+Glioma/2338,109968,109968,train,train
+Glioma/2339,110116,110116,test,train
+Glioma/2340,110116,110116,test,train
+Glioma/2341,110116,110116,test,train
+Glioma/2342,110116,110116,test,train
+Glioma/2343,111077,111077,train,train
+Glioma/2344,102985,102985,train,train
+Glioma/2345,111077,111077,train,train
+Glioma/2346,111077,111077,train,train
+Glioma/2347,111077,111077,train,train
+Glioma/2348,111366,111366,train,validation
+Glioma/2349,111366,111366,train,validation
+Glioma/2350,111366,111366,train,validation
+Glioma/2351,111366,111366,train,validation
+Glioma/2352,111532,111532,test,train
+Glioma/2353,111532,111532,test,train
+Glioma/2354,111532,111532,test,train
+Glioma/2355,103673,103673,test,train
+Glioma/2356,111532,111532,test,train
+Glioma/2357,111532,111532,test,train
+Glioma/2358,112002,112002,train,train
+Glioma/2359,112002,112002,train,train
+Glioma/2360,112002,112002,train,train
+Glioma/2361,112002,112002,train,train
+Glioma/2362,112062,112062,train,train
+Glioma/2363,112062,112062,train,train
+Glioma/2364,112062,112062,train,train
+Glioma/2365,112062,112062,train,train
+Glioma/2366,103673,103673,test,train
+Glioma/2367,112252,112252,train,test
+Glioma/2368,112252,112252,train,test
+Glioma/2369,112552,112552,train,train
+Glioma/2370,112552,112552,train,train
+Glioma/2371,112552,112552,train,train
+Glioma/2372,112552,112552,train,train
+Glioma/2373,112552,112552,train,train
+Glioma/2374,112552,112552,train,train
+Glioma/2375,112552,112552,train,train
+Glioma/2376,112648,112648,train,test
+Glioma/2377,103673,103673,test,train
+Glioma/2378,112648,112648,train,test
+Glioma/2379,112648,112648,train,test
+Glioma/2380,113435,113435,test,train
+Glioma/2381,113435,113435,test,train
+Glioma/2382,113435,113435,test,train
+Glioma/2383,113435,113435,test,train
+Glioma/2384,113435,113435,test,train
+Glioma/2385,113435,113435,test,train
+Glioma/2386,113435,113435,test,train
+Glioma/2387,113435,113435,test,train
+Glioma/2388,103673,103673,test,train
+Glioma/2389,113554,113554,validation,validation
+Glioma/2390,113554,113554,validation,validation
+Glioma/2391,113554,113554,validation,validation
+Glioma/2392,113805,113805,validation,train
+Glioma/2393,113805,113805,validation,train
+Glioma/2394,114018,114018,test,test
+Glioma/2395,114018,114018,test,test
+Glioma/2396,114018,114018,test,test
+Glioma/2397,114018,114018,test,test
+Glioma/2398,114359,114359,validation,validation
+Glioma/2399,100360,100360,train,train
+Glioma/2400,103673,103673,test,train
+Glioma/2401,114359,114359,validation,validation
+Glioma/2402,114359,114359,validation,validation
+Glioma/2403,114359,114359,validation,validation
+Glioma/2404,114359,114359,validation,validation
+Glioma/2405,114359,114359,validation,validation
+Glioma/2406,97607,97607,train,train
+Glioma/2407,97607,97607,train,train
+Glioma/2408,97607,97607,train,train
+Glioma/2409,97737,97737,test,validation
+Glioma/2410,97737,97737,test,validation
+Glioma/2411,103673,103673,test,train
+Glioma/2412,97737,97737,test,validation
+Glioma/2413,97737,97737,test,validation
+Glioma/2414,97737,97737,test,validation
+Glioma/2415,97737,97737,test,validation
+Glioma/2416,97875,97875,validation,train
+Glioma/2417,97875,97875,validation,train
+Glioma/2418,97875,97875,validation,train
+Glioma/2419,97875,97875,validation,train
+Glioma/2420,97943,97943,train,test
+Glioma/2421,97943,97943,train,test
+Glioma/2422,103925,103925,validation,train
+Glioma/2423,97943,97943,train,test
+Glioma/2424,97943,97943,train,test
+Glioma/2425,97943,97943,train,test
+Glioma/2426,98241,98241,validation,train
+Glioma/2427,98241,98241,validation,train
+Glioma/2428,98241,98241,validation,train
+Glioma/2429,98241,98241,validation,train
+Glioma/2430,98241,98241,validation,train
+Glioma/2431,98241,98241,validation,train
+Glioma/2432,98241,98241,validation,train
+Glioma/2433,103925,103925,validation,train
+Glioma/2434,99017,99017,train,train
+Glioma/2435,99017,99017,train,train
+Glioma/2436,99089,99089,train,train
+Glioma/2437,99089,99089,train,train
+Glioma/2438,99089,99089,train,train
+Glioma/2439,99089,99089,train,train
+Glioma/2440,99089,99089,train,train
+Glioma/2441,99288,99288,validation,train
+Glioma/2442,99308,99308,validation,train
+Glioma/2443,99308,99308,validation,train
+Glioma/2444,103925,103925,validation,train
+Glioma/2445,99308,99308,validation,train
+Glioma/2446,99308,99308,validation,train
+Glioma/2447,100360,100360,train,train
+Glioma/2448,100360,100360,train,train
+Glioma/2449,100360,100360,train,train
+Glioma/2450,100360,100360,train,train
+Glioma/2451,100360,100360,train,train
+Glioma/2452,100360,100360,train,train
+Glioma/2453,100572,100572,test,test
+Glioma/2454,100572,100572,test,test
+Glioma/2455,104167,104167,train,train
+Glioma/2456,100639,100639,train,train
+Glioma/2457,100639,100639,train,train
+Glioma/2458,100920,100920,train,train
+Glioma/2459,100920,100920,train,train
+Glioma/2460,100920,100920,train,train
+Glioma/2461,101016,101016,train,train
+Glioma/2462,101016,101016,train,train
+Glioma/2463,101016,101016,train,train
+Glioma/2464,101016,101016,train,train
+Glioma/2465,101082,101082,validation,train
+Glioma/2466,104167,104167,train,train
+Glioma/2467,101082,101082,validation,train
+Glioma/2468,101127,101127,train,train
+Glioma/2469,101127,101127,train,train
+Glioma/2470,101127,101127,train,train
+Glioma/2471,101127,101127,train,train
+Glioma/2472,101797,101797,train,train
+Glioma/2473,101797,101797,train,train
+Glioma/2474,101797,101797,train,train
+Glioma/2475,101797,101797,train,train
+Glioma/2476,101797,101797,train,train
+Glioma/2477,104167,104167,train,train
+Glioma/2478,101797,101797,train,train
+Glioma/2479,101801,101801,train,train
+Glioma/2480,101801,101801,train,train
+Glioma/2481,101801,101801,train,train
+Glioma/2482,102420,102420,train,validation
+Glioma/2483,102420,102420,train,validation
+Glioma/2484,102446,102446,train,test
+Glioma/2485,102446,102446,train,test
+Glioma/2486,102675,102675,train,train
+Glioma/2487,102675,102675,train,train
+Glioma/2488,104167,104167,train,train
+Glioma/2489,102714,102714,train,train
+Glioma/2490,102714,102714,train,train
+Glioma/2491,102714,102714,train,train
+Glioma/2492,102714,102714,train,train
+Glioma/2493,102714,102714,train,train
+Glioma/2494,102818,102818,validation,train
+Glioma/2495,102818,102818,validation,train
+Glioma/2496,102818,102818,validation,train
+Glioma/2497,102818,102818,validation,train
+Glioma/2498,102935,102935,train,train
+Glioma/2499,104281,104281,train,validation
+Glioma/2500,102960,102960,train,train
+Glioma/2501,102960,102960,train,train
+Glioma/2502,102960,102960,train,train
+Glioma/2503,102960,102960,train,train
+Glioma/2504,102960,102960,train,train
+Glioma/2505,102985,102985,train,train
+Glioma/2506,103673,103673,test,train
+Glioma/2507,103673,103673,test,train
+Glioma/2508,103673,103673,test,train
+Glioma/2509,103673,103673,test,train
+Glioma/2510,100360,100360,train,train
+Glioma/2511,104281,104281,train,validation
+Glioma/2512,103673,103673,test,train
+Glioma/2513,103925,103925,validation,train
+Glioma/2514,103925,103925,validation,train
+Glioma/2515,103925,103925,validation,train
+Glioma/2516,103925,103925,validation,train
+Glioma/2517,104167,104167,train,train
+Glioma/2518,104167,104167,train,train
+Glioma/2519,104167,104167,train,train
+Glioma/2520,104167,104167,train,train
+Glioma/2521,104167,104167,train,train
+Glioma/2522,104281,104281,train,validation
+Glioma/2523,104281,104281,train,validation
+Glioma/2524,104281,104281,train,validation
+Glioma/2525,104281,104281,train,validation
+Glioma/2526,104281,104281,train,validation
+Glioma/2527,104695,104695,test,test
+Glioma/2528,104695,104695,test,test
+Glioma/2529,104695,104695,test,test
+Glioma/2530,105374,105374,train,validation
+Glioma/2531,105555,105555,train,train
+Glioma/2532,105555,105555,train,train
+Glioma/2533,104281,104281,train,validation
+Glioma/2534,105937,105937,train,train
+Glioma/2535,105937,105937,train,train
+Glioma/2536,105937,105937,train,train
+Glioma/2537,106284,106284,train,test
+Glioma/2538,106284,106284,train,test
+Glioma/2539,106284,106284,train,test
+Glioma/2540,106284,106284,train,test
+Glioma/2541,106442,106442,train,validation
+Glioma/2542,106442,106442,train,validation
+Glioma/2543,106442,106442,train,validation
+Glioma/2544,104281,104281,train,validation
+Glioma/2545,106534,106534,train,train
+Glioma/2546,106534,106534,train,train
+Glioma/2547,106592,106592,train,test
+Glioma/2548,106665,106665,train,train
+Glioma/2549,106665,106665,train,train
+Glioma/2550,106665,106665,train,train
+Glioma/2551,106665,106665,train,train
+Glioma/2552,106665,106665,train,train
+Glioma/2553,106665,106665,train,train
+Glioma/2554,106665,106665,train,train
+Glioma/2555,104281,104281,train,validation
+Glioma/2556,106720,106720,train,train
+Glioma/2557,106720,106720,train,train
+Glioma/2558,106720,106720,train,train
+Glioma/2559,106914,106914,train,train
+Glioma/2560,106914,106914,train,train
+Glioma/2561,106914,106914,train,train
+Glioma/2562,106914,106914,train,train
+Glioma/2563,106914,106914,train,train
+Glioma/2564,106914,106914,train,train
+Glioma/2565,106914,106914,train,train
+Glioma/2566,104281,104281,train,validation
+Glioma/2567,107190,107190,train,train
+Glioma/2568,107248,107248,train,train
+Glioma/2569,107248,107248,train,train
+Glioma/2570,107248,107248,train,train
+Glioma/2571,107248,107248,train,train
+Glioma/2572,107248,107248,train,train
+Glioma/2573,107494,107494,train,train
+Glioma/2574,107494,107494,train,train
+Glioma/2575,107494,107494,train,train
+Glioma/2576,107494,107494,train,train
+Glioma/2577,105374,105374,train,validation
+Glioma/2578,107946,107946,train,validation
+Glioma/2579,107946,107946,train,validation
+Glioma/2580,107946,107946,train,validation
+Glioma/2581,107946,107946,train,validation
+Glioma/2582,108514,108514,train,train
+Glioma/2583,108514,108514,train,train
+Glioma/2584,108514,108514,train,train
+Glioma/2585,108514,108514,train,train
+Glioma/2586,108514,108514,train,train
+Glioma/2587,108550,108550,train,train
+Glioma/2588,105374,105374,train,validation
+Glioma/2589,108550,108550,train,train
+Glioma/2590,108590,108590,validation,train
+Glioma/2591,108590,108590,validation,train
+Glioma/2592,108945,108945,train,train
+Glioma/2593,108945,108945,train,train
+Glioma/2594,108945,108945,train,train
+Glioma/2595,108945,108945,train,train
+Glioma/2596,109350,109350,train,train
+Glioma/2597,109350,109350,train,train
+Glioma/2598,109411,109411,test,test
+Glioma/2599,105555,105555,train,train
+Glioma/2600,109968,109968,train,train
+Glioma/2601,109968,109968,train,train
+Glioma/2602,109968,109968,train,train
+Glioma/2603,109968,109968,train,train
+Glioma/2604,110808,110808,test,train
+Glioma/2605,110808,110808,test,train
+Glioma/2606,111077,111077,train,train
+Glioma/2607,111077,111077,train,train
+Glioma/2608,111077,111077,train,train
+Glioma/2609,111366,111366,train,validation
+Glioma/2610,58392,58392,train,test
+Glioma/2611,111366,111366,train,validation
+Glioma/2612,111366,111366,train,validation
+Glioma/2613,111366,111366,train,validation
+Glioma/2614,111532,111532,test,train
+Glioma/2615,111532,111532,test,train
+Glioma/2616,111532,111532,test,train
+Glioma/2617,111696,111696,test,test
+Glioma/2618,111710,111710,train,train
+Glioma/2619,111710,111710,train,train
+Glioma/2620,112002,112002,train,train
+Glioma/2621,100572,100572,test,test
+Glioma/2622,105937,105937,train,train
+Glioma/2623,112002,112002,train,train
+Glioma/2624,112002,112002,train,train
+Glioma/2625,112002,112002,train,train
+Glioma/2626,112062,112062,train,train
+Glioma/2627,112062,112062,train,train
+Glioma/2628,112062,112062,train,train
+Glioma/2629,112252,112252,train,test
+Glioma/2630,112252,112252,train,test
+Glioma/2631,112552,112552,train,train
+Glioma/2632,112552,112552,train,train
+Glioma/2633,105937,105937,train,train
+Glioma/2634,112552,112552,train,train
+Glioma/2635,112552,112552,train,train
+Glioma/2636,112552,112552,train,train
+Glioma/2637,112552,112552,train,train
+Glioma/2638,112552,112552,train,train
+Glioma/2639,112648,112648,train,test
+Glioma/2640,112648,112648,train,test
+Glioma/2641,112648,112648,train,test
+Glioma/2642,112648,112648,train,test
+Glioma/2643,112650,112650,train,train
+Glioma/2644,106284,106284,train,test
+Glioma/2645,112650,112650,train,train
+Glioma/2646,113098,113098,train,train
+Glioma/2647,113098,113098,train,train
+Glioma/2648,113098,113098,train,train
+Glioma/2649,113098,113098,train,train
+Glioma/2650,113435,113435,test,train
+Glioma/2651,113435,113435,test,train
+Glioma/2652,113435,113435,test,train
+Glioma/2653,113435,113435,test,train
+Glioma/2654,113435,113435,test,train
+Glioma/2655,106284,106284,train,test
+Glioma/2656,113435,113435,test,train
+Glioma/2657,113554,113554,validation,validation
+Glioma/2658,113554,113554,validation,validation
+Glioma/2659,113554,113554,validation,validation
+Glioma/2660,113554,113554,validation,validation
+Glioma/2661,113614,113614,validation,train
+Glioma/2662,113614,113614,validation,train
+Glioma/2663,113614,113614,validation,train
+Glioma/2664,113614,113614,validation,train
+Glioma/2665,113805,113805,validation,train
+Glioma/2666,106284,106284,train,test
+Glioma/2667,113971,113971,train,train
+Glioma/2668,113971,113971,train,train
+Glioma/2669,114018,114018,test,test
+Glioma/2670,114018,114018,test,test
+Glioma/2671,114018,114018,test,test
+Glioma/2672,114018,114018,test,test
+Glioma/2673,114018,114018,test,test
+Glioma/2674,114018,114018,test,test
+Glioma/2675,114359,114359,validation,validation
+Glioma/2676,114359,114359,validation,validation
+Glioma/2677,106284,106284,train,test
+Glioma/2678,114359,114359,validation,validation
+Glioma/2679,114359,114359,validation,validation
+Glioma/2680,114359,114359,validation,validation
+Glioma/2681,114359,114359,validation,validation
+Glioma/2682,114359,114359,validation,validation
+Glioma/2683,114417,114417,train,validation
+Glioma/2684,114417,114417,train,validation
+Glioma/2685,114417,114417,train,validation
+Glioma/2686,114417,114417,train,validation
+Glioma/2687,97374,97374,train,validation
+Glioma/2688,106284,106284,train,test
+Glioma/2689,97374,97374,train,validation
+Glioma/2690,97374,97374,train,validation
+Glioma/2691,97374,97374,train,validation
+Glioma/2692,97374,97374,train,validation
+Glioma/2693,97607,97607,train,train
+Glioma/2694,97607,97607,train,train
+Glioma/2695,97607,97607,train,train
+Glioma/2696,97607,97607,train,train
+Glioma/2697,97737,97737,test,validation
+Glioma/2698,97737,97737,test,validation
+Glioma/2699,106442,106442,train,validation
+Glioma/2700,97737,97737,test,validation
+Glioma/2701,97737,97737,test,validation
+Glioma/2702,97737,97737,test,validation
+Glioma/2703,97793,97793,train,test
+Glioma/2704,97875,97875,validation,train
+Glioma/2705,97943,97943,train,test
+Glioma/2706,97943,97943,train,test
+Glioma/2707,97943,97943,train,test
+Glioma/2708,97943,97943,train,test
+Glioma/2709,97943,97943,train,test
+Glioma/2710,106442,106442,train,validation
+Glioma/2711,98241,98241,validation,train
+Glioma/2712,98241,98241,validation,train
+Glioma/2713,98241,98241,validation,train
+Glioma/2714,98241,98241,validation,train
+Glioma/2715,98241,98241,validation,train
+Glioma/2716,98241,98241,validation,train
+Glioma/2717,99017,99017,train,train
+Glioma/2718,99017,99017,train,train
+Glioma/2719,99089,99089,train,train
+Glioma/2720,99089,99089,train,train
+Glioma/2721,106442,106442,train,validation
+Glioma/2722,99089,99089,train,train
+Glioma/2723,99089,99089,train,train
+Glioma/2724,99089,99089,train,train
+Glioma/2725,99162,99162,test,train
+Glioma/2726,99162,99162,test,train
+Glioma/2727,99162,99162,test,train
+Glioma/2728,99288,99288,validation,train
+Glioma/2729,99308,99308,validation,train
+Glioma/2730,99308,99308,validation,train
+Glioma/2731,99308,99308,validation,train
+Glioma/2732,100572,100572,test,test
+Glioma/2733,106442,106442,train,validation
+Glioma/2734,99308,99308,validation,train
+Glioma/2735,99308,99308,validation,train
+Glioma/2736,99308,99308,validation,train
+Glioma/2737,99815,99815,train,train
+Glioma/2738,99815,99815,train,train
+Glioma/2739,99815,99815,train,train
+Glioma/2740,99815,99815,train,train
+Glioma/2741,99815,99815,train,train
+Glioma/2742,99815,99815,train,train
+Glioma/2743,105936,105936,train,train
+Glioma/2744,106534,106534,train,train
+Glioma/2745,105936,105936,train,train
+Glioma/2746,105936,105936,train,train
+Glioma/2747,106062,106062,validation,train
+Glioma/2748,106062,106062,validation,train
+Glioma/2749,106062,106062,validation,train
+Glioma/2750,100820,100820,train,test
+Glioma/2751,100820,100820,train,test
+Glioma/2752,100820,100820,train,test
+Glioma/2753,101020,101020,train,test
+Glioma/2754,101020,101020,train,test
+Glioma/2755,106534,106534,train,train
+Glioma/2756,101020,101020,train,test
+Glioma/2757,101020,101020,train,test
+Glioma/2758,102075,102075,train,train
+Glioma/2759,102075,102075,train,train
+Glioma/2760,102075,102075,train,train
+Glioma/2761,103148,103148,train,train
+Glioma/2762,103148,103148,train,train
+Glioma/2763,103148,103148,train,train
+Glioma/2764,103148,103148,train,train
+Glioma/2765,106494,106494,train,train
+Glioma/2766,106665,106665,train,train
+Glioma/2767,106494,106494,train,train
+Glioma/2768,106494,106494,train,train
+Glioma/2769,106494,106494,train,train
+Glioma/2770,106494,106494,train,train
+Glioma/2771,106494,106494,train,train
+Glioma/2772,107747,107747,test,test
+Glioma/2773,107747,107747,test,test
+Glioma/2774,107747,107747,test,test
+Glioma/2775,107747,107747,test,test
+Glioma/2776,107747,107747,test,test
+Glioma/2777,106665,106665,train,train
+Glioma/2778,112105,112105,validation,train
+Glioma/2779,112105,112105,validation,train
+Glioma/2780,112105,112105,validation,train
+Glioma/2781,112105,112105,validation,train
+Glioma/2782,112105,112105,validation,train
+Glioma/2783,112105,112105,validation,train
+Glioma/2784,112105,112105,validation,train
+Glioma/2785,100820,100820,train,test
+Glioma/2786,100820,100820,train,test
+Glioma/2787,100820,100820,train,test
+Glioma/2788,106665,106665,train,train
+Glioma/2789,100820,100820,train,test
+Glioma/2790,100820,100820,train,test
+Glioma/2791,100820,100820,train,test
+Glioma/2792,101020,101020,train,test
+Glioma/2793,101020,101020,train,test
+Glioma/2794,101020,101020,train,test
+Glioma/2795,101020,101020,train,test
+Glioma/2796,101020,101020,train,test
+Glioma/2797,101020,101020,train,test
+Glioma/2798,101020,101020,train,test
+Glioma/2799,106665,106665,train,train
+Glioma/2800,101020,101020,train,test
+Glioma/2801,102075,102075,train,train
+Glioma/2802,102075,102075,train,train
+Glioma/2803,102075,102075,train,train
+Glioma/2804,103148,103148,train,train
+Glioma/2805,103148,103148,train,train
+Glioma/2806,103148,103148,train,train
+Glioma/2807,103148,103148,train,train
+Glioma/2808,106494,106494,train,train
+Glioma/2809,106494,106494,train,train
+Glioma/2810,106665,106665,train,train
+Glioma/2811,106494,106494,train,train
+Glioma/2812,106494,106494,train,train
+Glioma/2813,106494,106494,train,train
+Glioma/2814,107747,107747,test,test
+Glioma/2815,107747,107747,test,test
+Glioma/2816,107747,107747,test,test
+Glioma/2817,107747,107747,test,test
+Glioma/2818,107747,107747,test,test
+Glioma/2819,107747,107747,test,test
+Glioma/2820,112027,112027,train,train
+Glioma/2821,106665,106665,train,train
+Glioma/2822,112027,112027,train,train
+Glioma/2823,112105,112105,validation,train
+Glioma/2824,112105,112105,validation,train
+Glioma/2825,112105,112105,validation,train
+Glioma/2826,112105,112105,validation,train
+Glioma/2827,112105,112105,validation,train
+Glioma/2828,112105,112105,validation,train
+Glioma/2829,112105,112105,validation,train
+Glioma/2830,112105,112105,validation,train
+Glioma/2831,112105,112105,validation,train
+Glioma/2832,106665,106665,train,train
+Glioma/2833,112105,112105,validation,train
+Glioma/2834,112105,112105,validation,train
+Glioma/2835,88670,88670,test,train
+Glioma/2836,88670,88670,test,train
+Glioma/2837,88670,88670,test,train
+Glioma/2838,88670,88670,test,train
+Glioma/2839,88670,88670,test,train
+Glioma/2840,88670,88670,test,train
+Glioma/2841,88670,88670,test,train
+Glioma/2842,90284,90284,test,train
+Glioma/2843,100572,100572,test,test
+Glioma/2844,106720,106720,train,train
+Glioma/2845,90284,90284,test,train
+Glioma/2846,90284,90284,test,train
+Glioma/2847,90284,90284,test,train
+Glioma/2848,90284,90284,test,train
+Glioma/2849,90284,90284,test,train
+Glioma/2850,90284,90284,test,train
+Glioma/2851,90284,90284,test,train
+Glioma/2852,92897,92897,test,train
+Glioma/2853,92897,92897,test,train
+Glioma/2854,93825,93825,train,train
+Glioma/2855,106720,106720,train,train
+Glioma/2856,93825,93825,train,train
+Glioma/2857,93825,93825,train,train
+Glioma/2858,97609,97609,train,test
+Glioma/2859,97609,97609,train,test
+Glioma/2860,97609,97609,train,test
+Glioma/2861,97609,97609,train,test
+Glioma/2862,97609,97609,train,test
+Glioma/2863,97609,97609,train,test
+Glioma/2864,100416,100416,train,validation
+Glioma/2865,100416,100416,train,validation
+Glioma/2866,106720,106720,train,train
+Glioma/2867,100416,100416,train,validation
+Glioma/2868,100416,100416,train,validation
+Glioma/2869,100820,100820,train,test
+Glioma/2870,100820,100820,train,test
+Glioma/2871,100820,100820,train,test
+Glioma/2872,100820,100820,train,test
+Glioma/2873,100820,100820,train,test
+Glioma/2874,100820,100820,train,test
+Glioma/2875,101020,101020,train,test
+Glioma/2876,101020,101020,train,test
+Glioma/2877,106720,106720,train,train
+Glioma/2878,101020,101020,train,test
+Glioma/2879,101020,101020,train,test
+Glioma/2880,101020,101020,train,test
+Glioma/2881,101020,101020,train,test
+Glioma/2882,101384,101384,validation,train
+Glioma/2883,101384,101384,validation,train
+Glioma/2884,101384,101384,validation,train
+Glioma/2885,102075,102075,train,train
+Glioma/2886,102075,102075,train,train
+Glioma/2887,102075,102075,train,train
+Glioma/2888,106720,106720,train,train
+Glioma/2889,103148,103148,train,train
+Glioma/2890,103148,103148,train,train
+Glioma/2891,103148,103148,train,train
+Glioma/2892,103148,103148,train,train
+Glioma/2893,105653,105653,validation,train
+Glioma/2894,105653,105653,validation,train
+Glioma/2895,106494,106494,train,train
+Glioma/2896,106494,106494,train,train
+Glioma/2897,106494,106494,train,train
+Glioma/2898,106494,106494,train,train
+Glioma/2899,106720,106720,train,train
+Glioma/2900,106494,106494,train,train
+Glioma/2901,106494,106494,train,train
+Glioma/2902,106494,106494,train,train
+Glioma/2903,107747,107747,test,test
+Glioma/2904,107747,107747,test,test
+Glioma/2905,107747,107747,test,test
+Glioma/2906,107747,107747,test,test
+Glioma/2907,108479,108479,train,train
+Glioma/2908,108479,108479,train,train
+Glioma/2909,112105,112105,validation,train
+Glioma/2910,106720,106720,train,train
+Glioma/2911,112105,112105,validation,train
+Glioma/2912,112105,112105,validation,train
+Glioma/2913,112105,112105,validation,train
+Glioma/2914,112105,112105,validation,train
+Glioma/2915,112105,112105,validation,train
+Glioma/2916,88670,88670,test,train
+Glioma/2917,88670,88670,test,train
+Glioma/2918,88670,88670,test,train
+Glioma/2919,88670,88670,test,train
+Glioma/2920,88670,88670,test,train
+Glioma/2921,106914,106914,train,train
+Glioma/2922,90284,90284,test,train
+Glioma/2923,90284,90284,test,train
+Glioma/2924,90284,90284,test,train
+Glioma/2925,90284,90284,test,train
+Glioma/2926,90284,90284,test,train
+Glioma/2927,90284,90284,test,train
+Glioma/2928,90284,90284,test,train
+Glioma/2929,90284,90284,test,train
+Glioma/2930,90284,90284,test,train
+Glioma/2931,90284,90284,test,train
+Glioma/2932,106914,106914,train,train
+Glioma/2933,90284,90284,test,train
+Glioma/2934,92897,92897,test,train
+Glioma/2935,92897,92897,test,train
+Glioma/2936,93329,93329,train,train
+Glioma/2937,93329,93329,train,train
+Glioma/2938,93329,93329,train,train
+Glioma/2939,93329,93329,train,train
+Glioma/2940,93329,93329,train,train
+Glioma/2941,93825,93825,train,train
+Glioma/2942,93825,93825,train,train
+Glioma/2943,106914,106914,train,train
+Glioma/2944,93825,93825,train,train
+Glioma/2945,93825,93825,train,train
+Glioma/2946,94731,94731,train,train
+Glioma/2947,94731,94731,train,train
+Glioma/2948,94731,94731,train,train
+Glioma/2949,95142,95142,train,train
+Glioma/2950,95142,95142,train,train
+Glioma/2951,95142,95142,train,train
+Glioma/2952,95142,95142,train,train
+Glioma/2953,95142,95142,train,train
+Glioma/2954,101016,101016,train,train
+Glioma/2955,106914,106914,train,train
+Glioma/2956,95142,95142,train,train
+Glioma/2957,95142,95142,train,train
+Glioma/2958,95142,95142,train,train
+Glioma/2959,95142,95142,train,train
+Glioma/2960,96587,96587,test,train
+Glioma/2961,96587,96587,test,train
+Glioma/2962,96587,96587,test,train
+Glioma/2963,96587,96587,test,train
+Glioma/2964,97609,97609,train,test
+Glioma/2965,97609,97609,train,test
+Glioma/2966,107190,107190,train,train
+Glioma/2967,97609,97609,train,test
+Glioma/2968,97609,97609,train,test
+Glioma/2969,98889,98889,train,train
+Glioma/2970,98889,98889,train,train
+Glioma/2971,98889,98889,train,train
+Glioma/2972,98889,98889,train,train
+Glioma/2973,98889,98889,train,train
+Glioma/2974,98889,98889,train,train
+Glioma/2975,105936,105936,train,train
+Glioma/2976,105936,105936,train,train
+Glioma/2977,107190,107190,train,train
+Glioma/2978,105936,105936,train,train
+Glioma/2979,105936,105936,train,train
+Glioma/2980,106062,106062,validation,train
+Glioma/2981,106062,106062,validation,train
+Glioma/2982,106062,106062,validation,train
+Glioma/2983,106062,106062,validation,train
+Glioma/2984,107495,107495,test,train
+Glioma/2985,107495,107495,test,train
+Glioma/2986,107495,107495,test,train
+Glioma/2987,107495,107495,test,train
+Glioma/2988,107248,107248,train,train
+Glioma/2989,107495,107495,test,train
+Glioma/2990,107495,107495,test,train
+Glioma/2991,107495,107495,test,train
+Glioma/2992,107429,107429,train,train
+Glioma/2993,107429,107429,train,train
+Glioma/2994,107429,107429,train,train
+Glioma/2995,107429,107429,train,train
+Glioma/2996,107429,107429,train,train
+Glioma/2997,107429,107429,train,train
+Glioma/2998,107505,107505,train,test
+Glioma/2999,107248,107248,train,train
+Glioma/3000,107505,107505,train,test
+Glioma/3001,107505,107505,train,test
+Glioma/3002,107505,107505,train,test
+Glioma/3003,107505,107505,train,test
+Glioma/3004,107505,107505,train,test
+Glioma/3005,107505,107505,train,test
+Glioma/3006,107743,107743,train,train
+Glioma/3007,107743,107743,train,train
+Glioma/3008,107743,107743,train,train
+Glioma/3009,107743,107743,train,train
+Glioma/3010,107248,107248,train,train
+Glioma/3011,108858,108858,train,validation
+Glioma/3012,108858,108858,train,validation
+Glioma/3013,108858,108858,train,validation
+Glioma/3014,108858,108858,train,validation
+Glioma/3015,108858,108858,train,validation
+Glioma/3016,108931,108931,train,validation
+Glioma/3017,108931,108931,train,validation
+Glioma/3018,108931,108931,train,validation
+Glioma/3019,109471,109471,test,train
+Glioma/3020,109471,109471,test,train
+Glioma/3021,107248,107248,train,train
+Glioma/3022,109471,109471,test,train
+Glioma/3023,109471,109471,test,train
+Glioma/3024,109769,109769,train,validation
+Glioma/3025,109769,109769,train,validation
+Glioma/3026,109769,109769,train,validation
+Glioma/3027,109769,109769,train,validation
+Glioma/3028,109898,109898,train,train
+Glioma/3029,109898,109898,train,train
+Meningioma/3030,109898,109898,train,train
+Glioma/3031,109898,109898,train,train
+Glioma/3032,107248,107248,train,train
+Glioma/3033,109898,109898,train,train
+Glioma/3034,109898,109898,train,train
+Glioma/3035,110518,110518,test,train
+Glioma/3036,110518,110518,test,train
+Glioma/3037,110537,110537,train,test
+Glioma/3038,110537,110537,train,test
+Glioma/3039,110993,110993,train,train
+Glioma/3040,110993,110993,train,train
+Glioma/3041,110993,110993,train,train
+Glioma/3042,110993,110993,train,train
+Glioma/3043,107248,107248,train,train
+Glioma/3044,111075,111075,test,train
+Glioma/3045,111075,111075,test,train
+Glioma/3046,111075,111075,test,train
+Glioma/3047,111075,111075,test,train
+Glioma/3048,111075,111075,test,train
+Glioma/3049,111075,111075,test,train
+Glioma/3050,111125,111125,train,train
+Glioma/3051,111125,111125,train,train
+Glioma/3052,111125,111125,train,train
+Glioma/3053,111125,111125,train,train
+Glioma/3054,107494,107494,train,train
+Glioma/3055,111785,111785,train,train
+Glioma/3056,111785,111785,train,train
+Glioma/3057,111785,111785,train,train
+Glioma/3058,111785,111785,train,train
+Glioma/3059,112074,112074,train,train
+Glioma/3060,112074,112074,train,train
+Glioma/3061,112074,112074,train,train
+Glioma/3062,112074,112074,train,train
+Meningioma/3063,112649,112649,train,train
+Meningioma/3064,112649,112649,train,train

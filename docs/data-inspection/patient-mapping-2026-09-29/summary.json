@@ -1,0 +1,555 @@
+{
+  "checked_at_utc": "2026-09-29T06:26:08.008684+00:00",
+  "source_api": "https://api.figshare.com/v2/articles/1512427",
+  "source_doi": "10.6084/m9.figshare.1512427.v8",
+  "source_version": 8,
+  "samples": 3064,
+  "png_samples": 3064,
+  "mat_samples": 3064,
+  "patients": 233,
+  "class_matches_count": 1296,
+  "class_cross_table": {
+    "Meningioma -> Glioma": 705,
+    "Pituitary tumor -> Glioma": 132,
+    "Glioma -> Glioma": 589,
+    "Glioma -> Meningioma": 617,
+    "Glioma -> Pituitary tumor": 220,
+    "Pituitary tumor -> Pituitary tumor": 707,
+    "Pituitary tumor -> Meningioma": 91,
+    "Meningioma -> Pituitary tumor": 3
+  },
+  "unmatched_source_images": [],
+  "unmatched_png_images": [],
+  "patient_class_conflicts": {
+    "MR049453B": [
+      "Glioma",
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR050135B": [
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR050687": [
+      "Glioma",
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR050791B": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR049019C": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR026175C": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR051461": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR051586": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR033389B": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR024780E": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR026175E": [
+      "Glioma",
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR040240C": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR040240D": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR017260F": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR029209I": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR048294": [
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR048297": [
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR048294B": [
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR048621B": [
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR048944": [
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR048994": [
+      "Glioma",
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR037458C": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR040240": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR040240B": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR029209G": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR036496B": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR033420": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR051461B": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR051644": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR051651": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR051796": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR051651B": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR051796B": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR052550": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR051644C": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR049942B": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR047953C": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR053110B": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR034694": [
+      "Glioma",
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR054683": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR050687C": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR034997": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR029209E": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR053110E": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR049019G": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR031409B": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR024780D": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR038469": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR032322C": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR037458B": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR039473": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR039473B": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR024780B": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR049104": [
+      "Glioma",
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR049142": [
+      "Glioma",
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR048994B": [
+      "Glioma",
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR049358": [
+      "Glioma",
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR049104B": [
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR049453": [
+      "Glioma",
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR024780G": [
+      "Glioma",
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "MR051644B": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR052585B": [
+      "Glioma",
+      "Meningioma"
+    ],
+    "MR054875": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "101016": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "112649": [
+      "Glioma",
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "112746": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "112847": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "113274": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "113741": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "114040": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "114361": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "114094": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "101017": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "101029": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "105936": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "106062": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "107495": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "107429": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "107505": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "107743": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "108858": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "108931": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "109471": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "109769": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "109898": [
+      "Glioma",
+      "Meningioma",
+      "Pituitary tumor"
+    ],
+    "110518": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "110537": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "110993": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "111075": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "111125": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "111785": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "112074": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "108590": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "108945": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "109411": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "109968": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "110116": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "111077": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "111366": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "111532": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "112002": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "112062": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "112252": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "112552": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "112648": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "113435": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "101127": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "113554": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "113805": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "114018": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "114359": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "97607": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "97737": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "97875": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "97943": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "MR048944B": [
+      "Glioma",
+      "Pituitary tumor"
+    ],
+    "98241": [
+      "Glioma",
+      "Pituitary tumor"
+    ]
+  },
+  "image_exact_count": 1555,
+  "mask_exact_count": 3064,
+  "shape_counts": {
+    "(512, 512)": 3049,
+    "(256, 256)": 15
+  },
+  "image_transform_counts": {
+    "minmax_round": 1555,
+    "minmax_round_quantization_tolerance": 1494,
+    "minmax_round_bilinear_2x_quantization_tolerance": 15
+  },
+  "image_verification": "1555 initial exact image matches; otherwise exact unique mask plus per-pixel MRI error <=1 (native 512) or <=2 (256 resized 2x)",
+  "manifest_sha256": "a5be81f70dce8f7e02e03ac46f6cd334c1c9b86e74943038483bd6be415bbdb5",
+  "archives": [
+    {
+      "name": "brainTumorDataPublic_1-766.zip",
+      "md5": "74b949ad33f042e6e103523091cd1428"
+    },
+    {
+      "name": "brainTumorDataPublic_1533-2298.zip",
+      "md5": "8227bf6080cb71f15a88be8d25c79ae7"
+    },
+    {
+      "name": "brainTumorDataPublic_767-1532.zip",
+      "md5": "7e8a875500d2c8a346f270538e29890e"
+    },
+    {
+      "name": "brainTumorDataPublic_2299-3064.zip",
+      "md5": "b378a80d6174e5317d59eb28430c6652"
+    }
+  ],
+  "mapping_status": "verified_image_correspondence_with_label_conflicts",
+  "current_folder_consistent_patient_counts": {
+    "Meningioma": 2,
+    "Glioma": 81,
+    "Pituitary tumor": 33
+  },
+  "original_patient_counts_by_class": {
+    "Glioma": 89,
+    "Meningioma": 82,
+    "Pituitary tumor": 62
+  },
+  "original_patient_class_conflicts": {},
+  "independent_checks": {
+    "one_to_one_samples": true,
+    "original_patient_class_consistency": true,
+    "maximum_image_absolute_error": 1.4375
+  },
+  "mapping_sha256": "80a7b3d78caf43c855af53dcf90836406c72dc72fbea178516cc20e4158fa071"
+}

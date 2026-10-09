@@ -1,0 +1,162 @@
+{
+  "created_at_utc": "2026-10-02T15:24:55.485326+00:00",
+  "command_arguments": [
+    "--mapping-dir",
+    "docs/data-inspection/patient-mapping-2026-09-29",
+    "--inspection-dir",
+    "docs/data-inspection/2026-09-29",
+    "--output-dir",
+    "data/metadata_pid_numeric",
+    "--ratios",
+    "0.70",
+    "0.15",
+    "0.15",
+    "--seed",
+    "42",
+    "--patient-grouping",
+    "numeric",
+    "--previous-split",
+    "data/metadata/data_split.csv"
+  ],
+  "python": "3.12.14",
+  "numpy": "2.5.2",
+  "pillow": "12.3.0",
+  "source_doi": "10.6084/m9.figshare.1512427.v8",
+  "source_sha256": {
+    "docs\\data-inspection\\patient-mapping-2026-09-29\\patient_mapping.csv": "80a7b3d78caf43c855af53dcf90836406c72dc72fbea178516cc20e4158fa071",
+    "docs\\data-inspection\\2026-09-29\\manifest.csv": "a5be81f70dce8f7e02e03ac46f6cd334c1c9b86e74943038483bd6be415bbdb5",
+    "docs\\data-inspection\\2026-09-29\\class_to_idx.json": "7f73ccb561391831c4613822cd1866fea2262a3f71dc622b5eb0f6c1107ad754",
+    "docs\\data-inspection\\patient-mapping-2026-09-29\\summary.json": "15b85c43a59a3ccae80e282aa820413ad8088b71bd66f48e8143c7f863c3d7bf",
+    "scripts\\prepare_data.py": "87704e19a8a668757fe0967edcdd507b6261e1bb9301c6320923fc24dad20c73",
+    "src\\patient_groups.py": "ebc414feca1fcef861ac2f932bb9b42da4b1b74548b77490762efdc8c147c0c7"
+  },
+  "data_root": "data/raw/sciencedb/data",
+  "samples": 3064,
+  "original_pids": 233,
+  "patient_groups": 209,
+  "class_group_counts": {
+    "Glioma": 65,
+    "Meningioma": 82,
+    "Pituitary tumor": 62
+  },
+  "patient_grouping": "numeric",
+  "grouping_assumption": "Same integer numeric PID component means the same patient; unverified conservative assumption authorized 2026-10-02. Original PID retained.",
+  "class_image_counts": {
+    "Glioma": 1426,
+    "Meningioma": 708,
+    "Pituitary tumor": 930
+  },
+  "class_patient_counts": {
+    "Glioma": 89,
+    "Meningioma": 82,
+    "Pituitary tumor": 62
+  },
+  "corrected_directory_labels": 1768,
+  "excluded_samples": 0,
+  "split_seed": 42,
+  "training_seeds": "Configured separately from split seed in the experiment config",
+  "requested_patient_ratios": {
+    "train": "7/10",
+    "validation": "3/20",
+    "test": "3/20"
+  },
+  "algorithm": "Class-index order, lexicographically sorted patient_group_id strings, NumPy PCG64 permutation; per-class largest remainder counts; ties train/validation/test",
+  "counts": {
+    "train": {
+      "Glioma": {
+        "images": 922,
+        "patient_groups": 45,
+        "original_pids": 58
+      },
+      "Meningioma": {
+        "images": 519,
+        "patient_groups": 58,
+        "original_pids": 58
+      },
+      "Pituitary tumor": {
+        "images": 658,
+        "patient_groups": 44,
+        "original_pids": 44
+      },
+      "total": {
+        "images": 2099,
+        "patient_groups": 147,
+        "original_pids": 160
+      }
+    },
+    "validation": {
+      "Glioma": {
+        "images": 280,
+        "patient_groups": 10,
+        "original_pids": 15
+      },
+      "Meningioma": {
+        "images": 109,
+        "patient_groups": 12,
+        "original_pids": 12
+      },
+      "Pituitary tumor": {
+        "images": 155,
+        "patient_groups": 9,
+        "original_pids": 9
+      },
+      "total": {
+        "images": 544,
+        "patient_groups": 31,
+        "original_pids": 36
+      }
+    },
+    "test": {
+      "Glioma": {
+        "images": 224,
+        "patient_groups": 10,
+        "original_pids": 16
+      },
+      "Meningioma": {
+        "images": 80,
+        "patient_groups": 12,
+        "original_pids": 12
+      },
+      "Pituitary tumor": {
+        "images": 117,
+        "patient_groups": 9,
+        "original_pids": 9
+      },
+      "total": {
+        "images": 421,
+        "patient_groups": 31,
+        "original_pids": 37
+      }
+    }
+  },
+  "patient_overlap": 0,
+  "sample_overlap": 0,
+  "identical_mri_pixel_groups": [],
+  "identical_mri_cross_split_groups": 0,
+  "raw_files_fingerprint_sha256": "64804a642929f067e12d927a986ca7b09e8a62fa5bdf84dcc965b635e1fec9ef",
+  "raw_fingerprint_method": "SHA256 of image-id-sorted relative-path + NUL + file SHA256 + LF; MRI then mask",
+  "limitations": "Grouping is an assumption, not identity verification or proof of no leakage. New test membership can overlap historical train/validation; old runs cannot be used for this split.",
+  "output_sha256": {
+    "manifest.csv": "1792b35d23ef532db0166de6743b2b5d56c92efe77e00cb8467073d7108020ac",
+    "data_split.csv": "9d1476e0ed31df65c60d70e8e70249ed75c15bd04e5c008a38b67b51a7670544",
+    "class_to_idx.json": "7f73ccb561391831c4613822cd1866fea2262a3f71dc622b5eb0f6c1107ad754"
+  },
+  "previous_split_sha256": "e554cedbcc780377b86defd97b353b3a3d585caf456514d3aa77bdf6f0a28007",
+  "transition_counts": {
+    "test -> train": 312,
+    "train -> train": 1441,
+    "train -> validation": 337,
+    "train -> test": 317,
+    "validation -> test": 59,
+    "validation -> train": 346,
+    "validation -> validation": 109,
+    "test -> validation": 98,
+    "test -> test": 45
+  },
+  "changed_split_samples": 1469,
+  "new_test_previous_membership": {
+    "train": 317,
+    "validation": 59,
+    "test": 45
+  }
+}

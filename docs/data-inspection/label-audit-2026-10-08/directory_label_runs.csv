@@ -1,0 +1,13 @@
+directory_label,first_image_id,last_image_id,images
+Meningioma,1,58,58
+Pituitary tumor,59,59,1
+Meningioma,60,208,149
+Glioma,209,210,2
+Meningioma,211,708,498
+Pituitary tumor,709,714,6
+Glioma,715,917,203
+Pituitary tumor,918,1840,923
+Glioma,1841,3029,1189
+Meningioma,3030,3030,1
+Glioma,3031,3062,32
+Meningioma,3063,3064,2

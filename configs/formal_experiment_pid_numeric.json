@@ -1,0 +1,401 @@
+{
+  "mode": "formal",
+  "status": "frozen_not_run",
+  "output_subdirectory": "formal",
+  "paths_config": "configs/paths_pid_numeric.json",
+  "data_config": "configs/data.json",
+  "pretrained_path": "checkpoints/pretrained/resnet50-11ad3fa6.pth",
+  "expected_sha256": {
+    "manifest": "1792b35d23ef532db0166de6743b2b5d56c92efe77e00cb8467073d7108020ac",
+    "data_split": "9d1476e0ed31df65c60d70e8e70249ed75c15bd04e5c008a38b67b51a7670544",
+    "class_mapping": "7f73ccb561391831c4613822cd1866fea2262a3f71dc622b5eb0f6c1107ad754",
+    "data_config": "d7cb37fd73e74cc0b88afc11e6c4a8cf0732b7c10cad6395f58b12ccb4207b0c",
+    "pretrained": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca"
+  },
+  "class_to_idx": {
+    "Glioma": 0,
+    "Meningioma": 1,
+    "Pituitary tumor": 2
+  },
+  "split_seed": 42,
+  "training": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "epochs": 30,
+    "batch_size": 32,
+    "validation_batch_size": 32,
+    "num_workers": 0,
+    "train_shuffle": true,
+    "validation_shuffle": false,
+    "drop_last": false,
+    "device": "cuda",
+    "precision": "float32",
+    "freeze_backbone": false,
+    "loss": "cross_entropy",
+    "class_weights": null,
+    "optimizer": {
+      "name": "AdamW",
+      "lr": 0.0001,
+      "weight_decay": 0.0001,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "amsgrad": false,
+      "foreach": false,
+      "fused": false
+    },
+    "scheduler": null,
+    "early_stopping": null,
+    "checkpoint_selection": {
+      "metric": "validation_macro_f1",
+      "direction": "maximize",
+      "tie_break": "lower_validation_loss",
+      "final_tie": "earlier_epoch"
+    },
+    "random_control": {
+      "seed_python_numpy_pytorch_dataloader": true,
+      "deterministic_algorithms": true,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "allow_tf32": false,
+      "cublas_workspace_config": ":4096:8"
+    }
+  },
+  "evaluation": {
+    "primary_metric": "macro_f1",
+    "seed_aggregation": {
+      "mean": "arithmetic",
+      "standard_deviation": "sample_ddof_1",
+      "n": 3
+    },
+    "metrics": [
+      "accuracy",
+      "macro_f1",
+      "per_class_precision",
+      "per_class_recall",
+      "per_class_f1",
+      "per_class_ovr_auroc",
+      "macro_ovr_auroc",
+      "confusion_matrix"
+    ],
+    "validation": "checkpoint_selection_and_analysis",
+    "test": "evaluate_each_best_checkpoint_once_after_protocol_is_frozen",
+    "corruption": {
+      "seed": 42,
+      "rician": {
+        "mild": 0.02,
+        "moderate": 0.05,
+        "severe": 0.1
+      },
+      "blur": {
+        "mild": 0.5,
+        "moderate": 1.0,
+        "severe": 2.0
+      },
+      "intensity": {
+        "mild": [
+          0.9,
+          1.1
+        ],
+        "moderate": [
+          0.75,
+          1.25
+        ],
+        "severe": [
+          0.6,
+          1.4
+        ]
+      },
+      "domain": "resized_grayscale_before_imagenet_normalization_clamped_0_1",
+      "random_control": "sha256(seed|sample_id|family); shared random draw across severities",
+      "preview": "first_lexicographic_sample_id_in_evaluated_split_non_test_stages_only"
+    },
+    "grad_cam": {
+      "layer": "layer4",
+      "target": "true_class",
+      "selection_split": "validation",
+      "selection_scope": "four_models_within_each_training_seed",
+      "case_categories": [
+        "all_correct",
+        "all_incorrect",
+        "disagreement"
+      ],
+      "per_true_class": "first_lexicographic_sample_id_for_each_category",
+      "missing_case": "record_missing",
+      "visual_conditions": [
+        "clean",
+        "rician_moderate"
+      ],
+      "mask": "optional_nearest_neighbor_outline_for_display_only"
+    },
+    "grad_cam_localization": {
+      "split": "validation",
+      "condition": "clean",
+      "layer": "layer4",
+      "target": "true_class",
+      "grid": [
+        512,
+        512
+      ],
+      "heatmap_resampling": "bilinear_from_7x7_to_original_512_grid_full_image_no_crop",
+      "mask_threshold": 128,
+      "mask_resampling": "none",
+      "metrics": [
+        "energy_in_mask",
+        "enrichment_over_mask_area"
+      ],
+      "zero_heatmap": "exclude_and_count",
+      "summary": "per-run mean and median; per-model mean and sample SD of per-run means across seeds",
+      "test_extension": "undecided; would reuse src.evaluation.cam_mask_overlap unchanged",
+      "interpretation": "overlap between an explanation map and the annotated tumour; not segmentation or localisation accuracy"
+    },
+    "statistical_comparison": {
+      "primary_metric": "macro_f1",
+      "condition": "clean",
+      "reference_model": "resnet50",
+      "comparison_models": [
+        "resnet50_se_terminal",
+        "resnet50_psanet_terminal",
+        "resnet50_cbam_terminal"
+      ],
+      "pairing": "same_training_seed",
+      "estimate": "mean_over_seeds_of_paired_macro_f1_difference",
+      "bootstrap": {
+        "unit": "patient_group_id",
+        "stratify_by": "true_class",
+        "replicates": 10000,
+        "seed": 42,
+        "interval": "percentile",
+        "level": 0.95
+      },
+      "decision_rule": {
+        "consistent_benefit": "every per-seed difference > 0 and CI lower bound > 0",
+        "consistent_harm": "every per-seed difference < 0 and CI upper bound < 0",
+        "otherwise": "no_consistent_difference"
+      },
+      "multiplicity": "three comparisons against the baseline; no family-wise correction; reported as a limitation",
+      "validation_use": "reported on validation in the prepare stage as a code check only; validation selected the checkpoints"
+    },
+    "cost": {
+      "device": "cuda",
+      "image_size": [
+        224,
+        224
+      ],
+      "batch_size": 1,
+      "precision": "float32",
+      "warmup": 20,
+      "repetitions": 100,
+      "timing_scope": "model_forward_only_gpu_synchronized_each_repetition",
+      "flops_tool": "torch.utils.flop_counter.FlopCounterMode",
+      "unsupported_operators": "record_and_exclude_from_count"
+    }
+  },
+  "models": [
+    {
+      "name": "resnet50",
+      "attention": null
+    },
+    {
+      "name": "resnet50_se_terminal",
+      "attention": {
+        "name": "se",
+        "position": "after_layer4_before_avgpool",
+        "count": 1,
+        "channels": 2048,
+        "reduction_ratio": 16
+      }
+    },
+    {
+      "name": "resnet50_psanet_terminal",
+      "attention": {
+        "name": "psanet_adaptation",
+        "position": "after_layer4_before_avgpool",
+        "count": 1,
+        "channels": 2048,
+        "mid_channels": 512,
+        "feature_size": [
+          7,
+          7
+        ],
+        "mask_size": [
+          13,
+          13
+        ],
+        "branches": "collect_distribute",
+        "compact": false,
+        "shrink_factor": 1,
+        "softmax": true,
+        "normalization_factor": 1.0,
+        "fusion": "concat_conv1x1_bn_relu"
+      }
+    },
+    {
+      "name": "resnet50_cbam_terminal",
+      "attention": {
+        "name": "cbam",
+        "position": "after_layer4_before_avgpool",
+        "count": 1,
+        "channels": 2048,
+        "order": "channel_then_spatial",
+        "reduction_ratio": 16,
+        "channel_pooling": [
+          "avg",
+          "max"
+        ],
+        "channel_mlp_bias": true,
+        "spatial_pooling": [
+          "max",
+          "avg"
+        ],
+        "spatial_kernel_size": 7,
+        "spatial_padding": 3,
+        "spatial_conv_bias": false,
+        "spatial_bn_eps": 1e-05,
+        "spatial_bn_momentum": 0.01,
+        "spatial_bn_weight_init": 1.0,
+        "spatial_bn_bias_init": 0.0
+      }
+    }
+  ],
+  "runs": [
+    {
+      "run_name": "formal-v2-resnet50-seed0",
+      "model": "resnet50",
+      "seed": 0
+    },
+    {
+      "run_name": "formal-v2-resnet50-seed1",
+      "model": "resnet50",
+      "seed": 1
+    },
+    {
+      "run_name": "formal-v2-resnet50-seed2",
+      "model": "resnet50",
+      "seed": 2
+    },
+    {
+      "run_name": "formal-v2-resnet50-se-terminal-seed0",
+      "model": "resnet50_se_terminal",
+      "seed": 0
+    },
+    {
+      "run_name": "formal-v2-resnet50-se-terminal-seed1",
+      "model": "resnet50_se_terminal",
+      "seed": 1
+    },
+    {
+      "run_name": "formal-v2-resnet50-se-terminal-seed2",
+      "model": "resnet50_se_terminal",
+      "seed": 2
+    },
+    {
+      "run_name": "formal-v2-resnet50-psanet-terminal-seed0",
+      "model": "resnet50_psanet_terminal",
+      "seed": 0
+    },
+    {
+      "run_name": "formal-v2-resnet50-psanet-terminal-seed1",
+      "model": "resnet50_psanet_terminal",
+      "seed": 1
+    },
+    {
+      "run_name": "formal-v2-resnet50-psanet-terminal-seed2",
+      "model": "resnet50_psanet_terminal",
+      "seed": 2
+    },
+    {
+      "run_name": "formal-v2-resnet50-cbam-terminal-seed0",
+      "model": "resnet50_cbam_terminal",
+      "seed": 0
+    },
+    {
+      "run_name": "formal-v2-resnet50-cbam-terminal-seed1",
+      "model": "resnet50_cbam_terminal",
+      "seed": 1
+    },
+    {
+      "run_name": "formal-v2-resnet50-cbam-terminal-seed2",
+      "model": "resnet50_cbam_terminal",
+      "seed": 2
+    }
+  ],
+  "experiment_id": "pid-numeric-v2",
+  "grouping_assumption": "Same integer numeric PID component means the same patient; unverified conservative assumption authorized 2026-10-02. Original PID retained.",
+  "split_counts": {
+    "train": {
+      "images": 2099,
+      "patient_groups": 147,
+      "original_pids": 160
+    },
+    "validation": {
+      "images": 544,
+      "patient_groups": 31,
+      "original_pids": 36
+    },
+    "test": {
+      "images": 421,
+      "patient_groups": 31,
+      "original_pids": 37
+    }
+  },
+  "supersedes": "configs/formal_experiment.json",
+  "training_source_sha256": {
+    "train.py": "3822179b318bd6d9afcbc61dc8a06b81b479416f611a8d242789710072dd556b",
+    "src/dataset.py": "24129a63d301141494d78dcbaf56dd666acf168b65f2e75fc852f6695139b3db",
+    "src/patient_groups.py": "5e325832b67ba7724b7d2836d14a46c43f2303f44cdd73be3974b108fc00dff5",
+    "src/training.py": "180d66ef1c0d1c75502b8f7e28a128451ff65c3b1d98137e1bfee22b1980aa27",
+    "src/evaluation.py": "0ab68b2fad013508b7e95bf007eb981db620bc786937bf6a4166ad82fba964e2",
+    "src/models/resnet.py": "c7c75ebb4ce78ae0f72bef2cc3ee2d8e7d509addb1855f81a30fd09dfab11f1a",
+    "src/models/se.py": "cd7d514a3439a79c831871cd6c5d7ca0814b6d9ebae52616046a1e2d30ceb456",
+    "src/models/psanet.py": "375d153ad95dbaf10e87cc25f0c391e7b7b77d015ad1398d6b8cc49289f58b5d",
+    "src/models/cbam.py": "f736d7d0336ab1425e53125c536f3258e235735f020f73d94fb5fd74d4241a95"
+  },
+  "analysis_source_sha256": {
+    "analyze.py": "b7dc4d1987ede650b857fa63cc64e866d7c27c2ad3cffa7b3e6e4842bbc8cdcb",
+    "src/evaluation.py": "0ab68b2fad013508b7e95bf007eb981db620bc786937bf6a4166ad82fba964e2",
+    "src/training.py": "180d66ef1c0d1c75502b8f7e28a128451ff65c3b1d98137e1bfee22b1980aa27",
+    "src/dataset.py": "24129a63d301141494d78dcbaf56dd666acf168b65f2e75fc852f6695139b3db",
+    "src/patient_groups.py": "5e325832b67ba7724b7d2836d14a46c43f2303f44cdd73be3974b108fc00dff5",
+    "src/models/resnet.py": "c7c75ebb4ce78ae0f72bef2cc3ee2d8e7d509addb1855f81a30fd09dfab11f1a",
+    "src/models/se.py": "cd7d514a3439a79c831871cd6c5d7ca0814b6d9ebae52616046a1e2d30ceb456",
+    "src/models/psanet.py": "375d153ad95dbaf10e87cc25f0c391e7b7b77d015ad1398d6b8cc49289f58b5d",
+    "src/models/cbam.py": "f736d7d0336ab1425e53125c536f3258e235735f020f73d94fb5fd74d4241a95"
+  },
+  "test_history": {
+    "previous_membership": {
+      "train": 317,
+      "validation": 59,
+      "test": 45
+    },
+    "note": "New split only. Some new test samples were used in historical train/validation. No historical weights/results may be reused; this is not a never-seen external test."
+  },
+  "revisions": [
+    {
+      "date": "2026-10-08",
+      "before_any_formal_run": true,
+      "changes": [
+        "Grad-CAM layer changed from layer4.2.conv3 to the full layer4 output (still before any attention module).",
+        "Added validation Grad-CAM/tumour-mask overlap analysis (grad_cam_localization).",
+        "Pre-registered the paired, class-stratified patient-group bootstrap comparison (statistical_comparison).",
+        "Set CUBLAS_WORKSPACE_CONFIG=:4096:8 for deterministic cuBLAS kernels.",
+        "Removed smoke/pilot/preview code paths from train.py and analyze.py; formal logic unchanged."
+      ],
+      "unchanged": "Data split, labels, preprocessing, augmentation, models, optimiser, epochs, seeds and checkpoint selection.",
+      "superseded_preflight": "results/preflight/_superseded-20261005/"
+    },
+    {
+      "date": "2026-10-08",
+      "before_any_formal_run": true,
+      "changes": [
+        "Code comments translated to English and trimmed; Python abstract syntax trees unchanged, so behaviour is identical."
+      ],
+      "superseded_preflight": "results/preflight/_superseded-20261008a/"
+    }
+  ]
+}

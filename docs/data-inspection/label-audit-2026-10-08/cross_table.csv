@@ -1,0 +1,10 @@
+directory_label,original_label,images
+Glioma,Glioma,589
+Glioma,Meningioma,617
+Glioma,Pituitary tumor,220
+Meningioma,Glioma,705
+Meningioma,Meningioma,0
+Meningioma,Pituitary tumor,3
+Pituitary tumor,Glioma,132
+Pituitary tumor,Meningioma,91
+Pituitary tumor,Pituitary tumor,707

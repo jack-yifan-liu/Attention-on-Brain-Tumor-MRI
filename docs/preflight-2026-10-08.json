@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-08",
+  "purpose": "Four-model preflight after the 2026-10-08 protocol revision (release preparation). Pipeline check only; metrics are not model comparisons.",
+  "formal_config_sha256": "e8cef959e55e4d22151bd669561d463259de093caf47d0d108ba0478cee3393a",
+  "commands": [
+    "python -B train.py --formal-config configs/formal_experiment_pid_numeric.json --run-name formal-v2-resnet50-seed0 --preflight",
+    "python -B train.py --formal-config configs/formal_experiment_pid_numeric.json --run-name formal-v2-resnet50-se-terminal-seed0 --preflight",
+    "python -B train.py --formal-config configs/formal_experiment_pid_numeric.json --run-name formal-v2-resnet50-psanet-terminal-seed0 --preflight",
+    "python -B train.py --formal-config configs/formal_experiment_pid_numeric.json --run-name formal-v2-resnet50-cbam-terminal-seed0 --preflight",
+    "python -B analyze.py --formal-config configs/formal_experiment_pid_numeric.json --analysis-name preflight-v2-20261008b --stage preflight"
+  ],
+  "subset": "12 train + 6 validation images per class from distinct patient groups, seed 0, 1 epoch, batch 32, FP32",
+  "runs": {
+    "resnet50": {
+      "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+      "torch": "2.10.0+cu128",
+      "random_control": {
+        "training_seed": 0,
+        "split_seed": 42,
+        "dataloader_seed": 0,
+        "num_workers": 0,
+        "deterministic_algorithms": true,
+        "cudnn_deterministic": true,
+        "cudnn_benchmark": false,
+        "allow_tf32": false,
+        "cublas_workspace_config": ":4096:8"
+      },
+      "samples": {
+        "train": 36,
+        "validation": 18
+      },
+      "parameters": 23514179,
+      "checkpoint_reload": {
+        "max_probability_absolute_error": 0.0,
+        "labels_identical": true,
+        "optimizer_state_loaded": true
+      },
+      "gpu_peak_allocated_gib": 2.78,
+      "test_images_loaded": 0
+    },
+    "resnet50-se-terminal": {
+      "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+      "torch": "2.10.0+cu128",
+      "random_control": {
+        "training_seed": 0,
+        "split_seed": 42,
+        "dataloader_seed": 0,
+        "num_workers": 0,
+        "deterministic_algorithms": true,
+        "cudnn_deterministic": true,
+        "cudnn_benchmark": false,
+        "allow_tf32": false,
+        "cublas_workspace_config": ":4096:8"
+      },
+      "samples": {
+        "train": 36,
+        "validation": 18
+      },
+      "parameters": 24040643,
+      "checkpoint_reload": {
+        "max_probability_absolute_error": 0.0,
+        "labels_identical": true,
+        "optimizer_state_loaded": true
+      },
+      "gpu_peak_allocated_gib": 2.78,
+      "test_images_loaded": 0
+    },
+    "resnet50-psanet-terminal": {
+      "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+      "torch": "2.10.0+cu128",
+      "random_control": {
+        "training_seed": 0,
+        "split_seed": 42,
+        "dataloader_seed": 0,
+        "num_workers": 0,
+        "deterministic_algorithms": true,
+        "cudnn_deterministic": true,
+        "cudnn_benchmark": false,
+        "allow_tf32": false,
+        "cublas_workspace_config": ":4096:8"
+      },
+      "samples": {
+        "train": 36,
+        "validation": 18
+      },
+      "parameters": 36806723,
+      "checkpoint_reload": {
+        "max_probability_absolute_error": 0.0,
+        "labels_identical": true,
+        "optimizer_state_loaded": true
+      },
+      "gpu_peak_allocated_gib": 2.92,
+      "test_images_loaded": 0
+    },
+    "resnet50-cbam-terminal": {
+      "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+      "torch": "2.10.0+cu128",
+      "random_control": {
+        "training_seed": 0,
+        "split_seed": 42,
+        "dataloader_seed": 0,
+        "num_workers": 0,
+        "deterministic_algorithms": true,
+        "cudnn_deterministic": true,
+        "cudnn_benchmark": false,
+        "allow_tf32": false,
+        "cublas_workspace_config": ":4096:8"
+      },
+      "samples": {
+        "train": 36,
+        "validation": 18
+      },
+      "parameters": 24040743,
+      "checkpoint_reload": {
+        "max_probability_absolute_error": 0.0,
+        "labels_identical": true,
+        "optimizer_state_loaded": true
+      },
+      "gpu_peak_allocated_gib": 2.78,
+      "test_images_loaded": 0
+    }
+  },
+  "regression_vs_2026-10-05_preflight": {
+    "resnet50": {
+      "validation_predictions_identical": true,
+      "samples_identical": true,
+      "history_losses_identical": true
+    },
+    "resnet50-se-terminal": {
+      "validation_predictions_identical": true,
+      "samples_identical": true,
+      "history_losses_identical": true
+    },
+    "resnet50-psanet-terminal": {
+      "validation_predictions_identical": true,
+      "samples_identical": true,
+      "history_losses_identical": true
+    },
+    "resnet50-cbam-terminal": {
+      "validation_predictions_identical": true,
+      "samples_identical": true,
+      "history_losses_identical": true
+    }
+  },
+  "test_images_loaded": 0,
+  "analysis_preflight": {
+    "samples": 18,
+    "test_images_loaded": 0,
+    "grad_cam_layer": "layer4",
+    "cam_localization_zero_heatmaps": {
+      "formal-v2-resnet50-seed0": 0,
+      "formal-v2-resnet50-se-terminal-seed0": 0,
+      "formal-v2-resnet50-psanet-terminal-seed0": 0,
+      "formal-v2-resnet50-cbam-terminal-seed0": 0
+    },
+    "statistical_comparison_ran": [
+      "resnet50_cbam_terminal",
+      "resnet50_psanet_terminal",
+      "resnet50_se_terminal"
+    ],
+    "outputs": [
+      "gradcam_seed0_class0_all_correct_clean.png",
+      "gradcam_seed0_class0_all_correct_rician_moderate.png",
+      "gradcam_seed0_class0_disagreement_clean.png",
+      "gradcam_seed0_class0_disagreement_rician_moderate.png",
+      "gradcam_seed0_class1_all_incorrect_clean.png",
+      "gradcam_seed0_class1_all_incorrect_rician_moderate.png",
+      "gradcam_seed0_class1_disagreement_clean.png",
+      "gradcam_seed0_class1_disagreement_rician_moderate.png",
+      "gradcam_seed0_class2_all_correct_clean.png",
+      "gradcam_seed0_class2_all_correct_rician_moderate.png",
+      "gradcam_seed0_class2_all_incorrect_clean.png",
+      "gradcam_seed0_class2_all_incorrect_rician_moderate.png",
+      "gradcam_seed0_class2_disagreement_clean.png",
+      "gradcam_seed0_class2_disagreement_rician_moderate.png",
+      "preflight.json",
+      "validation_cam_localization.csv",
+      "validation_confusion_formal-v2-resnet50-cbam-terminal-seed0.png",
+      "validation_confusion_formal-v2-resnet50-psanet-terminal-seed0.png",
+      "validation_confusion_formal-v2-resnet50-se-terminal-seed0.png",
+      "validation_confusion_formal-v2-resnet50-seed0.png",
+      "validation_corruption_preview.png",
+      "validation_predictions.csv",
+      "validation_severity_curves.csv",
+      "validation_severity_curves_seed0.png"
+    ],
+    "cublas_workspace_config": ":4096:8"
+  },
+  "note": "Validation predictions and losses are byte-identical to the 2026-10-05 preflight run with the pre-revision code, so the revision did not change training behaviour. This preflight was rerun after the code comments were translated to English (abstract syntax trees unchanged); the first 2026-10-08 preflight is kept locally in results/preflight/_superseded-20261008a/."
+}

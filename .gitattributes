@@ -1,0 +1,3 @@
+# Training and analysis verify byte-level SHA-256 hashes of code, configs and metadata.
+# Store and check out every file exactly as committed, with no line-ending conversion.
+* -text
