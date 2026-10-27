@@ -1,4 +1,4 @@
-# Attention in brain tumour MRI classification (BMI5109 Group 3)
+# Attention in brain tumour MRI classification
 
 This repository compares an ImageNet-pretrained ResNet-50 with three attention-augmented variants for three-class brain tumour MRI classification (glioma, meningioma, pituitary tumour):
 
@@ -11,7 +11,7 @@ This repository compares an ImageNet-pretrained ResNet-50 with three attention-a
 
 All four models share the data split, preprocessing, training protocol and evaluation. The terminal modules are classification adaptations, not reproductions of SE-ResNet, CBAM-ResNet or the PSANet segmentation network.
 
-**Status (2026-10-08):** the protocol is frozen and the four-model preflight has passed. The 12 formal training runs (4 models × seeds 0, 1, 2) and the one-time test evaluation have not been run yet.
+**Status (2026-10-27):** the 12 formal training runs (4 models × seeds 0, 1, 2) finished on 2026-10-10, and the validation analysis and the one-time test evaluation on 2026-10-11. The post-hoc analyses and the report and presentation figures were completed afterwards. Results are summarised [below](#results).
 
 ## Data
 
@@ -31,18 +31,20 @@ src/dataset.py               metadata checks, preprocessing, augmentation, loade
 src/models/                  ResNet-50 builder, SE, PSANet adaptation, CBAM
 src/training.py              shared epoch loop, metrics, checkpoint selection
 src/evaluation.py            metrics, corruptions, Grad-CAM, cost, paired bootstrap
-scripts/                     data preparation, label audit, duplicate screen, weights download
+scripts/                     data preparation, label audit, duplicate screen, weights download,
+                             post-hoc analyses, report and presentation figures
 data/metadata_pid_numeric/   saved manifest, split and class mapping
-docs/                        data inspection evidence, PSANet design notes, preflight evidence
+docs/                        data inspection, PSANet design notes, preflight, training and result
+                             records (index: docs/README.md)
 ```
 
 ## Setup
 
-Requirements: Windows or Linux, Python 3.12, and an NVIDIA GPU with CUDA. The formal entry points refuse to fall back to the CPU. Versions used: PyTorch 2.10.0+cu128, torchvision 0.25.0+cu128, NumPy 2.5.2, Pillow 12.3.0, h5py 3.15.1, on an RTX 5060 Laptop GPU.
+Requirements: Windows or Linux, Python 3.12, and an NVIDIA GPU with CUDA. The formal entry points refuse to fall back to the CPU. Versions used: PyTorch 2.10.0+cu128, torchvision 0.25.0+cu128, NumPy 2.5.2, Pillow 12.3.0, h5py 3.15.1, on an RTX 5060 Laptop GPU. matplotlib 3.10.9 is used only for the report figures.
 
 ```powershell
-conda create -n bmi5109 python=3.12
-conda activate bmi5109
+conda create -n attention-mri python=3.12
+conda activate attention-mri
 pip install -r requirements.txt
 ```
 
@@ -87,6 +89,28 @@ Outputs go to `results/<stage>/<run>/` (configuration, provenance, per-epoch his
 
 **If a run fails part-way**, move its partial `results/formal/<run>` and `checkpoints/formal/<run>` folders into `results/failed/` with a note of the error, then rerun the same command. Do not delete them, and do not reuse a checkpoint from a failed run.
 
+Post-hoc analyses and figures, run after step 4. They compute no new test metric and are labelled post hoc wherever they are used.
+
+```powershell
+python -B scripts/gradcam_test_cases.py   # Grad-CAM for six rule-selected test images (illustration only)
+python -B scripts/attention_weights.py    # learned SE and CBAM weights on validation images
+python -B scripts/make_figures.py         # report figures in results/figures/report/
+python -B scripts/make_slide_images.py    # presentation image panels and comparison plot in results/figures/slides/
+```
+
+## Results
+
+One-time test evaluation, clean images (421 images, 31 assumed patient groups). Macro-F1 is the mean (sample SD) over training seeds 0–2; the difference is paired by seed, with a 95 % interval from 10,000 class-stratified patient-group bootstrap resamples.
+
+| Model | Macro-F1 | Difference from baseline | 95 % interval | Pre-registered decision |
+| --- | ---: | ---: | --- | --- |
+| ResNet-50 baseline | 0.898 (0.003) | — | — | — |
+| + SE | 0.901 (0.009) | +0.003 | −0.012 to +0.023 | no consistent difference |
+| + PSANet adaptation | 0.891 (0.007) | −0.007 | −0.025 to +0.013 | no consistent difference |
+| + CBAM | 0.907 (0.015) | +0.009 | −0.004 to +0.027 | no consistent difference |
+
+The final report discusses the baseline, SE and CBAM models. The PSANet adaptation was trained and evaluated under the same protocol and is reported here and in the result records. Details: [training](docs/formal-training-2026-10-10.md), [validation analysis](docs/analysis-prepare-2026-10-11.md), [test results, robustness and post-hoc error analysis](docs/test-results-2026-10-11.md), [learned attention weights](docs/attention-weights-2026-10-20.md).
+
 ## Protocol summary
 
 - Preprocessing: the full image resized to 224 × 224 (bilinear, antialiased, no crop), grey replicated to three channels, ImageNet normalisation. Training augmentation: rotation ±10°, translation up to 5 %, horizontal flip p = 0.5.
@@ -102,7 +126,7 @@ Outputs go to `results/<stage>/<run>/` (configuration, provenance, per-epoch his
 
 ## Limitations
 
-The patient grouping is an assumption; 31 validation and 31 test groups give limited statistical precision. The test split includes images that were in the training or validation sets of earlier, discarded development runs, although no test-set inference has been performed. All data come from one public dataset, there is no external validation, and the results are image-level rather than patient-level. Grad-CAM maps are explanations, not segmentations.
+The patient grouping is an assumption; 31 validation and 31 test groups give limited statistical precision. The test split includes images that were in the training or validation sets of earlier, discarded development runs; the test set itself was evaluated once, after the protocol was frozen. The analyses of where the errors occur, the test Grad-CAM examples and the attention-weight summaries were added after the test results and are descriptive. All data come from one public dataset, there is no external validation, and the results are image-level rather than patient-level. Grad-CAM maps are explanations, not segmentations.
 
 ## Data citation
 

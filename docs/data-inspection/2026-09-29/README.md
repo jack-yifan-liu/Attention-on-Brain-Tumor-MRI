@@ -43,11 +43,9 @@ Exit code 0. The script only reads data and refuses to overwrite an existing out
 - The union of MRI and mask paths in the manifest covers exactly the 6,128 PNG files.
 - Manifest SHA-256: `a5be81f70dce8f7e02e03ac46f6cd334c1c9b86e74943038483bd6be415bbdb5`.
 
-## Example figure and limits
+## Limits
 
-`examples.png` shows, per class, the first readable sample in filename order (Glioma/1841, Meningioma/1, Pituitary tumor/1000): the MRI, the raw mask, and a red overlay with opacity `0.45 * mask / 255` at the original 512 × 512 size. The three rows were inspected and showed no obvious misalignment. This is not an image-by-image annotation review or a quantitative localisation check.
-
-At this stage the class labels came from the archive's folder names and were not checked against the original source. Patient identity cannot be established from the PNG files or their names. This inspection does not show that the data are free of leakage. No resizing, cropping, augmentation or splitting was done here.
+A visual check of one MRI and mask overlay per class showed no obvious misalignment; it was not an image-by-image annotation review or a quantitative localisation check. At this stage the class labels came from the archive's folder names and were not checked against the original source. Patient identity cannot be established from the PNG files or their names. This inspection does not show that the data are free of leakage. No resizing, cropping, augmentation or splitting was done here.
 
 ## Follow-up on the same day: original labels
 

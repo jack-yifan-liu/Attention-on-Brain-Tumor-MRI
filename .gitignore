@@ -13,13 +13,6 @@ env/
 .ipynb_checkpoints/
 notebooks/
 
-# Internal working notes and the local archive (kept on the development machine, not published)
-.claude/settings.local.json
-AGENTS.md
-PROJECT_CONTEXT.md
-PLAN.md
-archive/
-
 # Dataset: only the saved split metadata is versioned
 data/*
 !data/metadata_pid_numeric/

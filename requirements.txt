@@ -17,3 +17,12 @@ torch==2.10.0+cu128
 torchvision==0.25.0+cu128
 typing_extensions==4.16.0
 wheel==0.47.0
+# Figures only (added 2026-10-19, after all training and evaluation; not used by train.py or analyze.py).
+contourpy==1.4.0
+cycler==0.12.1
+fonttools==4.67.0
+kiwisolver==1.5.1
+matplotlib==3.10.9
+pyparsing==3.3.3
+python-dateutil==2.9.0.post0
+six==1.17.0
