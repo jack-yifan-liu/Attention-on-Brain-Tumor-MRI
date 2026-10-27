@@ -15,7 +15,7 @@ Records of the data checks, the PSANet design and the results, grouped by stage.
 
 | Record | Contents | Evidence for |
 | --- | --- | --- |
-| [`psanet-design.md`](psanet-design.md) | Design of the PSANet adaptation, its sources and its differences from the original network | `src/models/psanet.py` |
+| [`psanet-design.md`](psanet-design.md) | Design of the PSANet adaptation, its sources and its differences from the original network | The design choices in `src/models/psanet.py` |
 | [`preflight-2026-10-08.json`](preflight-2026-10-08.json) | Four-model preflight of the formal pipeline on a small subset, with environment and random-control settings | Reruns reproduce predictions exactly on the same hardware |
 
 ## Results
@@ -27,4 +27,4 @@ Records of the data checks, the PSANet design and the results, grouped by stage.
 | [`test-results-2026-10-11.md`](test-results-2026-10-11.md) | One-time test evaluation: clean metrics, comparison with the baseline, robustness, post-hoc error analysis | Main results, including PSANet |
 | [`attention-weights-2026-10-20.md`](attention-weights-2026-10-20.md) | SE channel weights and CBAM spatial weights on validation images (post hoc) | SE acts mostly as a fixed rescaling; CBAM weights depend on the image |
 
-The CSV and JSON files are unedited script outputs. `data-inspection/2026-09-29/manifest.csv` and `class_to_idx.json` and `data-inspection/patient-mapping-2026-09-29/patient_mapping.csv` are inputs of `scripts/prepare_data.py`, which checks the manifest and the mapping by SHA-256, so keep these files byte-identical.
+The CSV and JSON files in `data-inspection/` are unedited script outputs. `data-inspection/2026-09-29/manifest.csv` and `class_to_idx.json` and `data-inspection/patient-mapping-2026-09-29/patient_mapping.csv` are inputs of `scripts/prepare_data.py`, which checks the manifest and the mapping by SHA-256, so keep these files byte-identical.
