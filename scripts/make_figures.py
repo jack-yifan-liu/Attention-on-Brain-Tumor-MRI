@@ -364,7 +364,7 @@ def fig_test_results(out, test):
     b.set_axisbelow(True)
     b.spines["left"].set_visible(False)
     b.tick_params(axis="y", length=0)
-    b.set_title("Pre-registered comparison: no consistent difference", loc="left")
+    b.set_title("Pre-specified comparison: no consistent difference", loc="left")
     b.legend(handles=[Line2D([], [], color=MUTED, marker="o", lw=0, markersize=4.5, label="mean of 3 seeds"),
                       Line2D([], [], color=MUTED, lw=2.2, label="95% bootstrap interval"),
                       Line2D([], [], color=MUTED, marker="o", alpha=0.55, lw=0, markersize=3, label="single seed")],

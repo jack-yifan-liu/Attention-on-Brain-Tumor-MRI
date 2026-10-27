@@ -35,7 +35,7 @@ Exit code 0. The script only reads data and refuses to overwrite an existing out
 
 - Every MRI and mask is 512 × 512, Pillow mode `L`, NumPy uint8.
 - Every file decodes completely. There are no missing pairs, orphan masks or size mismatches between pairs.
-- 3,049 masks contain only values in {0, 255}; 15 contain intermediate grey values (`nonbinary_masks.json`). Masks were not binarised.
+- 3,049 masks contain only values in {0, 255}; 15 contain intermediate gray values (`nonbinary_masks.json`). Masks were not binarized.
 - No sample was filtered or excluded: `issues.csv` and `exclusions.csv` contain only headers.
 - `manifest.csv` has 3,064 rows, one per MRI; the mask path is stored as a column.
 - `sample_id` is `class/filename-stem` and is unique for all 3,064 images. The numeric image ID is not a patient ID.
@@ -45,7 +45,7 @@ Exit code 0. The script only reads data and refuses to overwrite an existing out
 
 ## Limits
 
-A visual check of one MRI and mask overlay per class showed no obvious misalignment; it was not an image-by-image annotation review or a quantitative localisation check. At this stage the class labels came from the archive's folder names and were not checked against the original source. Patient identity cannot be established from the PNG files or their names. This inspection does not show that the data are free of leakage. No resizing, cropping, augmentation or splitting was done here.
+A visual check of one MRI and mask overlay per class showed no obvious misalignment; it was not an image-by-image annotation review or a quantitative localization check. At this stage the class labels came from the archive's folder names and were not checked against the original source. Patient identity cannot be established from the PNG files or their names. This inspection does not show that the data are free of leakage. No resizing, cropping, augmentation or splitting was done here.
 
 ## Follow-up on the same day: original labels
 

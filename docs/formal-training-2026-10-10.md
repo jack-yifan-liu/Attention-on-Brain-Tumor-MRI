@@ -6,12 +6,12 @@ All 12 formal runs of `configs/formal_experiment_pid_numeric.json` (4 models × 
 
 - Every run records git head `7c133e6` with a clean working tree, the frozen config SHA-256 `e8cef959…`, identical metadata, sample-list and pretrained-weight hashes, `CUBLAS_WORKSPACE_CONFIG=:4096:8`, deterministic algorithms on and TF32 off.
 - Every run trained for 30 epochs on 2,099 training images and was validated on 544 validation images; `test_images_loaded` is 0 in every record.
-- Reloading each best checkpoint reproduced its validation predictions exactly (maximum probability difference 0, identical labels, optimiser state restored).
+- Reloading each best checkpoint reproduced its validation predictions exactly (maximum probability difference 0, identical labels, optimizer state restored).
 - The training log contains no errors.
 
 ## Validation results of the selected checkpoints
 
-These are validation scores at the epoch chosen by validation Macro-F1, so they are optimistically biased and are not the study's comparison. The pre-registered comparison uses the test set with a patient-group bootstrap.
+These are validation scores at the epoch chosen by validation Macro-F1, so they are optimistically biased and are not the study's comparison. The pre-specified comparison uses the test set with a patient-group bootstrap.
 
 | Model | Seed 0 | Seed 1 | Seed 2 | Mean (SD) | Best epochs | Epoch-30 mean |
 | --- | ---: | ---: | ---: | ---: | --- | ---: |

@@ -1,6 +1,6 @@
-# Attention in brain tumour MRI classification
+# Attention in brain tumor MRI classification
 
-This repository compares an ImageNet-pretrained ResNet-50 with three attention-augmented variants for three-class brain tumour MRI classification (glioma, meningioma, pituitary tumour):
+This repository compares an ImageNet-pretrained ResNet-50 with three attention-augmented variants for three-class brain tumor MRI classification (glioma, meningioma, pituitary tumor):
 
 | Model | Added module (one, after the full `layer4`, before global average pooling) |
 | --- | --- |
@@ -11,11 +11,11 @@ This repository compares an ImageNet-pretrained ResNet-50 with three attention-a
 
 All four models share the data split, preprocessing, training protocol and evaluation. The terminal modules are classification adaptations, not reproductions of SE-ResNet, CBAM-ResNet or the PSANet segmentation network.
 
-**Status (2026-10-27):** the 12 formal training runs (4 models × seeds 0, 1, 2) finished on 2026-10-10, and the validation analysis and the one-time test evaluation on 2026-10-11. The post-hoc analyses and the report and presentation figures were completed afterwards. Results are summarised [below](#results).
+**Status (2026-10-27):** the 12 formal training runs (4 models × seeds 0, 1, 2) finished on 2026-10-10, and the validation analysis and the one-time test evaluation on 2026-10-11. The post-hoc analyses and the report and presentation figures were completed afterwards. Results are summarized [below](#results).
 
 ## Data
 
-- Images: ScienceDB Brain Tumor Dataset, DOI [10.57760/sciencedb.06290](https://doi.org/10.57760/sciencedb.06290), 3,064 contrast-enhanced T1-weighted 512 × 512 PNG slices with tumour masks.
+- Images: ScienceDB Brain Tumor Dataset, DOI [10.57760/sciencedb.06290](https://doi.org/10.57760/sciencedb.06290), 3,064 contrast-enhanced T1-weighted 512 × 512 PNG slices with tumor masks.
 - Labels and patient identifiers: original Figshare release by Cheng et al., version 8, DOI [10.6084/m9.figshare.1512427.v8](https://doi.org/10.6084/m9.figshare.1512427.v8).
 - **1,768 ScienceDB directory labels disagree with the original labels.** Every PNG was matched to its original MAT record by pixel content, and training uses the original labels. See [`docs/data-inspection/label-audit-2026-10-08/`](docs/data-inspection/label-audit-2026-10-08/README.md).
 - Split: 70 / 15 / 15 % of assumed patient groups within each class, split seed 42. Patient identifiers that share a numeric part (for example `MR049453` and `MR049453B`) are treated as one group. This is a conservative assumption, not a verified identity, and gives 209 groups from 233 original identifiers. Train / validation / test contain 2,099 / 544 / 421 images (147 / 31 / 31 groups). Details: [`data/metadata_pid_numeric/README.md`](data/metadata_pid_numeric/README.md).
@@ -81,7 +81,7 @@ foreach ($model in "resnet50", "resnet50-se-terminal", "resnet50-psanet-terminal
 # 3. Validation preparation: cost, Grad-CAM cases, Grad-CAM/mask overlap, validation code check of the statistics
 python -B analyze.py --formal-config configs/formal_experiment_pid_numeric.json --analysis-name pid-numeric-v2-final --stage prepare
 
-# 4. One-time test evaluation (clean and nine corruptions, pre-registered paired comparison)
+# 4. One-time test evaluation (clean and nine corruptions, pre-specified paired comparison)
 python -B analyze.py --formal-config configs/formal_experiment_pid_numeric.json --analysis-name pid-numeric-v2-final --stage finalize
 ```
 
@@ -89,7 +89,7 @@ Outputs go to `results/<stage>/<run>/` (configuration, provenance, per-epoch his
 
 **If a run fails part-way**, move its partial `results/formal/<run>` and `checkpoints/formal/<run>` folders into `results/failed/` with a note of the error, then rerun the same command. Do not delete them, and do not reuse a checkpoint from a failed run.
 
-Post-hoc analyses and figures, run after step 4. They compute no new test metric and are labelled post hoc wherever they are used.
+Post-hoc analyses and figures, run after step 4. They compute no new test metric and are labeled post hoc wherever they are used.
 
 ```powershell
 python -B scripts/gradcam_test_cases.py   # Grad-CAM for six rule-selected test images (illustration only)
@@ -102,7 +102,7 @@ python -B scripts/make_slide_images.py    # presentation image panels and compar
 
 One-time test evaluation, clean images (421 images, 31 assumed patient groups). Macro-F1 is the mean (sample SD) over training seeds 0–2; the difference is paired by seed, with a 95 % interval from 10,000 class-stratified patient-group bootstrap resamples.
 
-| Model | Macro-F1 | Difference from baseline | 95 % interval | Pre-registered decision |
+| Model | Macro-F1 | Difference from baseline | 95 % interval | Pre-specified decision |
 | --- | ---: | ---: | --- | --- |
 | ResNet-50 baseline | 0.898 (0.003) | — | — | — |
 | + SE | 0.901 (0.009) | +0.003 | −0.012 to +0.023 | no consistent difference |
@@ -113,10 +113,10 @@ The final report discusses the baseline, SE and CBAM models. The PSANet adaptati
 
 ## Protocol summary
 
-- Preprocessing: the full image resized to 224 × 224 (bilinear, antialiased, no crop), grey replicated to three channels, ImageNet normalisation. Training augmentation: rotation ±10°, translation up to 5 %, horizontal flip p = 0.5.
+- Preprocessing: the full image resized to 224 × 224 (bilinear, antialiased, no crop), gray replicated to three channels, ImageNet normalization. Training augmentation: rotation ±10°, translation up to 5 %, horizontal flip p = 0.5.
 - Training: all parameters fine-tuned, AdamW (lr 1e-4, weight decay 1e-4), batch 32, 30 epochs, unweighted cross-entropy, FP32, no scheduler or early stopping. The checkpoint with the highest validation Macro-F1 is kept (ties: lower validation loss, then the earlier epoch). Only this best checkpoint is saved.
 - Evaluation: Macro-F1 (primary), accuracy, per-class precision / recall / F1, one-vs-rest AUROC, confusion matrices; three corruption families at three severities; parameter count, counted FLOPs and GPU latency; Grad-CAM at the `layer4` output.
-- Pre-registered comparison: for each attention model, the Macro-F1 difference from the baseline within each training seed, averaged over seeds, with a 95 % percentile interval from 10,000 class-stratified bootstrap resamples of patient groups. "Consistent benefit" requires every per-seed difference > 0 and a lower bound > 0. The full rule is in `configs/formal_experiment_pid_numeric.json`.
+- Pre-specified comparison: for each attention model, the Macro-F1 difference from the baseline within each training seed, averaged over seeds, with a 95 % percentile interval from 10,000 class-stratified bootstrap resamples of patient groups. "Consistent benefit" requires every per-seed difference > 0 and a lower bound > 0. The full rule is in `configs/formal_experiment_pid_numeric.json`.
 - Every run and analysis checks the SHA-256 of the configuration, metadata, pretrained weights and source code that were frozen before the first formal run.
 
 ## Reproducibility notes
@@ -130,4 +130,4 @@ The patient grouping is an assumption; 31 validation and 31 test groups give lim
 
 ## Data citation
 
-Cheng J, Huang W, Cao S, Yang R, Yang W, Yun Z, et al. Enhanced performance of brain tumor classification via tumor region augmentation and partition. PLoS One. 2015;10(10):e0140381. See the ScienceDB and Figshare pages for the dataset licence terms.
+Cheng J, Huang W, Cao S, Yang R, Yang W, Yun Z, et al. Enhanced performance of brain tumor classification via tumor region augmentation and partition. PLoS One. 2015;10(10):e0140381. See the ScienceDB and Figshare pages for the dataset license terms.

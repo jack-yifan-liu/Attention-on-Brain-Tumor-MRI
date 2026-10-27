@@ -22,20 +22,20 @@ Outputs: `results/figures/attention/validation_attention.json` (summaries, prove
 | Image-to-image variation explained by the true class | 87 % (2) | 89 % (2) | — |
 | Lowest correlation between class-average weight vectors | 0.72 (0.14) | 0.35 (0.03) | — |
 | Median range within one 7 × 7 map | — | — | 0.80 (0.03) |
-| Median enrichment inside the tumour mask | — | — | 1.42 (0.25) |
-| Highest-weight cell overlaps the tumour mask | — | — | 50 % (5); 8 % by chance |
+| Median enrichment inside the tumor mask | — | — | 1.42 (0.25) |
+| Highest-weight cell overlaps the tumor mask | — | — | 50 % (5); 8 % by chance |
 
 Per seed, the share of variation explained by the channel is 79–89 % for SE and 59–61 % for CBAM, and the pointing rate of the CBAM spatial weights is 46–56 %.
 
 ## Interpretation (descriptive)
 
 - **SE behaves mostly like a fixed rescaling.** Most of the variation in its weights comes from which channel it is, not from the image, and over half of the weights are above 0.9. Because the module is followed only by global average pooling and the linear head, a weight that is the same for every image is equivalent to rescaling the head's weights, which the baseline can learn as well. This matches the observation of Hu et al. (Squeeze-and-Excitation Networks) that SE blocks in the last stage of SE-ResNet tend to saturate and can be removed with little loss.
-- **CBAM's weights depend on the image.** About 40 % of the variation in its channel weights is image-specific, a third of the weights are below 0.1, and the class-average weight patterns differ between classes, so the module acts partly as a class-dependent channel selector. Its spatial weights are high over the brain and low in the background, and the highest-weight cell overlaps the tumour in about half of the validation images, six times the rate expected by chance, although the module never received tumour locations.
-- **Learned attention did not translate into a consistent gain.** The pre-registered test comparison found no consistent difference from the baseline for either module (`docs/test-results-2026-10-11.md`). On validation all models were already near ceiling (Macro-F1 about 0.98), and on test the models agree closely outside five difficult patient groups.
+- **CBAM's weights depend on the image.** About 40 % of the variation in its channel weights is image-specific, a third of the weights are below 0.1, and the class-average weight patterns differ between classes, so the module acts partly as a class-dependent channel selector. Its spatial weights are high over the brain and low in the background, and the highest-weight cell overlaps the tumor in about half of the validation images, six times the rate expected by chance, although the module never received tumor locations.
+- **Learned attention did not translate into a consistent gain.** The pre-specified test comparison found no consistent difference from the baseline for either module (`docs/test-results-2026-10-11.md`). On validation all models were already near ceiling (Macro-F1 about 0.98), and on test the models agree closely outside five difficult patient groups.
 
 ## Definitions and limitations
 
 - "Variation explained by the channel alone" is the between-channel share of the variance of all weights (images × 2,048 channels); 100 % would mean every image receives identical weights. "Explained by the true class" is the between-class share of the remaining, image-specific variation, pooled over channels.
-- Enrichment is the mean spatial weight inside the tumour mask divided by the mean over the image, after the same bilinear upsampling to the 512 grid as Grad-CAM. The pointing test asks whether the highest of the 49 weights lies in a cell that contains any tumour-mask pixel; the chance rate is the share of such cells, averaged over images.
-- The 7 × 7 grid is coarse: one cell covers about 73 × 73 pixels of the 512 × 512 image, larger than many tumours.
-- Validation images also selected the checkpoints. The figure shows seed 0 only, on one rule-selected image per class (correct for all three CBAM seeds, tumour area closest to the class median).
+- Enrichment is the mean spatial weight inside the tumor mask divided by the mean over the image, after the same bilinear upsampling to the 512 grid as Grad-CAM. The pointing test asks whether the highest of the 49 weights lies in a cell that contains any tumor-mask pixel; the chance rate is the share of such cells, averaged over images.
+- The 7 × 7 grid is coarse: one cell covers about 73 × 73 pixels of the 512 × 512 image, larger than many tumors.
+- Validation images also selected the checkpoints. The figure shows seed 0 only, on one rule-selected image per class (correct for all three CBAM seeds, tumor area closest to the class median).
