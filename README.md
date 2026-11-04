@@ -131,3 +131,7 @@ The patient grouping is an assumption; 31 validation and 31 test groups give lim
 ## Data citation
 
 Cheng J, Huang W, Cao S, Yang R, Yang W, Yun Z, et al. Enhanced performance of brain tumor classification via tumor region augmentation and partition. PLoS One. 2015;10(10):e0140381. See the ScienceDB and Figshare pages for the dataset license terms.
+
+## License
+
+The code and documentation written for this project are released under the [MIT License](LICENSE). The license does not cover the MRI data: the images, labels and patient identifiers come from the ScienceDB and Figshare releases listed under [Data](#data) and remain subject to their own license terms. These terms also apply to the files derived from the data, which are included only so that the experiments can be reproduced: the manifest and split tables in `data/metadata_pid_numeric/`, the inspection, mapping and audit tables in `docs/data-inspection/`, and the figure of MRI slice pairs in `docs/data-inspection/near-duplicates-2026-10-08/`.
